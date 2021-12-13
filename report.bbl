@@ -1,0 +1,58 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{HarrisPopulation}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cb954233132963ab78d508848ee05010}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=355b59e5a89f5169b65470fab7241c5b}{%
+           family={D'Abramo},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1894e60c1448b0e02e7d7e11145d7ef2}
+      \strng{fullhash}{1894e60c1448b0e02e7d7e11145d7ef2}
+      \strng{bibnamehash}{1894e60c1448b0e02e7d7e11145d7ef2}
+      \strng{authorbibnamehash}{1894e60c1448b0e02e7d7e11145d7ef2}
+      \strng{authornamehash}{1894e60c1448b0e02e7d7e11145d7ef2}
+      \strng{authorfullhash}{1894e60c1448b0e02e7d7e11145d7ef2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{title}{The Population of Near-Earth Asteroids}
+      \field{volume}{257}
+      \field{year}{2015}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
