@@ -2826,6 +2826,14 @@
     <bcf:citekey order="13">HarrisPopulation</bcf:citekey>
     <bcf:citekey order="14">HarrisPopulation</bcf:citekey>
     <bcf:citekey order="15">HarrisPopulation</bcf:citekey>
+    <bcf:citekey order="16">CatalinaSkySurvey</bcf:citekey>
+    <bcf:citekey order="17">PANSTARRS</bcf:citekey>
+    <bcf:citekey order="18">ATLAS</bcf:citekey>
+    <bcf:citekey order="19">LSST</bcf:citekey>
+    <bcf:citekey order="20">NEOWISEResult</bcf:citekey>
+    <bcf:citekey order="21">GranvikPopulation</bcf:citekey>
+    <bcf:citekey order="22">NEOCam</bcf:citekey>
+    <bcf:citekey order="23">DefendingEarth</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
