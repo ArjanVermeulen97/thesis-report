@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  13 DEC 2021 15:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  14 DEC 2021 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1691,26 +1691,26 @@ LaTeX Warning: Unused global option(s):
 (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1748,7 +1748,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 11.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1760,9 +1760,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count483
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 
 (./report.out) (./report.out)
 \@outlinefile=\write5
@@ -1831,8 +1831,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
 
 (./report.bbl)
-Package biblatex Info: Reference section=0 on input line 10.
-Package biblatex Info: Reference segment=0 on input line 10.
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1922,41 +1922,184 @@ File: cover/logo_black.pdf Graphic file (type pdf)
 
 ] (./1-introduction-and-background.tex
 Chapter 1.
-File: img/population_estimates.png Graphic file (type bmp)
-<img/population_estimates.png>
-File: img/completeness_size.png Graphic file (type bmp)
-<img/completeness_size.png>
-) [1
 
-] (./2-research-outline.tex [2
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[1
 
 ]
+
+LaTeX Warning: Reference `sec:insec:introductionidentification' on page 2 undef
+ined on input line 22.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+File: img/population_histogram.png Graphic file (type bmp)
+<img/population_histogram.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+File: img/completeness_size.png Graphic file (type bmp)
+<img/completeness_size.png>
+[2]
+File: img/population_estimates.png Graphic file (type bmp)
+<img/population_estimates.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+! Argument of \@xfloat has an extra }.
+<inserted text> 
+                \par 
+l.57 \begin{figure}[htbp}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+htbp
+! Paragraph ended before \@xfloat was complete.
+<to be read again> 
+                   \par 
+l.57 \begin{figure}[htbp}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.57 \begin{figure}[htbp}
+                         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+File: img/identification_per_survey.png Graphic file (type bmp)
+<img/identification_per_survey.png>
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60  \caption
+              {Yearly and cumulative identifications made per NEA survey fro...
+
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 1325) has occurred while \output is active []
+
+ [3]
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.61 \end{figure}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.61 \end{figure}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.61 \end{figure}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+) [4] (./2-research-outline.tex
 Chapter 2.
-) [3] (./3-survey-modelling.tex [4
+) [5
+
+] (./3-survey-modelling.tex [6
 
 ]
 Chapter 3.
-) [5] (./4-experimental-methodology.tex [6
+) [7] (./4-experimental-methodology.tex [8
 
 ]
 Chapter 4.
-) [7] (./5-results.tex [8
+) [9] (./5-results.tex [10
 
 ]
 Chapter 5.
-) [9] (./6-sensitivity-analysis.tex [10
+) [11] (./6-sensitivity-analysis.tex [12
 
 ]
 Chapter 6.
-) [11] (./7-conclusion.tex [12
+) [13] (./7-conclusion.tex [14
 
 ]
 Chapter 7.
-) [13] (./a-verification-validation.tex [14
+) [15] (./a-verification-validation.tex [16
 
 ]
 Appendix A.
-) [15] [16
+) [17] [18
 
 ]
 \Changes@OutFile=\write7
@@ -1965,20 +2108,33 @@ Appendix A.
 \tf@loc=\write8
 \openout8 = `report.loc'.
 
- [17] (./report.aux)
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 77EB44B524A89F68F8887A06218312B1;6887.
+ [19] (./report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 9249627552B9823D3F4283B7FC8FFA49;6456
+(rerunfilecheck)             After:  B950834BCF1ECC1F80F78D704D0265B9;7283.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38900 strings out of 476919
- 748304 string characters out of 5825424
- 1753244 words of memory out of 5000000
- 58207 multiletter control sequences out of 15000+600000
- 407004 words of font info for 95 fonts, out of 8000000 for 9000
+ 38969 strings out of 476919
+ 750370 string characters out of 5825424
+ 1754365 words of memory out of 5000000
+ 58270 multiletter control sequences out of 15000+600000
+ 407036 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,11n,130p,739b,4954s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,11n,130p,1426b,4954s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (25 pages).
+Output written on report.pdf (27 pages).

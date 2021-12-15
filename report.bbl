@@ -19,14 +19,129 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{AsteroidSizeAlbedo}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af35d40bf14621334a3946fb4881997f}{%
+           family={Bowell},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Arizona Press}%
+      }
+      \strng{namehash}{bf076be481f1246000bf87d29d19385d}
+      \strng{fullhash}{bf076be481f1246000bf87d29d19385d}
+      \strng{bibnamehash}{bf076be481f1246000bf87d29d19385d}
+      \strng{authorbibnamehash}{bf076be481f1246000bf87d29d19385d}
+      \strng{authornamehash}{bf076be481f1246000bf87d29d19385d}
+      \strng{authorfullhash}{bf076be481f1246000bf87d29d19385d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asteroids II}
+      \field{title}{Application of photometric models to asteroids.}
+      \field{year}{1989}
+    \endentry
+    \entry{DinosaurAsteroid}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=17b9ff81b9e325b5385ba8565f17a13a}{%
+           family={Chiarenza},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eadc1582c421cbe9d2d7c2bed976f83d}
+      \strng{fullhash}{eadc1582c421cbe9d2d7c2bed976f83d}
+      \strng{bibnamehash}{eadc1582c421cbe9d2d7c2bed976f83d}
+      \strng{authorbibnamehash}{eadc1582c421cbe9d2d7c2bed976f83d}
+      \strng{authornamehash}{eadc1582c421cbe9d2d7c2bed976f83d}
+      \strng{authorfullhash}{eadc1582c421cbe9d2d7c2bed976f83d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences USA}
+      \field{title}{Asteroid impact, not volcanism, caused the end-Cretaceous dinosaur extinction}
+      \field{volume}{117}
+      \field{year}{2020}
+    \endentry
+    \entry{GranvikPopulation}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=54ca2fb1f3ed2e297fbb1865098f8729}{%
+           family={Granvik},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d11523e39bfe009dbaf31926ffa2a723}
+      \strng{fullhash}{d11523e39bfe009dbaf31926ffa2a723}
+      \strng{bibnamehash}{d11523e39bfe009dbaf31926ffa2a723}
+      \strng{authorbibnamehash}{d11523e39bfe009dbaf31926ffa2a723}
+      \strng{authornamehash}{d11523e39bfe009dbaf31926ffa2a723}
+      \strng{authorfullhash}{d11523e39bfe009dbaf31926ffa2a723}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{title}{Debiased Orbit and Absolute-Magnitude Distributions for Near-Earth Objects}
+      \field{volume}{312}
+      \field{year}{2018}
+    \endentry
+    \entry{SpaceguardHistory}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=6dd4ae23896c632da2c8ef5f33e49160}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{6dd4ae23896c632da2c8ef5f33e49160}
+      \strng{fullhash}{6dd4ae23896c632da2c8ef5f33e49160}
+      \strng{bibnamehash}{6dd4ae23896c632da2c8ef5f33e49160}
+      \strng{authorbibnamehash}{6dd4ae23896c632da2c8ef5f33e49160}
+      \strng{authornamehash}{6dd4ae23896c632da2c8ef5f33e49160}
+      \strng{authorfullhash}{6dd4ae23896c632da2c8ef5f33e49160}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{What Spaceguard Did}
+      \field{volume}{453}
+      \field{year}{2008}
+    \endentry
     \entry{HarrisPopulation}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=cb954233132963ab78d508848ee05010}{%
+        {{un=1,uniquepart=given,hash=cb954233132963ab78d508848ee05010}{%
            family={Harris},
            familyi={H\bibinitperiod},
            given={A.\bibnamedelimi W.},
            giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=355b59e5a89f5169b65470fab7241c5b}{%
            family={D'Abramo},
            familyi={D\bibinitperiod},
@@ -44,13 +159,167 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Icarus}
       \field{title}{The Population of Near-Earth Asteroids}
       \field{volume}{257}
       \field{year}{2015}
+    \endentry
+    \entry{AsteroidSizeFrequency}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20ccb3f6e83e56815a466bc82d9620a6}{%
+           family={Ivanov},
+           familyi={I\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{20ccb3f6e83e56815a466bc82d9620a6}
+      \strng{fullhash}{20ccb3f6e83e56815a466bc82d9620a6}
+      \strng{bibnamehash}{20ccb3f6e83e56815a466bc82d9620a6}
+      \strng{authorbibnamehash}{20ccb3f6e83e56815a466bc82d9620a6}
+      \strng{authornamehash}{20ccb3f6e83e56815a466bc82d9620a6}
+      \strng{authorfullhash}{20ccb3f6e83e56815a466bc82d9620a6}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Catastrophic events caused by cosmic objects}
+      \field{title}{Size-Frequency Distribution of Asteroids and Impact Craters: Estimates of Impact Rate}
+      \field{year}{2008}
+    \endentry
+    \entry{Spaceguard}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71cbc056d9a0e43f9eed2ae5e55c1e60}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NASA}%
+      }
+      \strng{namehash}{71cbc056d9a0e43f9eed2ae5e55c1e60}
+      \strng{fullhash}{71cbc056d9a0e43f9eed2ae5e55c1e60}
+      \strng{bibnamehash}{71cbc056d9a0e43f9eed2ae5e55c1e60}
+      \strng{authorbibnamehash}{71cbc056d9a0e43f9eed2ae5e55c1e60}
+      \strng{authornamehash}{71cbc056d9a0e43f9eed2ae5e55c1e60}
+      \strng{authorfullhash}{71cbc056d9a0e43f9eed2ae5e55c1e60}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Spaceguard Survey}
+      \field{type}{techreport}
+      \field{year}{1992}
+    \endentry
+    \entry{2003NEOSDT}{report}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de3a23a4428c5b61d8a99442a19144a0}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NASA Science Mission Directorate}%
+      }
+      \strng{namehash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{fullhash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{bibnamehash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{authorbibnamehash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{authornamehash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{authorfullhash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Study to Determine the Feasbility of Extending the Search for Near-Earth Objects to Smaller Limiting Diameters}
+      \field{type}{techreport}
+      \field{year}{2003}
+    \endentry
+    \entry{2017NEOSDT}{report}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de3a23a4428c5b61d8a99442a19144a0}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NASA Science Mission Directorate}%
+      }
+      \strng{namehash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{fullhash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{bibnamehash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{authorbibnamehash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{authornamehash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \strng{authorfullhash}{754f0f4f2c0168a59f23e93bc98e51ae}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Update to Determine the Feasibility of Enhancing the Search and Charactization of NEOs}
+      \field{type}{techreport}
+      \field{year}{2017}
+    \endentry
+    \entry{ChelyabinskNASA}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=142eea60a981289f60113a1215664e97}{%
+           family={Yeomans},
+           familyi={Y\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db8f847a3018b2917bc8a28dd9931cb8}{%
+           family={Chodas},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {NASA/JPL}%
+      }
+      \strng{namehash}{9bb511de14214adca90a9bc139e75c16}
+      \strng{fullhash}{9bb511de14214adca90a9bc139e75c16}
+      \strng{bibnamehash}{9bb511de14214adca90a9bc139e75c16}
+      \strng{authorbibnamehash}{9bb511de14214adca90a9bc139e75c16}
+      \strng{authornamehash}{9bb511de14214adca90a9bc139e75c16}
+      \strng{authorfullhash}{9bb511de14214adca90a9bc139e75c16}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Retrieved from archive: \url{https://web.archive.org/web/20130430164941/http://neo.jpl.nasa.gov/news/fireball_130301.html}}
+      \field{title}{Additional Details on the Large FIreball Event over Russia on Feb 15, 2013}
     \endentry
   \enddatalist
 \endrefsection
