@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2021.12.1)  15 DEC 2021 13:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2021.12.1)  25 DEC 2021 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1813,7 +1813,22 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
- (./report.bbl)
+ (./report.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PopulationGranvik
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PopulationHarris
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1906,22 +1921,22 @@ File: cover/logo_black.pdf Graphic file (type pdf)
 ] (./1-introduction-and-background.tex
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
@@ -1930,22 +1945,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 ]
 
 LaTeX Warning: Reference `sec:insec:introductionidentification' on page 2 undef
-ined on input line 22.
+ined on input line 24.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 File: img/population_histogram.png Graphic file (type bmp)
 <img/population_histogram.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
@@ -1955,7 +1970,7 @@ File: img/completeness_size.png Graphic file (type bmp)
 File: img/population_estimates.png Graphic file (type bmp)
 <img/population_estimates.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
@@ -1963,18 +1978,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 File: img/identification_per_survey.png Graphic file (type bmp)
 <img/identification_per_survey.png>
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 62.
+(Font)              scaled to size 8.00085pt on input line 64.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 62.
+(Font)              scaled to size 5.00053pt on input line 64.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 62.
+(Font)              scaled to size 7.99915pt on input line 64.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 62.
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-
- []
-
+(Font)              scaled to size 4.99947pt on input line 64.
 
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
@@ -1990,40 +2000,155 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-) [5] (./2-research-outline.tex [6
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+File: img/completeness_projection.png Graphic file (type bmp)
+<img/completeness_projection.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+[5]) [6] (./2-research-outline.tex
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+File: img/research_blind_spots.png Graphic file (type bmp)
+<img/research_blind_spots.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[7
 
 ]
-Chapter 2.
-) [7] (./3-survey-modelling.tex [8
+File: img/research_triangulation.png Graphic file (type bmp)
+<img/research_triangulation.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+File: img/research_search_strategy.png Graphic file (type bmp)
+<img/research_search_strategy.png>
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+[10]) [11] (./3-survey-modelling.tex [12
 
 ]
 Chapter 3.
-) [9] (./4-experimental-methodology.tex [10
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+File: img/simulation_overview.png Graphic file (type bmp)
+<img/simulation_overview.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+File: img/ir_dust_components.png Graphic file (type bmp)
+<img/ir_dust_components.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+File: img/ir_dust_combined.png Graphic file (type bmp)
+<img/ir_dust_combined.png>
+[16]
+File: img/background_tir_zodiac.png Graphic file (type bmp)
+<img/background_tir_zodiac.png>
+File: img/background_vis_zodiac.png Graphic file (type bmp)
+<img/background_vis_zodiac.png>
+) [17] (./4-experimental-methodology.tex [18]
 Chapter 4.
-) [11] (./5-results.tex [12
+) [19
+
+] (./5-results.tex [20
 
 ]
 Chapter 5.
-) [13] (./6-sensitivity-analysis.tex [14
+) [21] (./6-sensitivity-analysis.tex [22
 
 ]
 Chapter 6.
-) [15] (./7-conclusion.tex [16
+) [23] (./7-conclusion.tex [24
 
 ]
 Chapter 7.
-) [17] (./a-verification-validation.tex [18
+) [25] (./a-verification-validation.tex [26
 
 ]
 Appendix A.
-) [19] [20
+) [27] [28
 
 ]
 \Changes@OutFile=\write7
@@ -2032,23 +2157,23 @@ Appendix A.
 \tf@loc=\write8
 \openout8 = `report.loc'.
 
- [21] (./report.aux)
+ [29] (./report.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: B950834BCF1ECC1F80F78D704D0265B9;7283.
+(rerunfilecheck)             Checksum: 5E3311DF7A7B58FBA40F22EE1BA3E9E7;7438.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39035 strings out of 476919
- 749829 string characters out of 5827674
- 1756182 words of memory out of 5000000
- 58325 multiletter control sequences out of 15000+600000
- 408625 words of font info for 112 fonts, out of 8000000 for 9000
+ 39138 strings out of 476919
+ 752539 string characters out of 5827674
+ 1769030 words of memory out of 5000000
+ 58417 multiletter control sequences out of 15000+600000
+ 408641 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,11n,130p,1457b,4954s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,14n,130p,1457b,4954s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (29 pages).
+Output written on report.pdf (37 pages).

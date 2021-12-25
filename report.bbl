@@ -252,6 +252,35 @@
       \field{volume}{7733}
       \field{year}{2010}
     \endentry
+    \entry{IRDust}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=57b55d9caa934c99c6007ccc45b0bf1e}{%
+           family={Kelsall},
+           familyi={K\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{987d0109e8fa291a94c056f59438b4a7}
+      \strng{fullhash}{987d0109e8fa291a94c056f59438b4a7}
+      \strng{bibnamehash}{987d0109e8fa291a94c056f59438b4a7}
+      \strng{authorbibnamehash}{987d0109e8fa291a94c056f59438b4a7}
+      \strng{authornamehash}{987d0109e8fa291a94c056f59438b4a7}
+      \strng{authorfullhash}{987d0109e8fa291a94c056f59438b4a7}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysics Journal}
+      \field{title}{The COBE Diffuse Infrared Background Experiment Search for the Infrared Background. II. Model of the Interplanetary Dust Cloud.}
+      \field{volume}{508}
+      \field{year}{1998}
+    \endentry
     \entry{NEOCam}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ea3773b65534e117216f13d07bef7216}{%
@@ -336,6 +365,38 @@
       \field{title}{The Spaceguard Survey}
       \field{type}{techreport}
       \field{year}{1992}
+    \endentry
+    \entry{ThesisOlga}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98e37311bec731bca843be4e028d0b35}{%
+           family={{Ramirez Torralba}},
+           familyi={R\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {TU Delft}%
+      }
+      \list{location}{1}{%
+        {The Netherlands}%
+      }
+      \strng{namehash}{98e37311bec731bca843be4e028d0b35}
+      \strng{fullhash}{98e37311bec731bca843be4e028d0b35}
+      \strng{bibnamehash}{98e37311bec731bca843be4e028d0b35}
+      \strng{authorbibnamehash}{98e37311bec731bca843be4e028d0b35}
+      \strng{authornamehash}{98e37311bec731bca843be4e028d0b35}
+      \strng{authorfullhash}{98e37311bec731bca843be4e028d0b35}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mission analysis of space-based telescopes to detect impacting near-Earth objects}
+      \field{type}{mathesis}
+      \field{year}{2020}
     \endentry
     \entry{DefendingEarth}{report}{}
       \true{moreauthor}
@@ -486,6 +547,34 @@
       \field{volume}{123}
       \field{year}{2010}
     \endentry
+    \entry{Flyeye}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7833094e0da1c83cb10a3973dea5cc9c}{%
+           family={Torralba},
+           familyi={T\bibinitperiod},
+           given={O.\bibnamedelimi Ramirez},
+           giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da24f6a0473aeb045acd4f52ada48378}
+      \strng{fullhash}{da24f6a0473aeb045acd4f52ada48378}
+      \strng{bibnamehash}{da24f6a0473aeb045acd4f52ada48378}
+      \strng{authorbibnamehash}{da24f6a0473aeb045acd4f52ada48378}
+      \strng{authornamehash}{da24f6a0473aeb045acd4f52ada48378}
+      \strng{authorfullhash}{da24f6a0473aeb045acd4f52ada48378}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{1st NEO and Debris Detection Conference}
+      \field{title}{Simulation of Sky Surveys with the Flyeye Telescope}
+      \field{year}{2019}
+    \endentry
     \entry{ChelyabinskNASA}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=142eea60a981289f60113a1215664e97}{%
@@ -522,6 +611,8 @@
       \field{year}{2013}
     \endentry
   \enddatalist
+  \missing{PopulationGranvik}
+  \missing{PopulationHarris}
 \endrefsection
 \endinput
 

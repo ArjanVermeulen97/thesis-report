@@ -1,15 +1,18 @@
-[0] Config.pm:312> INFO - This is Biber 2.15
+[1] Config.pm:312> INFO - This is Biber 2.15
 [1] Config.pm:315> INFO - Logfile is 'report.blg'
-[253] biber:330> INFO - === Wed Dec 15, 2021, 13:39:20
-[303] Biber.pm:415> INFO - Reading 'report.bcf'
-[596] Biber.pm:952> INFO - Found 17 citekeys in bib section 0
-[652] Biber.pm:4334> INFO - Processing section 0
-[686] Biber.pm:4523> INFO - Looking for bibtex format file 'report.bib' for section 0
-[689] bibtex.pm:1682> INFO - LaTeX decoding ...
-[751] bibtex.pm:1494> INFO - Found BibTeX data source 'report.bib'
-[1195] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1196] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1196] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[1196] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[1266] bbl.pm:651> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[1298] bbl.pm:754> INFO - Output to report.bbl
+[241] biber:330> INFO - === Sat Dec 25, 2021, 15:01:22
+[285] Biber.pm:415> INFO - Reading 'report.bcf'
+[569] Biber.pm:952> INFO - Found 22 citekeys in bib section 0
+[626] Biber.pm:4334> INFO - Processing section 0
+[661] Biber.pm:4523> INFO - Looking for bibtex format file 'report.bib' for section 0
+[664] bibtex.pm:1682> INFO - LaTeX decoding ...
+[757] bibtex.pm:1494> INFO - Found BibTeX data source 'report.bib'
+[1176] Utils.pm:395> WARN - I didn't find a database entry for 'PopulationGranvik' (section 0)
+[1177] Utils.pm:395> WARN - I didn't find a database entry for 'PopulationHarris' (section 0)
+[1312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1313] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1313] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1313] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[1380] bbl.pm:651> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[1410] bbl.pm:754> INFO - Output to report.bbl
+[1411] Biber.pm:128> INFO - WARNINGS: 2

@@ -2834,6 +2834,22 @@
     <bcf:citekey order="21">GranvikPopulation</bcf:citekey>
     <bcf:citekey order="22">NEOCam</bcf:citekey>
     <bcf:citekey order="23">DefendingEarth</bcf:citekey>
+    <bcf:citekey order="24">2003NEOSDT</bcf:citekey>
+    <bcf:citekey order="25">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="26">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="27">ThesisOlga</bcf:citekey>
+    <bcf:citekey order="28">ThesisOlga</bcf:citekey>
+    <bcf:citekey order="29">DefendingEarth</bcf:citekey>
+    <bcf:citekey order="30">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="31">ThesisOlga</bcf:citekey>
+    <bcf:citekey order="32">Flyeye</bcf:citekey>
+    <bcf:citekey order="33">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="34">PopulationGranvik</bcf:citekey>
+    <bcf:citekey order="35">PopulationHarris</bcf:citekey>
+    <bcf:citekey order="36">PopulationGranvik</bcf:citekey>
+    <bcf:citekey order="37">PopulationHarris</bcf:citekey>
+    <bcf:citekey order="38">IRDust</bcf:citekey>
+    <bcf:citekey order="39">IRDust</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
