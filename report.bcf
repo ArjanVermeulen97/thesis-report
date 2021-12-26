@@ -2850,6 +2850,32 @@
     <bcf:citekey order="37">PopulationHarris</bcf:citekey>
     <bcf:citekey order="38">IRDust</bcf:citekey>
     <bcf:citekey order="39">IRDust</bcf:citekey>
+    <bcf:citekey order="40">LightOfTheNightSky</bcf:citekey>
+    <bcf:citekey order="41">LightOfTheNightSky</bcf:citekey>
+    <bcf:citekey order="42">SkyBrightness</bcf:citekey>
+    <bcf:citekey order="43">IRDust</bcf:citekey>
+    <bcf:citekey order="44">LightOfTheNightSky</bcf:citekey>
+    <bcf:citekey order="45">StarRemoval</bcf:citekey>
+    <bcf:citekey order="46">PopulationGranvik</bcf:citekey>
+    <bcf:citekey order="47">AsteroidSTM</bcf:citekey>
+    <bcf:citekey order="48">AsteroidNEATM</bcf:citekey>
+    <bcf:citekey order="49">2003NEOSDT</bcf:citekey>
+    <bcf:citekey order="50">2003NEOSDT</bcf:citekey>
+    <bcf:citekey order="51">2003NEOSDT</bcf:citekey>
+    <bcf:citekey order="52">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="53">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="54">DetectionAndTracking</bcf:citekey>
+    <bcf:citekey order="55">StarRemoval</bcf:citekey>
+    <bcf:citekey order="56">OpNav</bcf:citekey>
+    <bcf:citekey order="57">Cadence</bcf:citekey>
+    <bcf:citekey order="58">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="59">Curtis</bcf:citekey>
+    <bcf:citekey order="60">OpNav</bcf:citekey>
+    <bcf:citekey order="61">DetectionAndTracking</bcf:citekey>
+    <bcf:citekey order="62">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="63">ShortArcs</bcf:citekey>
+    <bcf:citekey order="64">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="65">AIImage</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

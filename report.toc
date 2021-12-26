@@ -23,65 +23,67 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Survey Modelling}{13}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Population of Asteroids}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Population of Asteroids}{13}{section.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Background Signal}{14}{section.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Solar contribution}{15}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Milky Way and Diffuse Starlight}{17}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Target Signal}{17}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Hardware Properties and Signal-to-Noise Ratio}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Hardware Properties and Signal-to-Noise Ratio}{20}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Search Strategy and Cadence}{17}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Search Strategy and Cadence}{21}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Detection and Identification}{17}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Detection and Identification}{21}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Experimental Methodology}{19}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Experimental Methodology}{23}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Simulation Overview}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Simulation Overview}{23}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Implementation}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Implementation}{24}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Optimization Methods}{19}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Optimization Methods}{24}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Experimental Process}{19}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Experimental Process}{24}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Results}{21}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Results}{25}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Number of Spacecraft}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Number of Spacecraft}{25}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Payload}{21}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Payload}{25}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Orbital Elements I: Co-orbital Spacecraft}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Orbital Elements I: Co-orbital Spacecraft}{25}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Orbital Elements II: Non Co-orbital Spacecraft}{21}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Orbital Elements II: Non Co-orbital Spacecraft}{25}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Explanation of Observed Phenomena}{21}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Explanation of Observed Phenomena}{25}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Predicted Performance and Implications for Missions Design}{21}{section.5.6}%
+\contentsline {section}{\numberline {5.6}Predicted Performance and Implications for Missions Design}{25}{section.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Sensitivity Analysis}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Sensitivity Analysis}{27}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Expected Performance}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Expected Performance}{27}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Optimization Results}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Optimization Results}{27}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Hardware and Survey Properties}{23}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Hardware and Survey Properties}{27}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{25}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Conclusion}{29}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Opportunities for Mission Design}{25}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Opportunities for Mission Design}{29}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Recommendations for Further Research}{25}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Recommendations for Further Research}{29}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Verification and Validation}{27}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Verification and Validation}{31}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Modelling of Observations}{27}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Modelling of Observations}{31}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Survey-specific Properties}{27}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Survey-specific Properties}{31}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Survey Performance}{27}{section.A.3}%
+\contentsline {section}{\numberline {A.3}Survey Performance}{31}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Optimization}{27}{section.A.4}%
+\contentsline {section}{\numberline {A.4}Optimization}{31}{section.A.4}%
 \contentsfinish 

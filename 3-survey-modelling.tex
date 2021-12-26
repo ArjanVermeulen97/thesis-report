@@ -2,34 +2,29 @@
 
 Space missions are very expensive to design, build, launch and operate. Therefore, it is important that all properties and behaviors of such a mission are well known in advance. Then, an accurate assessment can be made of the merits of the mission and what results are to be expected. In addition, it allows for selecting the design which will produce the best results. In order to study these properties and determine the optimum, computer simulations are an excellent tool. They allow for cheaply and rapidly testing out a lot of possible mission parameters, and recording the relevant data for easy analysis. \\
 
-\begin{figure}[htbp]
- \centering
- \includegraphics[width=0.7\textwidth]{img/simulation_overview.png}
- \caption{Overview of the simulation architecture and main loops.}
- \label{fig:simulation_overview}
-\end{figure}
+Currently, no model is publicly available for modelling multi-spacecraft surveys. Therefore, a simulation will be developed. During and after development, the model is also extensively verified and validated. The process for this is described in REF??. Other research (e.g. \cite{Flyeye}, \cite{2017NEOSDT}) has demonstrated the potential for explicitly modelling out the entire survey as it would be conducted by the actual system. In this chapter, the theoretical background for the various steps in simulating a NEA survey will be given. Implementation of the simulation will then be treated in the next chapter.\\
 
-Currently, no model is publicly available for modelling multi-spacecraft surveys. Therefore, a simulation will be developed. During and after development, the model is also extensively verified and validated. The process for this is described in REF??. Other research (e.g. \cite{Flyeye}, \cite{2017NEOSDT}) has demonstrated the potential for explicitly modelling out the entire survey as it would be conducted by the actual system. This consists of first generating a representative population of asteroids (described in \autoref{sec:modelling_population}), then, at each timestep, calculating the background and target signal (\autoref{sec:modelling_background} and \autoref{sec:modelling_target}, respectively). Knowing these signals, the signal-to-noise ratios can then be determined after estimation of some of the detector properties (\autoref{sec:modelling_hardware_SNR}). The frequency and location of the observations is determined by the search strategy, and resulting cadence (detailed in \autoref{sec:modelling_cadence}) and lastly through repeat observations, it can be determined whether the system is capable of identifying a target (\autoref{sec:modelling_identification}).\\
-
-
-The architecture of the simulation is shown in \autoref{fig:simulation_overview}. On the top left, the main input parameters to the model are displayed. These are primarily the spacecraft and asteroid properties. Both of these consist of a full set of Keplerian orbital elements per spacecraft or asteroid. The asteroid properties furthermore include the albedo, size, and absolute magnitude of each asteroid; the spacecraft properties include which type of payload the spacecraft is carrying. \\
-
-The simulation consists of a nested loop. Firstly, at the start of each timestep (the time between the timesteps is determined by the survey cadence), the positions of all asteroids and spacecraft are determined by propagation of their orbital elements. Then, in the inside loop, each spacecraft is checked against each asteroid to see if it can detect said asteroid. This is done through calculation of the signal-to-noise ratio (SNR). Lastly, as it is known which asteroids got succesfully detected by which spacecraft, it can be determined if asteroids have been identified. Then, at the end of the simulation, the result is a list of the asteroid population in addition to whether they have been detected, and if so, when. Of course, this data can be further processed.
+The components of the simulation consist of first generating a representative population of asteroids (described in \autoref{sec:modelling_population}), then, at each timestep, calculating the background and target signal (\autoref{sec:modelling_background} and \autoref{sec:modelling_target}, respectively). Knowing these signals, the signal-to-noise ratios can then be determined after estimation of some of the detector properties (\autoref{sec:modelling_hardware_SNR}). The frequency and location of the observations is determined by the search strategy, and resulting cadence (detailed in \autoref{sec:modelling_cadence}) and lastly through repeat observations, it can be determined whether the system is capable of identifying a target (\autoref{sec:modelling_identification}).\\
 
 \section{Population of Asteroids}
 \label{sec:modelling_population}
-The first component of the simulation is the asteroid population model. This population was already briefly described in \autoref{sec:introduction_NEA}. In this section, more details on the generation of the population and the process of determining the positions of the NEA's, are given. As already mentioned in \autoref{sec:introduction_NEA}, the most comprehensive debiased population model is the one by \cite{PopulationGranvik}. This population model was generated by propagating an intiial population of NEA's based on several known interactions (e.g. gravitational interaction with the planets), and then comparing the resulting population to the results of the NEOWISE mission. Essentially, the problem then reduces to the question: ``What initial population would result in the results that are observed in the NEOWISE mission?''. Then, the initial population model can be fitted to the results of the NEOWISE mission, and an accurate population model is obtained. \\
+The first component of the simulation is the asteroid population model. This population was already briefly described in \autoref{sec:introduction_NEA}. In this section, more details on the generation of the population and the process of determining the positions of the NEA's, are given. As already mentioned in \autoref{sec:introduction_NEA}, the most comprehensive debiased population model is the one by \cite{GranvikPopulation}. This population model was generated by propagating an intial population of NEA's based on several known interactions (e.g. gravitational interaction with the planets), and then comparing the resulting population to the results of the NEOWISE mission. Essentially, the problem then reduces to the question: ``What initial population would result in the results that are observed in the NEOWISE mission?''. Then, the initial population model can be fitted to the results of the NEOWISE mission, and a debiased population model is thus obtained. \\
 
-Of course, this results in a full population of NEA's; whereas a population of \textit{unidentified} NEA's is required for this work. Therefore, a correction to the population was made based on the work of \cite{PopulationHarris}. To do this, the population as given by \cite{PopulationGranvik} was separated, based on absolute magnitude, into bins of width 0.5. Then, it was assumed that the detection of NEAs is roughly uniform over the orbital parameters. The completeness statistics of \cite{PopulationHarris} can then be used to discard a part of the population as \textit{identified}. For example, given 10000 asteroids in the bin width XXYYZZ, where 70\% is considered identified at this time, 7000 asteroids are selected at random and discarded. Of course, the assumption of uniformity in the detection of NEA's is false: highly eccentric NEA's, NEA's that are very dark, or NEA's with a high semi-major axis are more likely to be undetected. However, no data is available on this matter, and therefore no better alternative was deemed to be available. As all simulations will be affected equally, the error is judged to be sufficiently small for practical purposes.
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=1.0\textwidth]{img/population_identification_correction.png}
+ \caption{Distribution of the full population of asteroids per \cite{GranvikPopulation}, and an estimation of how many asteroids have already been identified, per \cite{HarrisPopulation}. The left graph is shown logarithmically, the right graph linear.}
+ \label{fig:populationcorrection}
+\end{figure}
+
+
+Of course, this results in a full population of NEA's; whereas a population of \textit{unidentified} NEA's is required for this work. Therefore, a correction to the population was made based on the work of \cite{HarrisPopulation}. To do this, the population as given by \cite{GranvikPopulation} was separated, based on absolute magnitude, into bins of width 0.5. Then, it was assumed that the detection of NEAs is roughly uniform over the orbital parameters. The completeness statistics of \cite{HarrisPopulation} can then be used to discard a part of the population as \textit{identified}. This is shown in \autoref{fig:populationcorrection}. Of course, the assumption of uniformity in the detection of NEA's is false: highly eccentric NEA's, NEA's that are very dark, or NEA's with a long semi-major axis are more likely to be undetected. However, no data is available on this matter, and therefore no better alternative was deemed to be available. As all simulations will be affected equally, and in addition, as can be seen in the second diagram in \autoref{fig:populationcorrection}, only a small part of asteroids is discarded - the largest population groups by size have very low completeness numbers - the error is judged to be sufficiently small for practical purposes.
 
 \section{Background Signal}
 \label{sec:modelling_background}
+Before considering the existing knowledge on modelling asteroid signals, first the background in which these targets has to be observed is discussed. In this section, the current relevant body of knowledge on modelling this background signal will be listed. The background signal will be split into two components. Firstly, the background light originating from the Sun. This manifests most dramatically in the form of direct sunlight. However, also reflections off of interplantary dust are important. This reflection manifests in the phenomena of zodiacal light and gegenschein. The second component of the background signal, is the light from outside the Solar system. This light originates from other stars and manifests mainly as a diffuse background of starlight. Particularly, a very large concentration of this starlight is found around the galactic plane. \\
 
-BESPREKEN BIJ IMPLEMENTATION: Hoe worden achtergrondsterren weggehaald?
-
-Before considering the existing knowledge on modelling asteroid signals, first the background in which these targets has to be observed is discussed. In this section, the current relevant body of knowledge on modelling this background signal will be listed. The background signal will be split into two components. Firstly, the background light originating from the Sun. This manifests most dramatically in the form of direct Sunlight. However, also reflections off of interplantary dust are important. This reflection manifests in the phenomena of zodiacal light and gegenschein. The second component of the background signal, is the light from outside the Solar system. This light originates from other stars and manifests mainly as a diffuse background of starlight. In addition, a very large concentration of this starlight is found around the galactic plane. \\
-
-The reason for separating the background signal into these two components is straightforward: in a reference frame fixed among the stars, the background signal from outside the Solar system is practically unchanging as the spacecraft moves around the Sun; the parallax of moving a few AU is negligible on galactic scales. In constrast, the contribution of light from our Sun is directly dependent on the position of the spacecraft with regards to the Sun. In the following sections, two primary reference frames are used: a heliocentric ecliptic reference frame (A right-handed reference frame whose principal plane is the ecliptic plane, origin at the center of the Sun, and the positive X-direction towards the vernal equinox), and a galactic reference frame (A right-handed reference frame whose principal plane is the plane of the Milky Way, origin at the center of the Sun, and positive X-direction towards the galactic core). The transformations between eclpitic longitude and latitude $(l_e, b_e)$ and galactic longitude and latitude $(l_g, b_g)$ are as follows:
+The reason for separating the background signal into these two components is straightforward: in a reference frame fixed among the stars, the background signal from outside the Solar system is practically unchanging as the spacecraft moves around the Sun; the parallax of moving several AU is negligible on galactic scales. In constrast, the contribution of light from our Sun is directly dependent on the position of the spacecraft with regards to the Sun. In the following sections, two primary reference frames are used: a heliocentric ecliptic reference frame (A right-handed reference frame whose principal plane is the ecliptic plane, origin at the center of the Sun, and the positive X-direction towards the vernal equinox), and a galactic reference frame (A right-handed reference frame whose principal plane is the plane of the Milky Way, origin at the center of the Sun, and positive X-direction towards the galactic core). The transformations between eclpitic longitude and latitude $(l_e, b_e)$ and galactic longitude and latitude $(l_g, b_g)$ are as follows:
 
 \begin{align}
  b_g &= \sin ^{-1} (\sin b_e * \sin B_{NGP}) - \cos b_e \sin b_{NGP} \sin (l_e - l_{NGP} \\
@@ -42,7 +37,7 @@ The reason for separating the background signal into these two components is str
        \end{cases}
 \end{align}
 
-With $b_{NGP}$ the latitude of the North Galactic Pole, approximately equal to $29.81^\circ$ or $0.5203 \mathrm{rad}$; ascending node of the Galaxy $l_{NGP}$, approximately $270.02^\circ$, $4.712 \mathrm{rad}$; and longitude of the galactic core $l_{GC}$, approximately $6.38^\circ$, or $0.1114 \mathrm{rad}$. Finally, a transformation is required to express the ecliptic coordinates in a frame which is relative to the Sun, as the Sun-based contribution will be expressed relative to the Sun. This is however simply a subtraction of the latitude $l_e^\odot$ and longitude $b_e^\odot$ of the Sun in the ecliptic frame, from the latitude and longitude of the target in the eclpitic frame:
+With $b_{NGP}$ the latitude of the North Galactic Pole, approximately equal to $29.81^\circ$ or $0.5203 ~\mathrm{rad}$; ascending node of the Galaxy $l_{NGP}$, approximately $270.02^\circ$, $4.712 ~\mathrm{rad}$; and longitude of the galactic core $l_{GC}$, approximately $6.38^\circ$, or $0.1114 ~\mathrm{rad}$. Finally, a transformation is required to express the ecliptic coordinates in a frame which is relative to the Sun, as the Sun-based contribution will be expressed relative to the Sun. This is however simply a subtraction of the latitude $l_e^\odot$ and longitude $b_e^\odot$ of the Sun in the ecliptic frame, from the latitude and longitude of the target in the eclpitic frame:
 \begin{align}
  l_h &= l_e - l_e^\odot \\
  b_h &= b_e - b_e^\odot
@@ -51,21 +46,21 @@ With $b_{NGP}$ the latitude of the North Galactic Pole, approximately equal to $
 With the reference frames defined, the individual components can be discussed. Firstly, the contribution of the Sun will be discussed, and then the background starlight for both thermal infrared and visual light.
 
 \subsection{Solar contribution}
-Modelling of the thermal infrared background radiation as a result of the light from the Sun is described by \cite{IRDust}, based on observations of the COBE mission. This model focusses on a modelling of the thermal state of interplanetary dust, and the resulting thermal infrared emission observed. Thus, the signal is not comprised of light originating at the Sun - but rather on the radiation from bodies heated by that light. The authors state that the albedo of particles at the relevant wavelengths is very close to zero, and therefore scattered Sunlight need not be considered; only the emissions of the particles. Thus, the zodiacal flux $Z(l, b)$ can be expresssed as an integral over the line of sight of the sensor of the various contributions (which will be discussed in  more detail below):
+Modelling of the thermal infrared background radiation as a result of the light from the Sun is described by \cite{IRDust}, based on observations of the COBE mission. This model focusses on a modelling of the thermal state of interplanetary dust, and the resulting thermal infrared emission observed. Thus, the signal is not comprised of light originating at the Sun - but rather on the radiation from bodies heated by that light. The authors state that the albedo of particles at the relevant wavelengths is very close to zero, and therefore scattered Sunlight need not be considered; only the emissions of the particles. Thus, the zodiacal flux $Z(l, b)$ can be expresssed as an integral over the line of sight (in practice, a distance up approximately the orbit of Jupiter is sufficient) of the sensor of the various contributions (which will be discussed in  more detail below):
 \begin{equation}
- Z(l, b) = \Sigma_c = \int _{\lambda_0} ^{\lambda_1} \int _S n_{c}(X, Y, Z)  E_{c}(\lambda) B(\lambda, T) ds d\lambda
+ Z(l, b) = \Sigma_c \int _{\lambda_0} ^{\lambda_1} \int _S n_{c}(X, Y, Z)  E_{c}(\lambda) B(\lambda, T) ds d\lambda
  \label{eq:irdustflux}
 \end{equation}
 With $n_c$ being the density of the dust due to a contribution $c$, $B$ is the blackbody emission given by Planck's law and $E_c$ is a wavelength-specific emission correction factor. The temperature of the dust grains is assumed to follow a power law function of distance from the Sun $R$:
 \begin{equation}
  T(R) = T_0R^{-0.467}
 \end{equation}
-Temperature $T_0$ at 1 AU is set to $286 \mathrm{K}$, and the emissivity modifications at the $4.9 \mu\mathrm{m}$ and $12 \mu\mathrm{m}$ thermal infrared wavelength are $0.997$ and $0.958$, respectively. Then, based on observations of the COBE mission, the authors construct a parametric model, based on three contributions. The first contribution is a ``donut-shaped'' dust cloud centered on the Sun, and inclined $2.03^\circ$ with respect to the ecliptic. This is the largest contributor to the density of interplanetary dust. Two more contributions which are modelled are a set of three dust bands, inclined at $0.56^\circ$, $1.2^\circ$ and $0.8^\circ$. Lastly, a circumsolar ring is modelled along the orbit of the Earth, which has a higher concentration around $10^\circ$ behind Earth in its orbit, as dust trails the planet due to its gravity. \footnote{For conciseness, the exact model will not be described here in detail; interested readers can refer to \cite{IRDust}.} An illustration of the contours of the components is seen in \autoref{fig:irdustcontributions}.\\
+Temperature $T_0$ at 1 AU is set to $286~\mathrm{K}$, and the emissivity modifications at the $4.9 ~\mu\mathrm{m}$ and $12 ~\mu\mathrm{m}$ thermal infrared wavelength are $0.997$ and $0.958$, respectively. Then, based on observations of the COBE mission, the authors construct a parametric model, based on three contributions. The first contribution is a ``donut-shaped'' dust cloud centered on the Sun, and inclined $2.03^\circ$ with respect to the ecliptic. This is the largest contributor to the density of interplanetary dust. Two more contributions which are modelled are a set of three dust bands, inclined at $0.56^\circ$, $1.2^\circ$ and $0.8^\circ$. Lastly, a circumsolar ring is modelled along the orbit of the Earth, which has a higher concentration around $10^\circ$ behind Earth in its orbit, as dust trails the planet due to its gravity. For conciseness, the exact model will not be described here in detail; interested readers can refer to \cite{IRDust}. An illustration of the contours of the components is seen in \autoref{fig:irdustcontributions}.\\
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/ir_dust_components.png}
- \caption{Isodensity contours of the interplanetary dust model, shown at a plane perpendicular to the ecliptic. F.l.t.r.: the dust cloud, dust bands, and the circumsolar ring. Units of the contours are $10^{-7} \mathrm{AU}^{-1}$ for the dust cloud, and $0.125\cdot10^{-7} \mathrm{AU}^{-1}$ for the bands and ring.}
+ \caption{Isodensity contours of the interplanetary dust model, shown at a plane perpendicular to the ecliptic. F.l.t.r.: the dust cloud, dust bands, and the circumsolar ring. Units of the contours are $10^{-7} ~\mathrm{AU}^{-1}$ for the dust cloud, and $0.125\cdot10^{-7} ~\mathrm{AU}^{-1}$ for the bands and ring.}
  \label{fig:irdustcontributions}
 \end{figure}
 
@@ -78,47 +73,46 @@ The combined density model is shown in \autoref{fig:irdustcombined}. As can be s
  \label{fig:irdustcombined}
 \end{figure}
 
-Combining all these components leads to the full contribution as a result of Solar radiation and interplanetary dust. An illustration of the signal can be seen in \autoref{fig:solartirbackground}. The contribution from the Sun, and the hot dust near the Sun, is the most important source. However, there is still a sizeable flux originating in the interplanetary dust throughout the Solar system.\\
+Combining all these components and performing the integration leads to the full contribution as a result of Solar radiation and interplanetary dust. An illustration of the signal can be seen in \autoref{fig:solartirbackground}. The contribution from the Sun, and the hot dust near the Sun, is the most important source. However, there is still a sizeable flux originating in the interplanetary dust throughout the Solar system.\\
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_tir_zodiac.png}
- \caption{Contribution of light from the Sun to the background signal in thermal infrared, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are Megajansky per steradian, $1 \mathrm{MJy}{sr}^{-1} = 10^{-21} \mathrm{W}\mathrm{m}^{-2}\mathrm{Hz}^{-1}\mathrm{Sr}^{-1}$, and the scale is clipped at 35 $\mathrm{MJy}{sr}^{-1}$ for clarity.}
+ \caption{Contribution of light from the Sun to the background signal in thermal infrared, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are Megajansky per steradian, $1 ~\mathrm{MJy}~{sr}^{-1} = 10^{-21} ~\mathrm{W}~\mathrm{m}^{-2}~\mathrm{Hz}^{-1}~\mathrm{Sr}^{-1}$, and the scale is clipped at $35 ~\mathrm{MJy}~{sr}^{-1}$ for clarity.}
  \label{fig:solartirbackground}
 \end{figure}
 
-On the other hand, the background signal in the visual spectrum is more readily available. As it can be quickly and repeatedly measured from the surface of the Earth, early measurements of this signal exist. The components of the visual light background signal are tabulated by \cite{LightOfTheNightSky}, using data obtained from measurements. The resulting contribution from the Sun and Sunlight reflected off of interplanetary dust can be seen in \autoref{fig:solarvisbackground}. Next to the obvious contribution of the Sun and zodiacal light, the phenomenon of gegenschein can be observed in the middle of the plot. Although this is the points where target asteroids are brightests, it is also a point of increased background flux. The values as tabulated by \cite{LightOfTheNightSky} are only valid at a distance from the Sun of $1 \mathrm{AU}$. \cite{SkyBrightness} offer a correction factor for changing heliocentric position of the observer as follows:
+On the other hand, the background signal in the visual spectrum is more readily available. As it can be quickly and repeatedly measured from the surface of the Earth, early measurements of this signal exist. The components of the visual light background signal are tabulated by \cite{LightOfTheNightSky}, using data obtained from measurements. The resulting contribution from the Sun and Sunlight reflected off of interplanetary dust can be seen in \autoref{fig:solarvisbackground}. Next to the obvious contribution of the Sun and zodiacal light, the phenomenon of gegenschein can be observed in the middle of the plot. Although this is the points where target asteroids are at their brightest, it is also a point of increased background flux. The values as tabulated by \cite{LightOfTheNightSky} are only valid at a distance from the Sun of $1~\mathrm{AU}$. \cite{SkyBrightness} offer a correction factor for changing heliocentric position of the observer as follows:
 \begin{equation}
- F(R) = F_{1\mathrm{AU}}R^{-2.3}
+ F(R) = F_{1~\mathrm{AU}}R^{-2.3}
 \end{equation}
 This correction factor accounts for both the approximate decrease in interplanetary dust density when moving away from the Sun, as well as the decrease in solar flux. With these components, the Sun-dependent portion of the background signal is fully available for modelling. \\
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_vis_zodiac.png}
- \caption{Contribution of light form the Sun to the background signal in the visual spectrum, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm{W}\mathrm{m}^{-2}\mathrm{Sr}^{-1}$. The scale is clipped at $1000 S10_\odot$ for clarity.}
+ \caption{Contribution of light form the Sun to the background signal in the visual spectrum, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1~S10_\odot = 9.00~\mathrm{W}~\mathrm{m}^{-2}~\mathrm{Sr}^{-1}$. The scale is clipped at $1000 ~S10_\odot$ for clarity.}
  \label{fig:solarvisbackground}
 \end{figure}
 
 
 \subsection{Milky Way and Diffuse Starlight}
 
-
+For the background signal originating from the Milky Way and other diffuse starlight, similar models exist for both the thermal and infrared and the visual light spectrum. By subtraction of the signal from the Sun, zodiacal light and gegenschein, the remaining portion of the background signal could be attributed to this component. The resulting models from \cite{IRDust} and \cite{LightOfTheNightSky} are shown in \autoref{fig:starstirbackground} and \autoref{starsvisbackground}, respectively. Due to the research being more modern, and more computer and data storage resources being available at the time, the thermal infrared background model can be seen to be more detailed than the visual light spectrum model. However, other similarities, such as the light from the galactic core around $l_e = 270^\circ$ can be observed in either. Lastly, note that while the diffuse background starlight generally has a lower magnitude than the emission and reflection of the interplantary dust, the Milky Way is brighter than the interplanetary dust in both spectra and thus warrants inclusion into the model. \\
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_tir_stars.png}
- \caption{Contribution of light from the Milky Way and diffuse starlight to the background signal in thermal infrared, in ecliptic coordinates. Units are Megajansky per steradian, $1 \mathrm{MJy}{sr}^{-1} = 10^{-21} \mathrm{W}\mathrm{m}^{-2}\mathrm{Hz}^{-1}\mathrm{Sr}^{-1}$, and the scale is clipped at 35 $\mathrm{MJy}{sr}^{-1}$ for clarity.}
+ \caption{Contribution of light from the Milky Way and diffuse starlight to the background signal in thermal infrared, in ecliptic coordinates. Units are Megajansky per steradian, $1 ~\mathrm{MJy}~{sr}^{-1} = 10^{-21} ~\mathrm{W}~\mathrm{m}^{-2}~\mathrm{Hz}^{-1}~\mathrm{Sr}^{-1}$, and the scale is clipped at $35 ~\mathrm{MJy}{sr}^{-1}$ for clarity.}
  \label{fig:starstirbackground}
 \end{figure}
 
-
-
+A final note is to be made about individual stars: readers who occassionally glance at the night sky are undoubtedly familiar with the fact that numerous stars outshine the diffuse background, making them appear as individual, distinct points. Naturally, these point will also appear in images taken of the sky. However, as these objects are essentially fixed with regards to the movement and timescale of human surveying efforts, they have been extensively catalogued. Therefore, removal of these points is a fairly straightforward and well-understood process (see \cite{StarRemoval} for a thorough explanation of the process), and they can be let out of the modelling effort without affecting the results.
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_vis_stars.png}
- \caption{Contribution of light form the Milky Way and diffuse starlight to the background signal in the visual spectrum, in ecliptic coordinates. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm{W}\mathrm{m}^{-2}\mathrm{Sr}^{-1}$. The scale is clipped at $1000 S10_\odot$ for clarity.}
+ \caption{Contribution of light form the Milky Way and diffuse starlight to the background signal in the visual spectrum, in ecliptic coordinates. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1~S10_\odot = 9.00~\mathrm{W}~\mathrm{m}^{-2}~\mathrm{Sr}^{-1}$. The scale is clipped at $1000 ~S10_\odot$ for clarity.}
  \label{fig:starsvisbackground}
 \end{figure}
 
@@ -126,11 +120,108 @@ This correction factor accounts for both the approximate decrease in interplanet
 \section{Target Signal}
 \label{sec:modelling_target}
 
+TO DO: Example plots
+
+Next to modelling the background signal, the target signal has to be modelled. Although in reality the radiation emitted or reflected by an asteroid is dependent on a lot of factors, including, but not necessarily limited to, its size, surface composition, shape, temperature and rotational motion, models exist which provide good approximations. As the asteroid population model from \cite{GranvikPopulation} gives a distribution of absolute magnitudes, the starting point of these models will also be the asteroids absolute magnitude, along with the position of the asteroid and the spacecraft relative to the Sun. \\
+
+Firstly, for determining the emission of an asteroid in the thermal infrared, several models have been constructed in recent years. The original model for asteroids in thermal infrared is provided in the work of \cite{AsteroidSTM}. However, more recently \cite{AsteroidNEATM} have given an updated model of the thermal emissions of asteroids, and therefore their Near-Earth Asteroid Thermal Model (NEATM) is considered the standard at time of writing. \\
+
+The NEATM assumes asteroids to be spherical, nonrotating body in thermal equilibrium with the radiation emitted by the Sun. The night side of the asteroid is assumed to have a temperature of $0~K$. The equilibrium temperature is modelled as follows:
+\begin{align}
+ T(\phi) &= \begin{cases}
+            T(0) \cos ^{1/4} \phi;& \phi < 90^\circ \\
+            0;& \phi \geq 90^\circ
+           \end{cases} \\
+T(0) &= \left[(1-A)F_{\odot}/(\eta \epsilon \sigma)\right]^{1/4}
+\end{align}
+With $\phi$ the angular distance from the subsolar point, $A$ the bond albedo, $F_{\odot}$ the incident solar flux, $\epsilon$ the emissivity, $\sigma$ the Stefan-Boltzmann constant and $\eta$ the so-called \textit{beaming parameter}, a correction factor for the emission dependent on the non-sphericalness of the surface, which can be calibrated from observations. For the NEATM, this value is set to $\eta = 1.22$.\\
+
+With the temperature distribution known, the emission can be determined through integration of Planck's law over the visible hemisphere. For this, the size of the asteroid needs to be determined, which can be done using \autoref{eq:asteroidsize}. Of course, this calculation is sensitive to the assumed value of the albedo. Estimation of this albedo using current data is difficult, however a system utilizing both visual and thermal infrared measurements can use this dependancy on albedo to calculate the asteroid's size \textit{and} albedo, instead of only the absolute magnitude. \\
+
+Calculation of target signal in the visual spectrum is more straightforward, as no integration is needed; a simple phase equation is readily available to obtain the apparent visual magnitude $V$, as detailed by \cite{2003NEOSDT}:
+\begin{align}
+ V &= H + 5 \log r \Delta - 2.5 \log \left[ (0.85) \Phi_1 + 0.15 \Phi_2 \right] \\
+ \Phi_1 &= e^{-3.33\left(\tan \frac{\alpha}{2} \right)^{0.63}} \\
+ \Phi_2 &= e^{-1.87\left(\tan \frac{\alpha}{2} \right)^{1.22}}
+\end{align}
+For solar elongations less than 60 degrees, \cite{2003NEOSDT} suggest using a modified equation instead:
+\begin{equation}
+ V = H + 5 \log r \Delta + 5.03 - 10.373 \log (\pi - \alpha)
+\end{equation}
+In these equations, $H$ is the absolute magnitude, $\alpha$ is the solar phase angle, $r$ is the distance from the Sun to the target and $\Delta$ is the distance from the observer to the target. From the definition of apparent magnitude it follows that:
+\begin{equation}
+ \frac{F_2}{F_1} = 100^{\frac{\Delta V}{5}}
+\end{equation}
+As the Sun has an apparent magnitude of $V_\odot = -26.74$, and a flux of $F_\odot = 1361 \mathrm{W}\mathrm{m}^{-2}$, the visual flux can be calculated by:
+\begin{equation}
+ F_t = F_\odot 100^{\frac{-26.74 - V_t}{5}}
+\end{equation}
+It is here where part of the difficulty of detecting very small NEA's becomes apparent: relative to a $D = 3.5 \mathrm{km}$ asteroid ($V \approx 15$), a $D = 350 \mathrm{m}$ asteroid ($V \approx 20$) only results in 1/100th of the flux, and a $D = 35 \mathrm{m}$ asteroid ($V \approx 25$) will only give off 1/10,000th of the flux in both spectra. Note also that there is no \textit{inherent} advantage to either method in detecting small NEA's when considering the target signal. However, the thermal infrared background signal is relatively lower relative to the target signal (\cite{2003NEOSDT}).
+
 \section{Hardware Properties and Signal-to-Noise Ratio}
 \label{sec:modelling_hardware_SNR}
 
+In addition to the signal properties, the hardware used to image the target is also of interest. Some of the properties of the hardware can then be used to compute the signal-to-noise ration (SNR) of the target, and some other properties will be used in the next section to determine the search strategy and cadence. \cite{2017NEOSDT} gives a description of representative hardware for current and upcoming space survey telescopes. The overview can be seen in \autoref{tab:hardwareproperties}. For the thermal infrared, a HgCdTe detector is utilized, for the visual light a silicon CCD. \\
+
+\begin{table}[htbp]
+\centering
+\caption{Representative hardware properties for space-based survey telescopes. (\cite{2017NEOSDT})}
+\label{tab:hardwareproperties}
+\begin{tabular}{l|ll}
+\textbf{Parameter}          & \textbf{Thermal Infrared} & \textbf{Visual Light} \\ \hline
+Aperture {[}m{]}            & 0.5                       & 0.5                   \\
+Field of view {[}deg{]}     & 1.7 x 7.13                & 10.6 x 5.3            \\
+Bandpass {[}$\mu$m{]}       & 6 - 10                    & 0.4 - 1.0             \\
+Integration time {[}s{]}    & 150                       & 24                    \\
+Quantum efficiency {[}\%{]} & 65                        & 88                    \\
+Dark current {[}e-/s{]}     & 1                         & 0.00055               \\
+Read noise {[}e-{]}         & 22                        & 4
+\end{tabular}
+\end{table}
+
+Two important observations should be made from the data in \autoref{tab:hardwareproperties}. Firstly, the visual light system has better specifications with regards to noise and quantum efficiency. This is due to the more advanced level of technology in CCD development compared to thermal infrared detectors. Secondly, the square angle subtended by the visual light sensor is almost five times as large as the thermal infrared sensor, and the required integration time is less than one sixth. The former factor is also due to discrepancies in technological development, the latter is a result of the weaker signal in the thermal infrared band. Together, these factors result in a sizeable decrease in survey cadence, which will be discussed in the next section. A last factor which is not shown in the table is the requirement for thermal infrared telescopes to be cooled to very low temperatures, to avoid the heat of the telescope itself interfering with the measurements. Visual light telescopes are not hindered much by their own temperature, as spacecraft at normal operating temperatures emit very little visible light. \\
+
+The signal-to-noise ratio of the observation can then be calculated by dividing the signal in $e^-$ by the root-sum-square of the noise terms, assuming the noise terms to be independent (\cite{DetectionAndTracking}):
+\begin{equation}
+ SNR = \frac{S_t}{\sqrt{S_t + S_b + D + R^2}}
+\end{equation}
+The target signal $S_t$ and background signal $S_b$ can be calculated from the flux $F$ as follows:
+\begin{align}
+ S_t &= \frac{1}{hc}A \tau k_f Q_e F_t \\
+ S_b &= \frac{1}{hc}A \tau Q_e F_b
+\end{align}
+Here, $A$ is the telescope aperture, $\tau$ the integration time of the image, $k_f$ is the \textit{straddle factor}, a correction factor for the diffraction of a point source ($k_f \approx 0.9$), $Q_e$ the quantum efficiency, and $h$ and $c$ the Planck constant and speed of light, respectively. The noise terms in the SNR equation are:
+\begin{itemize}
+ \item $\sqrt{S_t}$: the poisson noise of the target signal.
+ \item $\sqrt{S_b}$: the poisson noise of the background signal. Note that the background signal itself can be subtracted fairly easy, and thus only the poisson term has to be considered (see \cite{StarRemoval}).
+ \item $\sqrt{D}$: the poisson term of the dark current noise. The mean dark current can be removed through proper sensor calibration (see \cite{OpNav}).
+ \item $\sqrt{R}$: the readout noise.
+\end{itemize}
+
+Thus, the SNR of every target can be calculated at any point in time from any telescope in space in both the thermal infrared and visual light spectrum.
+
 \section{Search Strategy and Cadence}
 \label{sec:modelling_cadence}
+Next, it is important to consider how the telescope will conduct the survey. Of course, a telescope can not view in all directions simultaneously. Very little literature exists on setup and optimization of such search strategies. \cite{Cadence} provides some guidance based on the search strategy for the NEOCam mission. Essentially, the telescope performs a grid-like search, from north to south and west to east. Each section of the sky is revisited four times in a short time to allows for determining the direction of motion of targets, which aids in the precision of orbital determination. Therefore, the survey cadence (the period of imaging the entire sky; i.e. a survey cadence of ten implies the telescope images the entire sky in ten days) can be approximated from the field-of-view and integration time, assuming a slew rate of $0.5 \mathrm{deg}\mathrm{s}^{-1}$ and a settle time of $10 \mathrm{s}$ as follows for the visual light telescope:
+\begin{equation}
+ T_{survey} = 4\frac{41253 \mathrm{deg}^2}{10.6 * 5.3} * (24 + 10.6/0.5 + 10) = 162134 \mathrm{s} \approx 1.88 \mathrm{days}
+\end{equation}
+Which, at a duty cycle of just over 90\% represents a fair assumption of the visual survey cadence of 2 days. Similarly, a survey cadence of 21 days was calculated for the thermal infrared system. Note that, as already alluded to in the previous section, the thermal infrared system has a far lower survey cadence, which will hinder the identification performance. Therefore, no system can yet be said to be superior: the thermal infrared system benefits from increased imaging performance, but a worse survey cadence.
 
 \section{Detection and Identification}
 \label{sec:modelling_identification}
+
+From the signal-to-noise ratio, detection and identification can finally be established. Firstly, detection of the signal from the noise. As described by \cite{2017NEOSDT}, detection in processed images is a probabilistic process. At low SNR (SNR < 1), while detection is possible, the detection should be rejected because the probability of false detections becomes too high. Conversely, at high SNR (SNR > 5), detection becomes almost certain. Modelling the process by a normal distribution allows for the intermittent range of SNR to be approximated by an integrated Gaussian. This distribution can be seen in \autoref{fig:snrgraph}. \\
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.7\textwidth]{img/snr_graph.png}
+ \caption{Detection probability as a function of signal-to-noise ratio according to an integrated Gaussian. The function is truncated to 0 at SNR < 1, and to 1 at SNR > 5}
+ \label{fig:snrgraph}
+\end{figure}
+
+The process of identification is slightly more complicated. In essence, the process of solving for the orbit of a target asteroid using a single telescope uses Gauss' method, to obtain an orbit from three sets of angular measurements and the time between these. When multiple spacecraft are used and trangulation can be performed, two sets of positions and the time between these is enough to solve for the orbit, per Lambert's problem (see e.g. \cite{Curtis} for a thorough treatment of both methods). Theoretically, the time between these observations does not matter much, as long as the period is long enough to ensure that the curvature of the arc is larger than the uncertainty in the measurement (\cite{OpNav}). However in practice, the problem of \textit{linking} the observations arises: how does the system know that two observations spaced far apart in time belong to the same object? Currently, in practice, this results in a maximum time of between 30 and 90 days (\cite{DetectionAndTracking}, \cite{2017NEOSDT}). However, it is expected that the resulting maximum will be more towards the maximum due to new techniques such as those presented by \cite{ShortArcs} and subsequent papers.\\
+
+However, these methods rely on data being available throughout the system. It is currently unclear what data would need to be shared precisely, as no multi-spacecraft surveying systems have been researched to that level of detail to date. However, as e.g. \cite{2017NEOSDT} state, communication of survey results will be a point of attention for all deep-space surveying missions, not just multi-spacecraft ones, and an advanced communication system along with on-board data processing will be required. Luckily, modern techniques such as machine learning are being used to find computationally unintensive and simple solutions to the image processing pipeline (see e.g. \cite{AIImage}). Therefore, this point will be considered to be out of scope of the research presented in this report. \\
+
+With the detection and identification treated, a full overview has thus been presented of the process from obtaining the signal of both background and target, calculating the resulting SNR, and establishing detection and identification of NEA's. In the next chapter, implementation of these methods will be discussed.
