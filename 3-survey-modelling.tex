@@ -1,4 +1,5 @@
 \chapter{Survey Modelling}
+\label{ch:surveymodelling}
 
 Space missions are very expensive to design, build, launch and operate. Therefore, it is important that all properties and behaviors of such a mission are well known in advance. Then, an accurate assessment can be made of the merits of the mission and what results are to be expected. In addition, it allows for selecting the design which will produce the best results. In order to study these properties and determine the optimum, computer simulations are an excellent tool. They allow for cheaply and rapidly testing out a lot of possible mission parameters, and recording the relevant data for easy analysis. \\
 
@@ -85,6 +86,7 @@ Combining all these components and performing the integration leads to the full 
 On the other hand, the background signal in the visual spectrum is more readily available. As it can be quickly and repeatedly measured from the surface of the Earth, early measurements of this signal exist. The components of the visual light background signal are tabulated by \cite{LightOfTheNightSky}, using data obtained from measurements. The resulting contribution from the Sun and Sunlight reflected off of interplanetary dust can be seen in \autoref{fig:solarvisbackground}. Next to the obvious contribution of the Sun and zodiacal light, the phenomenon of gegenschein can be observed in the middle of the plot. Although this is the points where target asteroids are at their brightest, it is also a point of increased background flux. The values as tabulated by \cite{LightOfTheNightSky} are only valid at a distance from the Sun of $1~\mathrm{AU}$. \cite{SkyBrightness} offer a correction factor for changing heliocentric position of the observer as follows:
 \begin{equation}
  F(R) = F_{1~\mathrm{AU}}R^{-2.3}
+ \label{eq:sunscale}
 \end{equation}
 This correction factor accounts for both the approximate decrease in interplanetary dust density when moving away from the Sun, as well as the decrease in solar flux. With these components, the Sun-dependent portion of the background signal is fully available for modelling. \\
 
