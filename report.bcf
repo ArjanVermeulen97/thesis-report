@@ -2844,80 +2844,49 @@
     <bcf:citekey order="31">ThesisOlga</bcf:citekey>
     <bcf:citekey order="32">Flyeye</bcf:citekey>
     <bcf:citekey order="33">2017NEOSDT</bcf:citekey>
-    <bcf:citekey order="34">PopulationGranvik</bcf:citekey>
-    <bcf:citekey order="35">PopulationHarris</bcf:citekey>
-    <bcf:citekey order="36">PopulationGranvik</bcf:citekey>
-    <bcf:citekey order="37">PopulationHarris</bcf:citekey>
-    <bcf:citekey order="38">IRDust</bcf:citekey>
-    <bcf:citekey order="39">IRDust</bcf:citekey>
-    <bcf:citekey order="40">LightOfTheNightSky</bcf:citekey>
-    <bcf:citekey order="41">LightOfTheNightSky</bcf:citekey>
-    <bcf:citekey order="42">SkyBrightness</bcf:citekey>
-    <bcf:citekey order="43">IRDust</bcf:citekey>
-    <bcf:citekey order="44">LightOfTheNightSky</bcf:citekey>
-    <bcf:citekey order="45">StarRemoval</bcf:citekey>
-    <bcf:citekey order="46">PopulationGranvik</bcf:citekey>
-    <bcf:citekey order="47">AsteroidSTM</bcf:citekey>
-    <bcf:citekey order="48">AsteroidNEATM</bcf:citekey>
-    <bcf:citekey order="49">2003NEOSDT</bcf:citekey>
-    <bcf:citekey order="50">2003NEOSDT</bcf:citekey>
+    <bcf:citekey order="34">GranvikPopulation</bcf:citekey>
+    <bcf:citekey order="35">GranvikPopulation</bcf:citekey>
+    <bcf:citekey order="36">HarrisPopulation</bcf:citekey>
+    <bcf:citekey order="37">HarrisPopulation</bcf:citekey>
+    <bcf:citekey order="38">GranvikPopulation</bcf:citekey>
+    <bcf:citekey order="39">HarrisPopulation</bcf:citekey>
+    <bcf:citekey order="40">IRDust</bcf:citekey>
+    <bcf:citekey order="41">IRDust</bcf:citekey>
+    <bcf:citekey order="42">LightOfTheNightSky</bcf:citekey>
+    <bcf:citekey order="43">LightOfTheNightSky</bcf:citekey>
+    <bcf:citekey order="44">SkyBrightness</bcf:citekey>
+    <bcf:citekey order="45">IRDust</bcf:citekey>
+    <bcf:citekey order="46">LightOfTheNightSky</bcf:citekey>
+    <bcf:citekey order="47">StarRemoval</bcf:citekey>
+    <bcf:citekey order="48">GranvikPopulation</bcf:citekey>
+    <bcf:citekey order="49">AsteroidSTM</bcf:citekey>
+    <bcf:citekey order="50">AsteroidNEATM</bcf:citekey>
     <bcf:citekey order="51">2003NEOSDT</bcf:citekey>
-    <bcf:citekey order="52">2017NEOSDT</bcf:citekey>
-    <bcf:citekey order="53">2017NEOSDT</bcf:citekey>
-    <bcf:citekey order="54">DetectionAndTracking</bcf:citekey>
-    <bcf:citekey order="55">StarRemoval</bcf:citekey>
-    <bcf:citekey order="56">OpNav</bcf:citekey>
-    <bcf:citekey order="57">Cadence</bcf:citekey>
-    <bcf:citekey order="58">2017NEOSDT</bcf:citekey>
-    <bcf:citekey order="59">Curtis</bcf:citekey>
-    <bcf:citekey order="60">OpNav</bcf:citekey>
-    <bcf:citekey order="61">DetectionAndTracking</bcf:citekey>
-    <bcf:citekey order="62">2017NEOSDT</bcf:citekey>
-    <bcf:citekey order="63">ShortArcs</bcf:citekey>
+    <bcf:citekey order="52">2003NEOSDT</bcf:citekey>
+    <bcf:citekey order="53">2003NEOSDT</bcf:citekey>
+    <bcf:citekey order="54">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="55">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="56">DetectionAndTracking</bcf:citekey>
+    <bcf:citekey order="57">StarRemoval</bcf:citekey>
+    <bcf:citekey order="58">OpNav</bcf:citekey>
+    <bcf:citekey order="59">Cadence</bcf:citekey>
+    <bcf:citekey order="60">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="61">Curtis</bcf:citekey>
+    <bcf:citekey order="62">OpNav</bcf:citekey>
+    <bcf:citekey order="63">DetectionAndTracking</bcf:citekey>
     <bcf:citekey order="64">2017NEOSDT</bcf:citekey>
-    <bcf:citekey order="65">AIImage</bcf:citekey>
-  </bcf:section>
-  <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="apa">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">groupauthor</bcf:sortitem>
-      <bcf:sortitem order="4">editor</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">pubstate</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-      <bcf:sortitem literal="1" order="3">-2000000000</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="7">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
-  <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="apa/global//global/global"
-                type="entry"
-                sortingtemplatename="apa"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-</bcf:controlfile>
+    <bcf:citekey order="65">ShortArcs</bcf:citekey>
+    <bcf:citekey order="66">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="67">AIImage</bcf:citekey>
+    <bcf:citekey order="68">GranvikPopulation</bcf:citekey>
+    <bcf:citekey order="69">KeplerEquation</bcf:citekey>
+    <bcf:citekey order="70">LightOfTheNightSky</bcf:citekey>
+    <bcf:citekey order="71">IRDust</bcf:citekey>
+    <bcf:citekey order="72">ThesisOlga</bcf:citekey>
+    <bcf:citekey order="73">NEOCam</bcf:citekey>
+    <bcf:citekey order="74">GaussianTanh</bcf:citekey>
+    <bcf:citekey order="75">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="76">Surrogate</bcf:citekey>
+    <bcf:citekey order="77">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="78">ThesisOlga</bcf:citekey>
+    <bcf:citekey order="79">ThesisOlga</bcf:citekey>

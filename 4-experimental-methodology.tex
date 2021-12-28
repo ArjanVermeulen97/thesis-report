@@ -59,8 +59,22 @@ This essentially approximates Planck's law as a linear function in the domain. I
 \begin{equation}
  F(x) = R^2\int_{-\pi/2}^{\pi/2}\int_{-\pi/2}^{\pi/2} f(x) \cos \theta \cos \phi d \theta d \phi
 \end{equation}
-This integration was implemented through a Riemann sum as well, using the midpoint rule and an interval of $\pi/4$ for both directions, resulting in a total of 16 evaluations. It was found that the error with respect to a very precise integration was less than 1\%. Examples of the implementation can be seen in FIGUREEEE
+This integration was implemented through a Riemann sum as well, using the midpoint rule and an interval of $\pi/4$ for both directions, resulting in a total of 16 evaluations. It was found that the error with respect to a very precise integration was less than 1\%. Examples of the signal resulting from the implementation can be seen in \autoref{fig:visual_signal_implementation} for the visual wavelengths and \autoref{fig:thermal_signal_implementation} for the thermal infrared spectrum.
 
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.7\textwidth]{img/implementation_vis_signal.png}
+ \caption{Signal in the visual light spectrum of a $H=20, p_v=0.14$ asteroid in a $1~\mathrm{AU}$ circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly}
+ \label{fig:visual_signal_implementation}
+\end{figure}
+
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.7\textwidth]{img/implementation_tir_signal.png}
+ \caption{Signal in the thermal infrared spectrum of a $H=20, p_v=0.14$ asteroid in a $1~\mathrm{AU}$ circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly}
+ \label{fig:thermal_signal_implementation}
+\end{figure}
 
 \subsection{Search Strategy and Cadence}
 Implementation of the search strategy and cadence proved to be the most problematic aspect in the implementation process. As mentioned in \autoref{sec:modelling_cadence}, very little literature exists on the topic, and no methods have been developed to obtain an optimal search strategy utilizing multiple spacecraft. Several options were considered to model the strategy and resulting cadence. Firstly, a method omitting implementation, instead performing a correction ex post, such as utlized by \cite{ThesisOlga}. This method was expected to underrepresent the effect of a distinct survey cadence, and introduces a look-ahead bias which would both be very problematic for the acccuracy of the results of this simulation. Secondly, explicitly modelling a north-to-south, west-to-east gridsearch-like strategy such as described by \cite{NEOCam}. Although this model would arguably be the most accurate, it is very impactful with respect to the computational load, for three reasons:

@@ -1,13 +1,172 @@
-\chapter{Results}
+\chapter{Results and Discussion}
+The research process resulted in numerous interesting findings, with implications both for understanding the behavior of the system, as well as for future design efforts considering multi-spacecraft surveys. These results will be presented and discussed in this chapter. Firstly, the effect of increasing or decreasing the number of spacecraft is discussed in \autoref{sec:results_number}. Then, possible payload compositions are assessed in \autoref{sec:results_payload}. Afterwards, the system's orbital elements, and how these are affected by the composition of the system, will be given discourse in \autoref{sec:results_orbits_one} and \autoref{sec:results_orbits_two} for spacecraft in identicial and differing trajectories, respectively. To aid in the interpretation of these results, a possible explanation for the underlying principle is presented in \autoref{sec:results_explanation}. Finishing the discussion, in \autoref{sec:results_performance}, predictions will be made with respect to the performance of an optimal multi-spacecraft survey system, and the impact on future design efforts will be discussed.
 
 \section{Number of Spacecraft}
+\label{sec:results_number}
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=1.0\textwidth]{img/number_sc_vis.png}
+ \caption{Improvement in survey completeness gained by increasing the number of spacecraft in a purely visual light wavelength system. The left graph shows the improvement of an $n$-spacecraft system with respect to a system of a single spacecraft, the right graph shows the improvement of an $n$-spacecraft system with respect to an $n-1$-spacecraft system.}
+ \label{fig:results_number_vis}
+\end{figure}
+
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=1.0\textwidth]{img/number_sc_tir.png}
+ \caption{Improvement in survey completeness gained by increasing the number of spacecraft in a purely thermal infrared wavelength system. The left graph shows the improvement of an $n$-spacecraft system with respect to a system of a single spacecraft, the right graph shows the improvement of an $n$-spacecraft system with respect to an $n-1$-spacecraft system.}
+ \label{fig:results_number_tir}
+\end{figure}
+
+As explained previously, the number of spacecraft in the system is a parameter that does not have an optimum with respect to the obtained survey completeness: adding additional spacecraft will logically never degrade the performance of the system. However, in practice other constraints (primarily economical) will be present. Therefore, the increase in performance resulting from such an increased investment is of particular interest. \autoref{fig:results_number_vis} and \autoref{fig:results_number_tir} show the performance increase obtained as a function of the number of spacecraft, for the visual spectrum and thermal infrared, respectively. Several observations can be made, which will be listed and subsequently discussed below.\\
+
+Firstly, significant diminishing returns present themselves for both spectra; the additional value of an extra spacecraft decreases exponentially with the number of spacecraft already present in the system. Performance increases gained per additional spacecraft fall to around 5\% when surpassing 5 spacecraft in the system. Beyond 10 spacecraft, the increases start to fall below the variance in the results, leading to the appearance that addition of spacecraft would yield a decrease in performance, which is logically not the case. This means that, although large initial improvements in performance can be gained from utilizing a multi-spacecraft system, simply increasing the number of survey spacecraft can not bring us arbitrarily close to 100\% survey completeness; when increasing beyond approximately 5 spacecraft, it is recommended to focus efforts on improving other areas of the system for the mission to remain efficient. \\
+
+This fact compounds the second finding: even the most efficient addition - adding a second spacecraft to a single spacecraft survey system - does not come close to increasing the system performance by 100\%. In other words: increasing the number of spacecraft will \textit{decrease} the number of asteroids detected \textit{per spacecraft}. While this finding might seem irrelevant from a mission design point-of-view, as the overall performance still increases, it is nevertheless important to consider in the context of other mission constraints, such as budget. \\
+
+The third result is that thermal infrared systems feature a larger relative improvement to survey performance as the number of spacecraft increases, i.e. thermal infrared systems benefit more from additional spacecraft. This trend continues for higher numbers of spacecraft, with thermal infrared systems reaching a 100\% improvement around 7-8 spacecraft, compared to visual light systems requiring 15-16 spacecraft to achieve a similar performance gain. This, combined with the fact that thermal infrared systems have been shown to be the best choice for future NEA missions (see e.g. \cite{2017NEOSDT}, \cite{ThesisOlga}), suggests a multi-spacecraft system should also comprise thermal infrared telescopes. This will be investigated in more detail in \autoref{sec:results_payload}.\\
+
+Finally, it is evident that a variance of around 1-2\% is present in the survey performance results, relative to a smooth exponentially decreasing curve. It was found that this variance is also present when repeatedly sampling the simulation using the same input parameters. Therfore, in these and subsequent results, it will be assumed that this is simply a result of the stochasticity in the model. Possible other explanations will be ruled out further in REFF.
 
 \section{Payload}
+\label{sec:results_payload}
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.7\textwidth]{img/tir_vs_vis_many.png}
+ \caption{Comparison of relative increase in performance gained relative to a single spacecraft system for visual and thermal infrared systems.}
+ \label{fig:tir_vs_vis_many}
+\end{figure}
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=1.0\textwidth]{img/tir_vs_vis_1_5.png}
+ \caption{Progress of survey completeness over a five year survey for a 1-spacecraft and 5-spacecraft system, comparing visual light and thermal infrared.}
+ \label{fig:tir_vs_vis_nohybrid}
+\end{figure}
+
+
+As mentioned in the previous section, initial result suggest thermal infrared systems to be the optimal choice for multi-spacecraft systems because of their predicted higher performance in single-spacecraft systems, and higher benefit from increasing the number of spacecraft. The latter effect is shown in \autoref{fig:tir_vs_vis_many}. In this section, the payload composition will be investigated in more detail. Particular interest is placed in the effect of survey length - as visual light systems feature a faster cadence - and in possible synergistic effects in systems featuring both visual light and thermal infrared telescopes. When interpreting the results of this chapter, it is important to keep in mind the fact that these simulations were carried out assuming contemporary hardware. Advances in either type of telescope or sensor might warrant a future reassessment.\\
+
+Firstly, the performances for systems featuring only one payload type were modelled. For comparison, this analysis was carried out for a 1-spacecraft and a 5-spacecraft system. Because, as shown in the previous section, the payload types exhibit similar behavior when the number of spacecraft is altered, this was assumed to be representative of other numbers of spacecraft as well. The resulting survey performance as a function of time can be seen in \autoref{fig:tir_vs_vis_nohybrid}. Note that, contrary to previous figures, these graphs show the \textit{absolute} survey completeness, not the completeness relative to a benchmark. In the results, it can be observed that initially, the visual light system features a higher completeness due to its faster cadence. However, the thermal infrared system quickly surpasses it as time progresses. This means that the faster cadence granted by the lower integration times and larger sensor sizes of the visual light system does not weight up to the increased sensitivity of the thermal infrared system on the timescales of survey missions; not only is the final survey completeness more than 10\% higher for a thermal infrared system, it also manages to achieve the same performance as a 5-year visual light survey in only a single year in both examined cases. This agrees with the findings of \cite{ThesisOlga} that for systems where quick detections are important, such as impact last-warning, thermal infrared is also a superior option. \\
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/tir_vs_vis_2_hybrid.png}
+ \caption{Progress of survey completeness over a five year survey for all possible payload combinations in a 2-spacecraft system.}
+ \label{fig:payload_hybrid_one}
+\end{figure}
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/tir_vs_vis_4_hybrid.png}
+ \caption{Progress of survey completeness over a five year survey for all possible payload combinations in a 4-spacecraft system.}
+ \label{fig:payload_hybrid_two}
+\end{figure}
+
+In continuation of the payload analysis, systems utilizing a combination of visual light and thermal infrared telescopes were examined. The reasoning is that the higher sensitivity of thermal infrared systems combined with the higher cadence of visual light systems might result in a synergistic effect where fast, hard to detect NEA's can still be identified successfully. However, as can be seen from the results for 2- and 4-spacecraft systems in \autoref{fig:payload_hybrid_one} and \autoref{fig:payload_hybrid_two}, respectively, this is not the case. A system comprising purely infrared telescopes yields the best results, and performance increases progressively as the number of thermal infrared telescopes in the system increases. This means that in general thermal infrared is the preferred payload type for deep space multi-spacecraft systems. Note however that this assertion is made under the assumption of a ``dumb'' search strategy, where the system simply repeatedly images the entire sky. Possible applications of fast visual light telescopes as ``follow-up'' telescopes - as demonstrated by the Catalina Sky Survey - might still be a feasible option, although this would first require research into such advanced search strategies.
 
 \section{Orbital Elements I: Co-orbital Spacecraft}
+\label{sec:results_orbits_one}
+Next, the orbital elements of the system are inspected. This is done both to find what the effect is of the orbital elements on the performance, but also how the payload and number of spacecraft affect the optimal orbital elements of the system. To facilitate analysis, and to later judge the results of the optimizer more accurately, the orbits are first analysed for a system of co-orbital spacecraft. That is, all orbital elements, except for the anomaly at epoch, are the same for all spacecraft. In addition, the separation in anomalies of the spacecraft is the same for all spacecraft. This was done to vastly reduce the parameter space, and to reduce accidental overfitting to the population model. The latter follows from the fact that, logically, only the angular distance between the spacecraft should influence the result, not the absolute starting position, as the NEA's are distributed in a radially symmetrical fashion. I.e., a system with two spacecraft at mean anomaly at epoch $0$ and $\pi$ should give the same result as starting at $\pi/2$ and $3\pi/2$, only the inter-spacecraft distance is relevant.\\
+
+\subsection{Semi-major axis}
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/vis_semi_maj.png}
+ \caption{Visual light survey performance as a function of semi-major axis for 1 to 5 spacecraft.}
+ \label{fig:vis_semi_maj}
+\end{figure}
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/tir_semi_maj.png}
+ \caption{Thermal infrared survey performance as a function of semi-major axis for 1 to 5 spacecraft.}
+ \label{fig:tir_semi_maj}
+\end{figure}
+
+In \autoref{fig:vis_semi_maj}, the expected survey performance as a function of semi-major axis is shown for visual light systems, and in \autoref{fig:tir_semi_maj} for thermal infrared systems. Contrary to the number of spacecraft, it is clear that the semi-major axis has an optimal value. In addition, the region surrounding the optimum is very flat. Thus, locally, the solution is not sensitive to changes in semi-major axis up to a distance of approximately $0.1~\mathrm{AU}$ from the optimum. Two important conclusions are drawn here: Firstly, a wide range of semi-major axes lead to a well performing system. Secondly, due to the variance in results discussed earlier, it is difficult to pinpoint an exact optimal value. Therefore, in mission design, other considerations can and should be prioritized to determine a more precise semi-major axis. \\
+
+The second factor of note is the change in the optimal semi-major axis as the number of spacecraft increases. It can be observed that for visual light systems, the optimal semi-major axis is essentially unchanging for $n \leq 5$. However, for thermal infrared systems, there is clearly an increase in optimal semi-major axis as $n$ increases. This is further illustrated in \autoref{fig:semi_maj_function_of_n}, where the optimal semi-major axis is given as a function of the number of spacecraft explicitly. Here, it can be observed that the optimizer indeed has difficulty pinpointing the exact optimum, but instead finishes on a value somewhere in the optimal range. In addition, the semi-major axis becomes larger for higher numbers of spacecraft for thermal infrared systems. For visual light systems at higher numbers of spacecraft this also starts to occur. An explanation for this phenomenon is proposed in \autoref{sec:results_explanation}.
+
+TO DO: Getallen noemen.
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/semi_maj_function_of_n.png}
+ \caption{Optimal semi-major axis as a function of the number of spacecraft in the system.}
+ \label{fig:semi_maj_function_of_n}
+\end{figure}
+
+
+
+\subsection{Eccentricity}
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/vis_ecc.png}
+ \caption{Visual light survey performance as a function of eccentricity for 1 to 5 spacecraft.}
+ \label{fig:vis_ecc}
+\end{figure}
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/tir_ecc.png}
+ \caption{Thermal infrared survey performance as a function of eccentricity for 1 to 5 spacecraft.}
+ \label{fig:tir_ecc}
+\end{figure}
+
+Results with regards to varying the eccentricity are shown in \autoref{fig:vis_ecc} for visual light systems and \autoref{fig:tir_ecc} for thermal infrared systems. It is readily apparent that for both systems, a circular orbit is preferred. It is hypothesized that this is the case because eccentricity causes the system to deviate from the optimal semi-major axis found in the previous subsection. This is further supported by the empirical finding that the optimal semi-major axis at a given eccentricity results in an apohelion distance roughly equal to the optimal semi-major axis at 0 eccentricity. That is:
+\begin{equation}
+ a_{opt}(e) \approx \frac{a_{opt}(0)}{1+e}
+\end{equation}
+This is further illustrated in \autoref{fig:eccentricity_optimal}. This result is theorized to occur because the spacecraft will, in this solution, still spend a large portion of its orbit in the optimal semi-major axis range. However, not enough data are available to ascertain statistical significance for this finding.
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=1.0\textwidth]{img/eccentricity_optimal.png}
+ \caption{Relationship between optimal semi-major axis, eccentricity, and the resulting perihelion for 1-5 spacecraft.}
+ \label{fig:eccentricity_optimal}
+\end{figure}
+
+
+\subsection{Mean Anomaly at Epoch}
+\begin{figure}
+ \centering
+ \includegraphics[width=1.0\textwidth]{img/spread_illustration.png}
+ \caption{Illustration of a high ($2\pi/5~\mathrm{rad}$ and a low ($0.3~\mathrm{rad}$) inter-spacecraft distance.}
+ \label{fig:spread_illustration}
+\end{figure}
+
+The last parameter to be considered for the co-orbital solutions is the mean anomaly at epoch. As previously explained, the mean anomaly will not be considered for each spacecraft separately. Instead, the concept of inter-spacecraft spread is introduced. This inter-spacecraft spread is simply defined as the difference in anomaly at epoch of one spacecraft to the next, in such a way that the formation is centered around $\theta=0$. This means that, with inter-spacecraft spread $\Delta \theta$, the mean anomaly at epoch $\theta$ of spacecraft $n$ in a system of $N$ spacecraft is:
+\begin{equation}
+ \theta_n = (n-1) \cdot \Delta \theta - \frac{N-1}{2}\Delta \theta
+\end{equation}
+This equation and the resulting formation is shown in \autoref{fig:spread_illustration}. A lower boundary of 0.3 rad was chosen to ensure triangulation would remain possible. In addition, to maintain the separation between all spacecraft, the full formation can not span more than $2\pi$ rad. This results in the boundaries $0.3 \leq \Delta \theta \leq 2\pi/N$. The hypothesized effect of changing the spread is composed of two effects: On the one hand, spreading out the spacecraft more allows for viewing a larger portion of the sky simultaneously, and reduces blind spots, as explained in REFFF. On the other hand, as spacecraft are closer together, the chances of obtaining a simultaneous detection of the same asteroid - and thereby achieving triangulation - is increased, thereby leading to a faster detection.\\
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/vis_spread.png}
+ \caption{Visual light survey performance as a function of angular separation between spacecraft for 1 to 5 spacecraft.}
+ \label{fig:vis_spread}
+\end{figure}
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{img/tir_spread.png}
+ \caption{Thermal infrared survey performance as a function of angular separation between spacecraft for 1 to 5 spacecraft.}
+ \label{fig:tir_spread}
+\end{figure}
+
+Results for visual light and thermal infrared are shown in \autoref{fig:vis_spread} and \autoref{fig:tir_spread}, respectively. It is observed that an increase in the angular distance between the spacecraft will increase the performance of the system. Therefore, the effect of observing a larger part of the sky effectively is stronger than the increased chance at succesful triangulation. Practically, this implies that a multi-spacecraft survey should aim to distribute the spacecraft as much as possible over the orbit, even if e.g. communications requirements do not allow the system to be spread out over the entire orbit.
 
 \section{Orbital Elements II: Non Co-orbital Spacecraft}
+\label{sec:results_orbits_two}
+
 
 \section{Explanation of Observed Phenomena}
+\label{sec:results_explanation}
+
 
 \section{Predicted Performance and Implications for Missions Design}
+\label{sec:results_performance}
