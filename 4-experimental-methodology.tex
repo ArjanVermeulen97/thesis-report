@@ -64,7 +64,7 @@ This integration was implemented through a Riemann sum as well, using the midpoi
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.7\textwidth]{img/implementation_vis_signal.png}
- \caption{Signal in the visual light spectrum of a $H=20, p_v=0.14$ asteroid in a $1~\mathrm{AU}$ circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly}
+ \caption{Signal in the visual light spectrum of a $H=15, 20, 25; p_v=0.14$ asteroid in a $1~\mathrm{AU}$ circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly}
  \label{fig:visual_signal_implementation}
 \end{figure}
 
@@ -72,7 +72,7 @@ This integration was implemented through a Riemann sum as well, using the midpoi
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.7\textwidth]{img/implementation_tir_signal.png}
- \caption{Signal in the thermal infrared spectrum of a $H=20, p_v=0.14$ asteroid in a $1~\mathrm{AU}$ circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly}
+ \caption{Signal in the thermal infrared spectrum of a $H=15, 20, 25; p_v=0.14$ asteroid in a $1~\mathrm{AU}$ circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly}
  \label{fig:thermal_signal_implementation}
 \end{figure}
 
@@ -129,6 +129,16 @@ Surrogate functions considered were firstly various machine learning regression 
 In \autoref{fig:bayesian_opt}, a schematic representation of the process of Bayesian optimization can be seen. Firstly, a few arbitrary points are sampled on the function. This is done in order to be able to fit a Gaussian probability estimation to the function using the process of kriging. This results in the situation shown in \textit{step 1} in the figure. From the probability estimation, the surrogate model (shown at the bottom) is then determined. The algorithm samples the point which optimizes the surrogate model, and uses it to obtain a new proability estimation, \textit{step 2}. At step 2, the process is repeated, leading to step 3. It can be seen that at this point, the estimation is already close to the global optimum. \\
 
 In practice this model will be more complex, and therefore requires more evaluations to reach the optimum. This becomes especially apparent as the dimensionality of the problem increases: as the sparseness of the solution space increases, fitting a meaningful Gaussian probability estimate naturally becomes more difficult. A bigger problem, however, is the presence of noise in the function. Due to the random selection of asteroids and the probabilistic nature of the detection model, some noise is to be expected in the results. During the optimization process, care will have to be taken to ensure that the optimizer does not attempt to exploit the noise in the function, as this will lead to an overfit. \\
+
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=1.0\textwidth]{img/validation_example.png}
+ \caption{Example of a system which learns well, and a system which learns poorly, overfitting instead.}
+ \label{fig:validation_example}
+\end{figure}
+
+Such \textit{overfit} can be examined by performing a validation calculation at set points during the optimization process. This will provide two sets of survey performance values: the \textit{learning} value, which is the performance predicted by the optimizer, and the \textit{validation} value, which is the performance obtained by evaluating the solution found by the optimizer against an independent dataset. In case the optimizer is learning well, an increase in learning performance will also result in an increase in validation performance. This implies the optimizer has found a feature which is really relevant to the model performance. Alternatively, if the learning performance increases, but the validation performance either stays constant, or even decreases, it means the system is overfitting: the optimizer is attempting to exploit the noise in the signal. An example of this can be seen in \autoref{fig:validation_example}.\\
+
 
 In the case of severe overfitting, such as might occur when a highly dimensional solution is required, a backup method is to use a method based on a random search. This method is extremely simple: throughout the entire solution space, points are uniformly sampled. Then, after a sufficient number of iterations, this process is repeated on a smaller space around the found optimum (this starts a new optimization cycle, essentially ``resetting'' the overfit), to find a more precise optimum. This can then be repeated a number of times to obtain the global optimum. Although slow and seamingly unelegant, this method has the benefit that it is largely independent of the function itself, and therefore is not prone to overfitting or getting stuck in a local minimum.
 
