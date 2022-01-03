@@ -64,7 +64,7 @@
 \RequirePackage{xcolor}
 \RequirePackage{xkeyval}
 \RequirePackage[export]{adjustbox}
-\def\@largetitlesize{96pt}
+\def\@largetitlesize{48pt}
 
 \ifxetex
     %% If the document is compiled with XeLaTeX, we load the TU Delft house
@@ -436,7 +436,7 @@
           \node at (front top left)[anchor=north west,inner sep=\@cover@margin]{
              \begin{minipage}[t][\@cover@fronttextheight]{\@cover@fronttextwidth}
                  %% Print the title and optional subtitle at the top in white.
-                   {\titlefont\color{\@titlecolor}\fontsize{58}{58}\selectfont\@title}
+                   {\titlefont\color{\@titlecolor}\fontsize{36}{36}\selectfont\@title}
                     \ifx\@subtitle\undefined\else
 %                     \\[3mm]
                      \vfill
@@ -446,7 +446,7 @@
                  %% Print the author.
                    \vfill
                   
-                   {\titlefont\color{\@authorcolor}\fontsize{52}{52}\selectfont\@author}
+                   {\titlefont\color{\@authorcolor}\fontsize{24}{24}\selectfont\@author}
                    \ifx\@cover@text\undefined\else
                      \vfill
                      
@@ -472,7 +472,7 @@
           %% Draw the front box in black.
   %        \fill[fill=tudelft-black](front top left) rectangle (front bottom right);
           %% Calculate the width and height of the front text box.
-          \setlength\@cover@fronttextwidth{\@cover@frontboxwidth}
+          \setlength\@cover@fronttextwidth{\@cover@frontboxwidth + 3cm}
           \addtolength\@cover@fronttextwidth{-2\@cover@margin}
           \setlength\@cover@fronttextheight{\@cover@frontboxheight}
           \addtolength\@cover@fronttextheight{-2\@cover@margin}
@@ -480,16 +480,22 @@
           \node at (front top left)[anchor=north west,inner sep=\@cover@margin]{
               \begin{minipage}[t][\@cover@fronttextheight]{\@cover@fronttextwidth}
                   %% Print the title and optional subtitle at the top in white.
-                  {\largetitlestyle\color{\@titlecolor}\fontsize{96}{96}\selectfont\@title}
+                  {\largetitlestyle\color{\@titlecolor}\fontsize{36}{36}\selectfont\@title}
   %                {\tudsffamily\color{\@titlecolor}\fontsize{96}{96}\selectfont\@title}
                   \ifx\@subtitle\undefined\else
                       \\[3mm]
                       {\tudsffamily\color{\@subtitlecolor}\fontsize{22}{32}\selectfont\@subtitle}
                   \fi
+                  \ifx\@cover@text\undefined\else
+                     \vfill
+                     \vspace{0.3cm}
+                     {\titlefont\color{\@covertextcolor}\fontsize{18}{18}\selectfont\@cover@text}
+                     \vspace{1cm}
+                   \fi
                   %% Print the author at the bottom in cyan.
                   \vfill
   %                {\tudtitlefamily\color{\@authorcolor}\fontsize{26}{26}\selectfont\@author}
-                  {\largetitlestyle\color{\@authorcolor}\fontsize{26}{26}\selectfont\@author}
+                  {\largetitlestyle\color{\@authorcolor}\fontsize{24}{24}\selectfont\@author}
               \end{minipage}
           };
           %% Draw the back box in cyan.

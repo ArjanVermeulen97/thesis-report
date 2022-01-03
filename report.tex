@@ -10,6 +10,7 @@
 
 \widowpenalties 1 10000
 \raggedbottom
+\setcounter{tocdepth}{1}
 
 \begin{document}
 
@@ -18,43 +19,27 @@
 \frontmatter
 
 %% Uncomment following 19 lines for a cover with a picture on the lower half only
-%\title[tudelft-white]{Title}
-%\subtitle[tudelft-cyan]{Optional subtitle}
-%\author[tudelft-white]{J.\ Random Author}
-%\affiliation{Technische Universiteit Delft}
-%\coverimage{cover.jpg}
+\title[tudelft-white]{Identification of Near-Earth Asteroids using Multi-Spacecraft Systems}
+\author[tudelft-white]{J. G. P. Vermeulen}
+\affiliation{Technische Universiteit Delft}
+\coverimage{img/cover.png}
 %\titleoffsetx{10cm}
-%\titleoffsety{10cm}
+\titleoffsety{10cm}
 %\afiloffsetx{1cm}
-%\afiloffsety{18cm}
-%\covertext[tudelft-white]{
-%    \textbf{Cover Text} \\
-%    possibly \\
-%    spanning 
-%    multiple 
-%    lines
-%    \vfill
-%    ISBN 000-00-0000-000-0
-%}
-%\makecover
+\afiloffsety{18cm}
+\covertext[tudelft-white]{
+    \textbf{Master Thesis}}
+\makecover
 
 %% Uncomment following 16 lines for a cover with a picture on the lower half only
-\title[tudelft-white]{Title}
-\subtitle[tudelft-black]{Optional subtitle}
-\author[tudelft-white]{J.\ Random Author}
-\affiliation{Technische Universiteit Delft}
-\coverimage{tank.jpg}
-\covertext[tudelft-white]{
-    \textbf{Cover Text} \\
-    possibly \\
-    spanning 
-    multiple 
-    lines
-    \vfill
-    ISBN 000-00-0000-000-0
-}
-\setpagecolor{tudelft-cyan}
-\makecover[split]
+%\title[tudelft-white]{Identification of Near-Earth Asteroids using Multi-Spacecraft Systems}
+%\author[tudelft-white]{J. G. P. Vermeulen}
+%\affiliation{Technische Universiteit Delft}
+%\coverimage{img/cover.png}
+%\covertext[tudelft-white]{
+%}
+%\setpagecolor{tudelft-cyan}
+%\makecover[split]
 
 
 %% Include an optional title page.
@@ -62,10 +47,19 @@
 
 \input{preface}
 
+\input{0-summary.tex}
+
 \tableofcontents
 
 %% Use Arabic numerals for the page numbers of the chapters.
 \mainmatter
+
+\hypersetup{
+    colorlinks = true,
+    citecolor = tudelft-cyan,
+    linkcolor = tudelft-cyan,
+    urlcolor = tudelft-cyan
+}
 
 \input{1-introduction-and-background.tex}
 \newpage
@@ -85,9 +79,11 @@
 %% Use letters for the chapter numbers of the appendices.
 \appendix
 
+\printbibliography
+
 \input{a-verification-validation.tex}
 
-\printbibliography
+
 
 \end{document}
 

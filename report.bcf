@@ -2890,6 +2890,31 @@
     <bcf:citekey order="77">2017NEOSDT</bcf:citekey>
     <bcf:citekey order="78">ThesisOlga</bcf:citekey>
     <bcf:citekey order="79">ThesisOlga</bcf:citekey>
+    <bcf:citekey order="80">HarrisPopulation</bcf:citekey>
+    <bcf:citekey order="81">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="82">2003NEOSDT</bcf:citekey>
+    <bcf:citekey order="83">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="84">AsteroidNEATM</bcf:citekey>
+    <bcf:citekey order="85">AsteroidNEATM</bcf:citekey>
+    <bcf:citekey order="86">IRDust</bcf:citekey>
+    <bcf:citekey order="87">IRDust</bcf:citekey>
+    <bcf:citekey order="88">IRDust</bcf:citekey>
+    <bcf:citekey order="89">IRDust</bcf:citekey>
+    <bcf:citekey order="90">IRDust</bcf:citekey>
+    <bcf:citekey order="91">IRDust</bcf:citekey>
+    <bcf:citekey order="92">IRDust</bcf:citekey>
+    <bcf:citekey order="93">Curtis</bcf:citekey>
+    <bcf:citekey order="94">GranvikPopulation</bcf:citekey>
+    <bcf:citekey order="95">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="96">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="97">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="98">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="99">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="100">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="101">2017NEOSDT</bcf:citekey>
+    <bcf:citekey order="102">GranvikPopulation</bcf:citekey>
+    <bcf:citekey order="103">HarrisPopulation</bcf:citekey>
+    <bcf:citekey order="104">LiteratureReview</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

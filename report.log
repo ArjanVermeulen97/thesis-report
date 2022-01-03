@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.29)  30 DEC 2021 11:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  3 JAN 2022 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -16,15 +16,15 @@ Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
 (c:/texlive/2021/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count179
-\c@chapter=\count180
-\c@section=\count181
-\c@subsection=\count182
-\c@subsubsection=\count183
-\c@paragraph=\count184
-\c@subparagraph=\count185
-\c@figure=\count186
-\c@table=\count187
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -49,13 +49,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count188
+\inf@bad=\count184
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count189
-\leftroot@=\count190
+\uproot@=\count185
+\leftroot@=\count186
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count191
-\DOTSCASE@=\count192
+\classnum@=\count187
+\DOTSCASE@=\count188
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -64,15 +64,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count193
-\c@MaxMatrixCols=\count194
+\macc@depth=\count189
+\c@MaxMatrixCols=\count190
 \dotsspace@=\muskip16
-\c@parentequation=\count195
-\dspbrk@lvl=\count196
+\c@parentequation=\count191
+\dspbrk@lvl=\count192
 \tag@help=\toks16
-\row@=\count197
-\column@=\count198
-\maxfields@=\count199
+\row@=\count193
+\column@=\count194
+\maxfields@=\count195
 \andhelp@=\toks17
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
@@ -103,14 +103,15 @@ Package: babel 2021/04/07 3.57 The Babel package
 
 (c:/texlive/2021/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2021/04/07 3.57 Babel common definitions
-\babel@savecnt=\count266
+\babel@savecnt=\count196
 \U@D=\dimen148
 \l@babelnohyphens=\language87
 
-(c:/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+(c:/texlive/2021/texmf-dist/tex/generic/babel/xebabel.def
+(c:/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def))
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count267
+\bbl@dirlevel=\count197
 
 (c:/texlive/2021/texmf-dist/tex/generic/babel-dutch/dutch.ldf
 Language: dutch 2020/10/29 v3.8j Dutch support from the babel system
@@ -144,8 +145,8 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@hangindent=\dimen155
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count268
-\c@continuedfloat=\count269
+\c@caption@flags=\count198
+\c@continuedfloat=\count199
 )
 (c:/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
@@ -164,7 +165,7 @@ rs
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks21
 \footnotemargin=\dimen156
-\c@pp@next@reset=\count270
+\c@pp@next@reset=\count266
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -189,9 +190,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count271
-\Gm@cntv=\count272
-\c@Gm@tempcnt=\count273
+\Gm@cnth=\count267
+\Gm@cntv=\count268
+\c@Gm@tempcnt=\count269
 \Gm@bindingoffset=\dimen157
 \Gm@wd@mp=\dimen158
 \Gm@odd@mp=\dimen159
@@ -214,10 +215,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 105.
 
-(c:/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(c:/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen165
 \Gin@req@width=\dimen166
@@ -237,7 +238,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 )
 (c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -261,13 +262,11 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen167
-\Hy@linkcounter=\count274
-\Hy@pagecounter=\count275
+\Hy@linkcounter=\count270
+\Hy@pagecounter=\count271
 
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
 File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
@@ -279,12 +278,10 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count276
+\Hy@SavedSpaceFactor=\count272
 
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
@@ -293,7 +290,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count277
+\c@Hy@tempcnt=\count273
 
 (c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -309,7 +306,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count278
+\Fld@menulength=\count274
 \Field@Width=\dimen169
 \Fld@charsize=\dimen170
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -327,26 +324,33 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count279
-\c@Item=\count280
-\c@Hfootnote=\count281
+\Hy@abspage=\count275
+\c@Item=\count276
+\c@Hfootnote=\count277
 )
-Package hyperref Info: Driver: hpdftex.
+Package hyperref Info: Driver: hxetex.
 
-(c:/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
+
+(c:/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box49
+\c@Hy@AnnotLevel=\count278
+\HyField@AnnotCount=\count279
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
+
+(c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
 (c:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count282
-\c@bookmark@seq@number=\count283
-
-(c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
 (c:/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -354,6 +358,61 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip61
+)
+(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count282
+\l__color_backend_stack_int=\count283
+\g__color_backend_stack_int=\count284
+\g__graphics_track_int=\count285
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count286
+\g__pdf_backend_annotation_int=\count287
+\g__pdf_backend_link_int=\count288
+))
+(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
+(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count289
+\l__fontspec_language_int=\count290
+\l__fontspec_strnum_int=\count291
+\l__fontspec_tmp_int=\count292
+\l__fontspec_tmpa_int=\count293
+\l__fontspec_tmpb_int=\count294
+\l__fontspec_tmpc_int=\count295
+\l__fontspec_em_int=\count296
+\l__fontspec_emdef_int=\count297
+\l__fontspec_strong_int=\count298
+\l__fontspec_strongdef_int=\count299
+\l__fontspec_tmpa_dim=\dimen171
+\l__fontspec_tmpb_dim=\dimen172
+\l__fontspec_tmpc_dim=\dimen173
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(c:/texlive/2021/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+
+(c:/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(c:/texlive/2021/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
+ts
+\subsupersep=\dimen174
 )
 (c:/texlive/2021/texmf-dist/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
@@ -363,17 +422,22 @@ LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
 )
+\l__xetex_show_hyphens_wrapping_box=\box51
+\l__xetex_show_hyphens_temp_box=\box52
+\l__xetex_show_hyphens_final_box=\box53
+\g__xetex_show_hyphens_word_box=\box54
+)
 (c:/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen171
-\pgfutil@tempdimb=\dimen172
+\pgfutil@tempdima=\dimen175
+\pgfutil@tempdimb=\dimen176
 
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box49
+\pgfutil@abb=\box55
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -393,41 +457,46 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen173
-\pgf@y=\dimen174
-\pgf@xa=\dimen175
-\pgf@ya=\dimen176
-\pgf@xb=\dimen177
-\pgf@yb=\dimen178
-\pgf@xc=\dimen179
-\pgf@yc=\dimen180
-\pgf@xd=\dimen181
-\pgf@yd=\dimen182
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count284
-\c@pgf@countb=\count285
-\c@pgf@countc=\count286
-\c@pgf@countd=\count287
+\c@pgf@counta=\count300
+\c@pgf@countb=\count301
+\c@pgf@countc=\count302
+\c@pgf@countd=\count303
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
-\pgf@sys@id@count=\count288
+\pgf@sys@id@count=\count304
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-xetex.def
 
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
 
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)
+\pgfsys@objnum=\count305
 )))
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count289
-\pgfsyssoftpath@bigbuffer@items=\count290
+\pgfsyssoftpath@smallbuffer@items=\count306
+\pgfsyssoftpath@bigbuffer@items=\count307
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -437,9 +506,8 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: xetex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -455,9 +523,9 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen183
-\pgfmath@count=\count291
-\pgfmath@box=\box50
+\pgfmath@dimen=\dimen187
+\pgfmath@count=\count308
+\pgfmath@box=\box56
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
@@ -480,56 +548,56 @@ x)
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count292
+\c@pgfmathroundto@lastzeros=\count309
 ))
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen184
-\pgf@picmaxx=\dimen185
-\pgf@picminy=\dimen186
-\pgf@picmaxy=\dimen187
-\pgf@pathminx=\dimen188
-\pgf@pathmaxx=\dimen189
-\pgf@pathminy=\dimen190
-\pgf@pathmaxy=\dimen191
-\pgf@xx=\dimen192
-\pgf@xy=\dimen193
-\pgf@yx=\dimen194
-\pgf@yy=\dimen195
-\pgf@zx=\dimen196
-\pgf@zy=\dimen197
+\pgf@picminx=\dimen188
+\pgf@picmaxx=\dimen189
+\pgf@picminy=\dimen190
+\pgf@picmaxy=\dimen191
+\pgf@pathminx=\dimen192
+\pgf@pathmaxx=\dimen193
+\pgf@pathminy=\dimen194
+\pgf@pathmaxy=\dimen195
+\pgf@xx=\dimen196
+\pgf@xy=\dimen197
+\pgf@yx=\dimen198
+\pgf@yy=\dimen199
+\pgf@zx=\dimen256
+\pgf@zy=\dimen257
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen198
-\pgf@path@lasty=\dimen199
+\pgf@path@lastx=\dimen258
+\pgf@path@lasty=\dimen259
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen256
-\pgf@shorten@start@additional=\dimen257
+\pgf@shorten@end@additional=\dimen260
+\pgf@shorten@start@additional=\dimen261
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box51
-\pgf@hbox=\box52
-\pgf@layerbox@main=\box53
-\pgf@picture@serial@count=\count293
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count310
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen258
+\pgflinewidth=\dimen262
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen259
-\pgf@pt@y=\dimen260
-\pgf@pt@temp=\dimen261
+\pgf@pt@x=\dimen263
+\pgf@pt@y=\dimen264
+\pgf@pt@temp=\dimen265
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -543,20 +611,20 @@ File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen262
+\pgfarrowsep=\dimen266
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen263
-\pgf@sys@shading@range@num=\count294
-\pgf@shadingcount=\count295
+\pgf@max=\dimen267
+\pgf@sys@shading@range@num=\count311
+\pgf@shadingcount=\count312
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box54
+\pgfexternal@startupbox=\box60
 ))
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -572,7 +640,7 @@ File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
 x
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box55
+\pgfnodeparttextbox=\box61
 )
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -580,8 +648,8 @@ File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen264
-\pgf@nodesepend=\dimen265
+\pgf@nodesepstart=\dimen268
+\pgf@nodesepend=\dimen269
 )
 (c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -595,8 +663,8 @@ Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen266
-\pgffor@skip=\dimen267
+\pgffor@iter=\dimen270
+\pgffor@skip=\dimen271
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
 ))
@@ -606,33 +674,33 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count296
-\pgfplotmarksize=\dimen268
+\pgf@plot@mark@count=\count313
+\pgfplotmarksize=\dimen272
 )
-\tikz@lastx=\dimen269
-\tikz@lasty=\dimen270
-\tikz@lastxsaved=\dimen271
-\tikz@lastysaved=\dimen272
-\tikz@lastmovetox=\dimen273
-\tikz@lastmovetoy=\dimen274
-\tikzleveldistance=\dimen275
-\tikzsiblingdistance=\dimen276
-\tikz@figbox=\box56
-\tikz@figbox@bg=\box57
-\tikz@tempbox=\box58
-\tikz@tempbox@bg=\box59
-\tikztreelevel=\count297
-\tikznumberofchildren=\count298
-\tikznumberofcurrentchild=\count299
-\tikz@fig@count=\count300
+\tikz@lastx=\dimen273
+\tikz@lasty=\dimen274
+\tikz@lastxsaved=\dimen275
+\tikz@lastysaved=\dimen276
+\tikz@lastmovetox=\dimen277
+\tikz@lastmovetoy=\dimen278
+\tikzleveldistance=\dimen279
+\tikzsiblingdistance=\dimen280
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count314
+\tikznumberofchildren=\count315
+\tikznumberofcurrentchild=\count316
+\tikz@fig@count=\count317
 
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count301
-\pgfmatrixcurrentcolumn=\count302
-\pgf@matrix@numberofcolumns=\count303
+\pgfmatrixcurrentrow=\count318
+\pgfmatrixcurrentcolumn=\count319
+\pgf@matrix@numberofcolumns=\count320
 )
-\tikz@expandcount=\count304
+\tikz@expandcount=\count321
 
 (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -640,19 +708,19 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box60
+\ttl@box=\box66
 \beforetitleunit=\skip62
 \aftertitleunit=\skip63
-\ttl@plus=\dimen277
-\ttl@minus=\dimen278
+\ttl@plus=\dimen281
+\ttl@minus=\dimen282
 \ttl@toksa=\toks37
-\titlewidth=\dimen279
-\titlewidthlast=\dimen280
-\titlewidthfirst=\dimen281
+\titlewidth=\dimen283
+\titlewidthlast=\dimen284
+\titlewidthfirst=\dimen285
 )
 (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2019/10/16 v2.13 TOC entries
-\ttl@leftsep=\dimen282
+\ttl@leftsep=\dimen286
 )
 (c:/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
@@ -662,7 +730,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks38
 \XKV@tempa@toks=\toks39
 )
-\XKV@depth=\count305
+\XKV@depth=\count322
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/texlive/2021/texmf-dist/tex/latex/adjustbox/adjustbox.sty
@@ -677,219 +745,455 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
 (c:/texlive/2021/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box61
+\collectedbox=\box67
 )
-\tc@llx=\dimen283
-\tc@lly=\dimen284
-\tc@urx=\dimen285
-\tc@ury=\dimen286
-Package trimclip Info: Using driver 'tc-pdftex.def'.
+\tc@llx=\dimen287
+\tc@lly=\dimen288
+\tc@urx=\dimen289
+\tc@ury=\dimen290
+Package trimclip Info: Using driver 'tc-xetex.def'.
 
-(c:/texlive/2021/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+(c:/texlive/2021/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 ))
-\adjbox@Width=\dimen287
-\adjbox@Height=\dimen288
-\adjbox@Depth=\dimen289
-\adjbox@Totalheight=\dimen290
-\adjbox@pwidth=\dimen291
-\adjbox@pheight=\dimen292
-\adjbox@pdepth=\dimen293
-\adjbox@ptotalheight=\dimen294
+\adjbox@Width=\dimen291
+\adjbox@Height=\dimen292
+\adjbox@Depth=\dimen293
+\adjbox@Totalheight=\dimen294
+\adjbox@pwidth=\dimen295
+\adjbox@pheight=\dimen296
+\adjbox@pdepth=\dimen297
+\adjbox@ptotalheight=\dimen298
 
 (c:/texlive/2021/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count306
+\c@checkoddpage=\count323
 )
 (c:/texlive/2021/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box62
-\sift@deathcycles=\count307
-\@vwid@loff=\dimen295
-\@vwid@roff=\dimen296
+\@vwid@box=\box68
+\sift@deathcycles=\count324
+\@vwid@loff=\dimen299
+\@vwid@roff=\dimen300
 ))
-(c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-(c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks40
-\inpenc@posthook=\toks41
-) (./roboto.sty
-Package: roboto 2015/04/16 (Bob Tennent) Supports Roboto fonts for all LaTeX en
-gines.
 
-(c:/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(c:/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-(c:/texlive/2021/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-Package: fontaxes 2020/07/21 v1.0e Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \swshape on input line 35.
-LaTeX Info: Redefining \scshape on input line 37.
-LaTeX Info: Redefining \sscshape on input line 39.
-LaTeX Info: Redefining \ulcshape on input line 41.
-LaTeX Info: Redefining \textsw on input line 47.
-LaTeX Info: Redefining \textssc on input line 48.
-LaTeX Info: Redefining \textulc on input line 49.
-)
-LaTeX Info: Redefining \oldstylenums on input line 188.
-)
-(c:/texlive/2021/texmf-dist/tex/latex/fourier/fourier.sty
-Package: fourier 2020/03/03 2.2 fourier-GUTenberg package
-Now handling font encoding FML ...
-... no UTF-8 mapping file for font encoding FML
-Now handling font encoding FMS ...
-... no UTF-8 mapping file for font encoding FMS
-Now handling font encoding FMX ...
-... no UTF-8 mapping file for font encoding FMX
+Package fontspec Info: Font family 'TUDelft-UltraLight(0)' created for font
+(fontspec)             'TUDelft-UltraLight' with options [Ligatures=TeX,Path =
+(fontspec)             fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/TUDelft-UltraLight.ttf]/OT:language=dflt;mapp
+ing=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-(c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
-12.
 
-(c:/texlive/2021/texmf-dist/tex/latex/fourier/t1futs.fd
-File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+Package fontspec Info: Font family 'Georgia(0)' created for font 'Georgia'
+(fontspec)             with options [Ligatures=TeX,Path = fonts/,Extension =
+(fontspec)             .ttf,BoldFont = *_Bold,ItalicFont =
+(fontspec)             *_Italic,BoldItalicFont = *_Bold_Italic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Georgia.ttf]/OT:language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Georgia_Bold.ttf]/OT:language=dflt;mapping=te
+x-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/Georgia_Italic.ttf]/OT:language=dflt;mapping=
+tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[fonts/Georgia_Bold_Italic.ttf]/OT:language=dflt;map
+ping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX,Path = fonts/,Extension =
+(fontspec)             .ttf,BoldFont = *_Bold,ItalicFont =
+(fontspec)             *_Italic,BoldItalicFont = *_Bold_Italic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Arial.ttf]/OT:language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Arial_Bold.ttf]/OT:language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/Arial_Italic.ttf]/OT:language=dflt;mapping=te
+x-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[fonts/Arial_Bold_Italic.ttf]/OT:language=dflt;mappi
+ng=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+(c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(c:/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/texlive/2021/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-(c:/texlive/2021/texmf-dist/tex/latex/fourier/fourier-orns.sty
-Package: fourier-orns 2020/03/03 2.2 fourier-ornaments package
-)
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 63.
+\g__um_fam_int=\count325
+\g__um_fonts_used_int=\count326
+\l__um_primecount_int=\count327
+\g__um_primekern_muskip=\muskip18
+
+(c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+
+Package fontspec Info: Font family 'BookmanOldStyle(0)' created for font
+(fontspec)             'BookmanOldStyle' with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Path = fonts/,Extension =
+(fontspec)             .ttf,BoldFont = *-Bold,ItalicFont =
+(fontspec)             *-Italic,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/BookmanOldStyle.ttf]/OT:language=dflt;mapping
+=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/BookmanOldStyle-Bold.ttf]/OT:language=dflt;ma
+pping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/BookmanOldStyle-Italic.ttf]/OT:language=dflt;
+mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[fonts/BookmanOldStyle-BoldItalic.ttf]/OT:language=d
+flt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'BookmanOldStyle(1)' created for font
+(fontspec)             'BookmanOldStyle' with options [Ligatures=TeX,Path =
+(fontspec)             fonts/,Extension = .ttf,BoldFont = *-Bold,ItalicFont =
+(fontspec)             *-Italic,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/BookmanOldStyle.ttf]/OT:language=dflt;mapping
+=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/BookmanOldStyle-Bold.ttf]/OT:language=dflt;ma
+pping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/BookmanOldStyle-Italic.ttf]/OT:language=dflt;
+mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[fonts/BookmanOldStyle-BoldItalic.ttf]/OT:language=d
+flt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/BookmanOldStyle(1)/m/n on input line
+ 157.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/BookmanOldStyle(1)/m/it on input li
+ne 157.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/BookmanOldStyle(1)/b/n on input lin
+e 157.
+
+Package fontspec Info: Font family 'Arial(1)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX,Ligatures=TeX,Path =
+(fontspec)             fonts/,Extension = .ttf,BoldFont = *_Bold,ItalicFont =
+(fontspec)             *_Italic,BoldItalicFont = *_Bold_Italic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Arial.ttf]/OT:language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Arial_Bold.ttf]/OT:language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/Arial_Italic.ttf]/OT:language=dflt;mapping=te
+x-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[fonts/Arial_Bold_Italic.ttf]/OT:language=dflt;mappi
+ng=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Arial(0)/m/n on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Arial(0)/b/n on input line 163.
+
+Package fontspec Info: Font family 'CourierNewPS(0)' created for font
+(fontspec)             'CourierNewPS' with options
+(fontspec)             [Ligatures=TeX,WordSpace={1,0,0},HyphenChar=None,Punctua
+tionSpace=WordSpace,Path
+(fontspec)             = fonts/,Extension = .ttf,UprightFont = *MT,BoldFont =
+(fontspec)             *-BoldMT,ItalicFont = *-ItalicMT,BoldItalicFont =
+(fontspec)             *-BoldItalicMT].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/CourierNewPSMT.ttf]/OT:script=latn;language=d
+flt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/CourierNewPS-BoldMT.ttf]/OT:script=latn;langu
+age=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/CourierNewPS-ItalicMT.ttf]/OT:script=latn;lan
+guage=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[fonts/CourierNewPS-BoldItalicMT.ttf]/OT:script=latn
+;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+Package fontspec Info: Font family 'CourierNewPS(1)' created for font
+(fontspec)             'CourierNewPS' with options [Ligatures=TeX,Path =
+(fontspec)             fonts/,Extension = .ttf,UprightFont = *MT,BoldFont =
+(fontspec)             *-BoldMT,ItalicFont = *-ItalicMT,BoldItalicFont =
+(fontspec)             *-BoldItalicMT].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/CourierNewPSMT.ttf]/OT:script=latn;language=d
+flt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/CourierNewPS-BoldMT.ttf]/OT:script=latn;langu
+age=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/CourierNewPS-ItalicMT.ttf]/OT:script=latn;lan
+guage=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[fonts/CourierNewPS-BoldItalicMT.ttf]/OT:script=latn
+;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNewPS(1)/m/n on input line 1
+71.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNewPS(1)/b/n on input line 1
+71.
+
+Package fontspec Info: Font family 'CambriaMath(0)' created for font
+(fontspec)             'CambriaMath' with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,Path={fonts/},Extension={.ttf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/CambriaMath.ttf]/OT:script=math;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'CambriaMath(1)' created for font
+(fontspec)             'CambriaMath' with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=8.65-},{Size=6.65-8.65,Font=CambriaMath
+,Style=MathScript},{Size=-6.65,Font=CambriaMath,Style=MathScriptScript}},Path={
+fonts/},Extension={.ttf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.65->"[fonts/CambriaMath.ttf]/OT:script=math;language=
+dflt;mapping=tex-text;"<6.65-8.65>"[fonts/CambriaMath.ttf]/OT:script=math;langu
+age=dflt;+ssty=0;mapping=tex-text;"<-6.65>"[fonts/CambriaMath.ttf]/OT:script=ma
+th;language=dflt;+ssty=1;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 176.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 63.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 63.
+(Font)                  OT1/cmr/m/n --> TU/CambriaMath(1)/m/n on input line 176
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 176.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 64.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 72.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `normal' on input line 72.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 72.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `bold' on input line 72.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 72.
-\symotherletters=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 74.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 83.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 85.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 126.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 126.
+(Font)                  OT1/cmr/bx/n --> TU/CambriaMath(1)/b/n on input line 17
+6.
+
+Package fontspec Info: CambriaMath scale = 1.0001.
+
+
+Package fontspec Info: CambriaMath scale = 1.0001.
+
+
+Package fontspec Info: CambriaMath scale = 1.0001.
+
+
+Package fontspec Info: CambriaMath scale = 1.0001.
+
+
+Package fontspec Info: Font family 'CambriaMath(2)' created for font
+(fontspec)             'CambriaMath' with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=8.65-},{Size=6.65-8.65,Font=CambriaMath
+,Style=MathScript},{Size=-6.65,Font=CambriaMath,Style=MathScriptScript}},Path={
+fonts/},Extension={.ttf},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             8\font =7.56836pt\relax \fontdimen 9\font
+(fontspec)             =5.85938pt\relax \fontdimen 10\font =4.58984pt\relax
+(fontspec)             \fontdimen 11\font =6.68945pt\relax \fontdimen 12\font
+(fontspec)             =5.0293pt\relax \fontdimen 13\font =3.66211pt\relax
+(fontspec)             \fontdimen 14\font =3.66211pt\relax \fontdimen 15\font
+(fontspec)             =3.00293pt\relax \fontdimen 16\font =2.04102pt\relax
+(fontspec)             \fontdimen 17\font =2.04102pt\relax \fontdimen 18\font
+(fontspec)             =2.2461pt\relax \fontdimen 19\font =1.5625pt\relax
+(fontspec)             \fontdimen 22\font =2.85645pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.65->s*[1.0001]"[fonts/CambriaMath.ttf]/OT:script=math
+;language=dflt;mapping=tex-text;"<6.65-8.65>s*[1.0001]"[fonts/CambriaMath.ttf]/
+OT:script=math;language=dflt;+ssty=0;mapping=tex-text;"<-6.65>s*[1.0001]"[fonts
+/CambriaMath.ttf]/OT:script=math;language=dflt;+ssty=1;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =7.56836pt\relax \fontdimen 9\font
+(fontspec)             =5.85938pt\relax \fontdimen 10\font =4.58984pt\relax
+(fontspec)             \fontdimen 11\font =6.68945pt\relax \fontdimen 12\font
+(fontspec)             =5.0293pt\relax \fontdimen 13\font =3.66211pt\relax
+(fontspec)             \fontdimen 14\font =3.66211pt\relax \fontdimen 15\font
+(fontspec)             =3.00293pt\relax \fontdimen 16\font =2.04102pt\relax
+(fontspec)             \fontdimen 17\font =2.04102pt\relax \fontdimen 18\font
+(fontspec)             =2.2461pt\relax \fontdimen 19\font =1.5625pt\relax
+(fontspec)             \fontdimen 22\font =2.85645pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 176.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 126.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 126.
+(Font)                  OMS/cmsy/m/n --> TU/CambriaMath(2)/m/n on input line 17
+6.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 176.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 126.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)                  OMS/cmsy/b/n --> TU/CambriaMath(2)/b/n on input line 17
+6.
+
+Package fontspec Info: CambriaMath scale = 0.9999.
+
+
+Package fontspec Info: CambriaMath scale = 0.9999.
+
+
+Package fontspec Info: CambriaMath scale = 0.9999.
+
+
+Package fontspec Info: CambriaMath scale = 0.9999.
+
+
+Package fontspec Info: Font family 'CambriaMath(3)' created for font
+(fontspec)             'CambriaMath' with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=8.65-},{Size=6.65-8.65,Font=CambriaMath
+,Style=MathScript},{Size=-6.65,Font=CambriaMath,Style=MathScriptScript}},Path={
+fonts/},Extension={.ttf},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             8\font =0.64941pt\relax \fontdimen 9\font
+(fontspec)             =0.64941pt\relax \fontdimen 10\font =0.64941pt\relax
+(fontspec)             \fontdimen 11\font =2.4414pt\relax \fontdimen 12\font
+(fontspec)             =6.05469pt\relax \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.65->s*[0.9999]"[fonts/CambriaMath.ttf]/OT:script=math
+;language=dflt;mapping=tex-text;"<6.65-8.65>s*[0.9999]"[fonts/CambriaMath.ttf]/
+OT:script=math;language=dflt;+ssty=0;mapping=tex-text;"<-6.65>s*[0.9999]"[fonts
+/CambriaMath.ttf]/OT:script=math;language=dflt;+ssty=1;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.64941pt\relax \fontdimen 9\font
+(fontspec)             =0.64941pt\relax \fontdimen 10\font =0.64941pt\relax
+(fontspec)             \fontdimen 11\font =2.4414pt\relax \fontdimen 12\font
+(fontspec)             =6.05469pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-27.
+76.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 127
+(Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/m/n on input line 17
+6.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 176
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 129.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 130.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 130.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 131.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \vDash on input line 142.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 14
-3.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
-44.
-LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 145.
-LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \parallel on input line 147.
-LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 148.
-LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 150.
-LaTeX Font Info:    Redeclaring math symbol \intercal on input line 151.
-LaTeX Font Info:    Redeclaring math symbol \hslash on input line 152.
-LaTeX Font Info:    Redeclaring math symbol \nexists on input line 153.
-LaTeX Font Info:    Redeclaring math symbol \complement on input line 154.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 155.
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 161.
-LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 162.
-LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 164
-.
-LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \square on input line 166.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 167.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 168.
-
-LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 200.
-LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 223.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 228.
-LaTeX Font Info:    Redeclaring math delimiter \lvert on input line 230.
-LaTeX Font Info:    Redeclaring math delimiter \rvert on input line 232.
-LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 234.
-LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 236.
-LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 238.
-LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 240.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 242.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 244.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 246.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 248.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 250.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 252.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 254.
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 256.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 261.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 262.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 263.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 264.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 265.
-LaTeX Font Info:    Redeclaring math accent \check on input line 266.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
-\symUfutm=\mathgroup7
-)
+(Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/b/n on input line 17
+6.
 \@cover@imagewidth=\skip64
 \@cover@spinewidth=\skip65
 \@cover@frontboxwidth=\skip66
@@ -905,18 +1209,18 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
 \@cover@ax=\skip76
 \@cover@ay=\skip77
 \@cover@margin=\skip78
-Package hyperref Info: Option `colorlinks' set `true' on input line 654.
+Package hyperref Info: Option `colorlinks' set `true' on input line 660.
 )
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
 (c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count308
+\etb@tempcnta=\count328
 )
 (c:/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count309
+\lrq@indent=\count329
 
 (c:/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -924,48 +1228,48 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count310
-\c@listtotal=\count311
-\c@listcount=\count312
-\c@liststart=\count313
-\c@liststop=\count314
-\c@citecount=\count315
-\c@citetotal=\count316
-\c@multicitecount=\count317
-\c@multicitetotal=\count318
-\c@instcount=\count319
-\c@maxnames=\count320
-\c@minnames=\count321
-\c@maxitems=\count322
-\c@minitems=\count323
-\c@citecounter=\count324
-\c@maxcitecounter=\count325
-\c@savedcitecounter=\count326
-\c@uniquelist=\count327
-\c@uniquename=\count328
-\c@refsection=\count329
-\c@refsegment=\count330
-\c@maxextratitle=\count331
-\c@maxextratitleyear=\count332
-\c@maxextraname=\count333
-\c@maxextradate=\count334
-\c@maxextraalpha=\count335
-\c@abbrvpenalty=\count336
-\c@highnamepenalty=\count337
-\c@lownamepenalty=\count338
-\c@maxparens=\count339
-\c@parenlevel=\count340
-\blx@tempcnta=\count341
-\blx@tempcntb=\count342
-\blx@tempcntc=\count343
-\blx@maxsection=\count344
-\blx@maxsegment@0=\count345
-\blx@notetype=\count346
-\blx@parenlevel@text=\count347
-\blx@parenlevel@foot=\count348
-\blx@sectionciteorder@0=\count349
-\blx@entrysetcounter=\count350
-\blx@biblioinstance=\count351
+\c@tabx@nest=\count330
+\c@listtotal=\count331
+\c@listcount=\count332
+\c@liststart=\count333
+\c@liststop=\count334
+\c@citecount=\count335
+\c@citetotal=\count336
+\c@multicitecount=\count337
+\c@multicitetotal=\count338
+\c@instcount=\count339
+\c@maxnames=\count340
+\c@minnames=\count341
+\c@maxitems=\count342
+\c@minitems=\count343
+\c@citecounter=\count344
+\c@maxcitecounter=\count345
+\c@savedcitecounter=\count346
+\c@uniquelist=\count347
+\c@uniquename=\count348
+\c@refsection=\count349
+\c@refsegment=\count350
+\c@maxextratitle=\count351
+\c@maxextratitleyear=\count352
+\c@maxextraname=\count353
+\c@maxextradate=\count354
+\c@maxextraalpha=\count355
+\c@abbrvpenalty=\count356
+\c@highnamepenalty=\count357
+\c@lownamepenalty=\count358
+\c@maxparens=\count359
+\c@parenlevel=\count360
+\blx@tempcnta=\count361
+\blx@tempcntb=\count362
+\blx@tempcntc=\count363
+\blx@maxsection=\count364
+\blx@maxsegment@0=\count365
+\blx@notetype=\count366
+\blx@parenlevel@text=\count367
+\blx@parenlevel@foot=\count368
+\blx@sectionciteorder@0=\count369
+\blx@entrysetcounter=\count370
+\blx@biblioinstance=\count371
 \labelnumberwidth=\skip79
 \labelalphawidth=\skip80
 \biblabelsep=\skip81
@@ -977,9 +1281,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language88
-\c@mincomprange=\count352
-\c@maxcomprange=\count353
-\c@mincompwidth=\count354
+\c@mincomprange=\count372
+\c@maxcomprange=\count373
+\c@mincompwidth=\count374
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -994,86 +1298,86 @@ File: apa.dbx 2020/08/28 v9.14 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count355
-\c@savedafterword=\count356
-\c@annotator=\count357
-\c@savedannotator=\count358
-\c@author=\count359
-\c@savedauthor=\count360
-\c@bookauthor=\count361
-\c@savedbookauthor=\count362
-\c@commentator=\count363
-\c@savedcommentator=\count364
-\c@editor=\count365
-\c@savededitor=\count366
-\c@editora=\count367
-\c@savededitora=\count368
-\c@editorb=\count369
-\c@savededitorb=\count370
-\c@editorc=\count371
-\c@savededitorc=\count372
-\c@foreword=\count373
-\c@savedforeword=\count374
-\c@holder=\count375
-\c@savedholder=\count376
-\c@introduction=\count377
-\c@savedintroduction=\count378
-\c@namea=\count379
-\c@savednamea=\count380
-\c@nameb=\count381
-\c@savednameb=\count382
-\c@namec=\count383
-\c@savednamec=\count384
-\c@translator=\count385
-\c@savedtranslator=\count386
-\c@shortauthor=\count387
-\c@savedshortauthor=\count388
-\c@shorteditor=\count389
-\c@savedshorteditor=\count390
-\c@groupauthor=\count391
-\c@savedgroupauthor=\count392
-\c@narrator=\count393
-\c@savednarrator=\count394
-\c@execproducer=\count395
-\c@savedexecproducer=\count396
-\c@execdirector=\count397
-\c@savedexecdirector=\count398
-\c@with=\count399
-\c@savedwith=\count400
-\c@labelname=\count401
-\c@savedlabelname=\count402
-\c@institution=\count403
-\c@savedinstitution=\count404
-\c@lista=\count405
-\c@savedlista=\count406
-\c@listb=\count407
-\c@savedlistb=\count408
-\c@listc=\count409
-\c@savedlistc=\count410
-\c@listd=\count411
-\c@savedlistd=\count412
-\c@liste=\count413
-\c@savedliste=\count414
-\c@listf=\count415
-\c@savedlistf=\count416
-\c@location=\count417
-\c@savedlocation=\count418
-\c@organization=\count419
-\c@savedorganization=\count420
-\c@origlocation=\count421
-\c@savedoriglocation=\count422
-\c@origpublisher=\count423
-\c@savedorigpublisher=\count424
-\c@publisher=\count425
-\c@savedpublisher=\count426
-\c@language=\count427
-\c@savedlanguage=\count428
-\c@origlanguage=\count429
-\c@savedoriglanguage=\count430
-\c@citation=\count431
-\c@savedcitation=\count432
-\c@pageref=\count433
-\c@savedpageref=\count434
+\c@afterword=\count375
+\c@savedafterword=\count376
+\c@annotator=\count377
+\c@savedannotator=\count378
+\c@author=\count379
+\c@savedauthor=\count380
+\c@bookauthor=\count381
+\c@savedbookauthor=\count382
+\c@commentator=\count383
+\c@savedcommentator=\count384
+\c@editor=\count385
+\c@savededitor=\count386
+\c@editora=\count387
+\c@savededitora=\count388
+\c@editorb=\count389
+\c@savededitorb=\count390
+\c@editorc=\count391
+\c@savededitorc=\count392
+\c@foreword=\count393
+\c@savedforeword=\count394
+\c@holder=\count395
+\c@savedholder=\count396
+\c@introduction=\count397
+\c@savedintroduction=\count398
+\c@namea=\count399
+\c@savednamea=\count400
+\c@nameb=\count401
+\c@savednameb=\count402
+\c@namec=\count403
+\c@savednamec=\count404
+\c@translator=\count405
+\c@savedtranslator=\count406
+\c@shortauthor=\count407
+\c@savedshortauthor=\count408
+\c@shorteditor=\count409
+\c@savedshorteditor=\count410
+\c@groupauthor=\count411
+\c@savedgroupauthor=\count412
+\c@narrator=\count413
+\c@savednarrator=\count414
+\c@execproducer=\count415
+\c@savedexecproducer=\count416
+\c@execdirector=\count417
+\c@savedexecdirector=\count418
+\c@with=\count419
+\c@savedwith=\count420
+\c@labelname=\count421
+\c@savedlabelname=\count422
+\c@institution=\count423
+\c@savedinstitution=\count424
+\c@lista=\count425
+\c@savedlista=\count426
+\c@listb=\count427
+\c@savedlistb=\count428
+\c@listc=\count429
+\c@savedlistc=\count430
+\c@listd=\count431
+\c@savedlistd=\count432
+\c@liste=\count433
+\c@savedliste=\count434
+\c@listf=\count435
+\c@savedlistf=\count436
+\c@location=\count437
+\c@savedlocation=\count438
+\c@organization=\count439
+\c@savedorganization=\count440
+\c@origlocation=\count441
+\c@savedoriglocation=\count442
+\c@origpublisher=\count443
+\c@savedorigpublisher=\count444
+\c@publisher=\count445
+\c@savedpublisher=\count446
+\c@language=\count447
+\c@savedlanguage=\count448
+\c@origlanguage=\count449
+\c@savedoriglanguage=\count450
+\c@citation=\count451
+\c@savedcitation=\count452
+\c@pageref=\count453
+\c@savedpageref=\count454
 \shorthandwidth=\skip87
 \shortjournalwidth=\skip88
 \shortserieswidth=\skip89
@@ -1088,6 +1392,10 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip98
 \localshortauthorwidth=\skip99
 \localshorteditorwidth=\skip100
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1099,19 +1407,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count435
-\c@textcitetotal=\count436
-\c@textcitemaxnames=\count437
-\c@biburlbigbreakpenalty=\count438
-\c@biburlbreakpenalty=\count439
-\c@biburlnumpenalty=\count440
-\c@biburlucpenalty=\count441
-\c@biburllcpenalty=\count442
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count443
+\c@textcitecount=\count455
+\c@textcitetotal=\count456
+\c@textcitemaxnames=\count457
+\c@biburlbigbreakpenalty=\count458
+\c@biburlbreakpenalty=\count459
+\c@biburlnumpenalty=\count460
+\c@biburlucpenalty=\count461
+\c@biburllcpenalty=\count462
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count463
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -1123,8 +1431,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count444
-\c@bbx:relatedtotal=\count445
+\c@bbx:relatedcount=\count464
+\c@bbx:relatedtotal=\count465
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -1165,24 +1473,160 @@ Package: changes 2021/04/05 v4.0.2 changes package
 *** changes package 2021/04/05 v4.0.2 ***
 (c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
 (c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count446
-\decimalpart=\count447
+\integerpart=\count466
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+\decimalpart=\count467
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 ulem-option 'normalem,normalbf', passed to package ulem
 truncate-option 'breakall,fit', passed to package truncate
 (c:/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box63
-\UL@hyphenbox=\box64
+\UL@box=\box69
+\UL@hyphenbox=\box70
 \UL@skip=\skip101
-\UL@hook=\toks42
-\UL@height=\dimen297
-\UL@pe=\count448
-\UL@pixel=\dimen298
-\ULC@box=\box65
+\UL@hook=\toks40
+\UL@height=\dimen301
+\UL@pe=\count468
+\UL@pixel=\dimen302
+\ULC@box=\box71
 Package: ulem 2019/11/18
-\ULdepth=\dimen299
+\ULdepth=\dimen303
 )
 (c:/texlive/2021/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2020/08/18 v1.1.3 Todonotes source and documentation.
@@ -1205,31 +1649,31 @@ x
 File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count449
-\calc@Bcount=\count450
-\calc@Adimen=\dimen300
-\calc@Bdimen=\dimen301
+\calc@Acount=\count469
+\calc@Bcount=\count470
+\calc@Adimen=\dimen304
+\calc@Bdimen=\dimen305
 \calc@Askip=\skip102
 \calc@Bskip=\skip103
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count451
+\calc@Ccount=\count471
 \calc@Cskip=\skip104
 )
-\c@@todonotes@numberoftodonotes=\count452
+\c@@todonotes@numberoftodonotes=\count472
 )
-\c@Changes@AuthorCount=\count453
-\c@Changes@Author=\count454
-\c@Changes@addedCount=\count455
-\c@Changes@deletedCount=\count456
-\c@Changes@replacedCount=\count457
-\c@Changes@highlightCount=\count458
-\c@Changes@commentCount=\count459
-\c@authorcommentcount=\count460
+\c@Changes@AuthorCount=\count473
+\c@Changes@Author=\count474
+\c@Changes@addedCount=\count475
+\c@Changes@deletedCount=\count476
+\c@Changes@replacedCount=\count477
+\c@Changes@highlightCount=\count478
+\c@Changes@commentCount=\count479
+\c@authorcommentcount=\count480
 
 (c:/texlive/2021/texmf-dist/tex/latex/truncate/truncate.sty
 Package: truncate 2001/08/20  ver 3.6
-\@Trunc@RestHyph=\toks43
+\@Trunc@RestHyph=\toks41
 )
 \Changes@truncate@width=\skip105
 \Changes@summary@width=\skip106
@@ -1238,68 +1682,46 @@ Package: truncate 2001/08/20  ver 3.6
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count461
-\@quotereset=\count462
-(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count463
-\l__pdf_internal_box=\box66
-)
+\@quotelevel=\count481
+\@quotereset=\count482
 
 LaTeX Warning: Unused global option(s):
     [whitelogo].
 
-No file report.aux.
+(./report.aux
+
+LaTeX Warning: Label `sec:researchquestions' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 14.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-14.
-(c:/texlive/2021/texmf-dist/tex/latex/fourier/fmlfutm.fd
-File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
-)
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-14.
-
-(c:/texlive/2021/texmf-dist/tex/latex/fourier/fmsfutm.fd
-File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
-)
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-14.
-
-(c:/texlive/2021/texmf-dist/tex/latex/fourier/fmxfutm.fd
-File: fmxfutm.fd futm-extension
-)
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1330,38 +1752,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count464
-\scratchdimen=\dimen302
-\scratchbox=\box67
-\nofMPsegments=\count465
-\nofMParguments=\count466
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count467
-\MPscratchDim=\dimen303
-\MPnumerator=\count468
-\makeMPintoPDFobject=\count469
-\everyMPtoPDFconversion=\toks45
-) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(c:/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
-
-(c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-Package hyperref Info: Link coloring ON on input line 14.
-
+Package hyperref Info: Link coloring ON on input line 15.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1371,18 +1762,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count470
+\c@section@level=\count483
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
+
+(./report.out) (./report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
-\c@mv@tabular=\count471
-\c@mv@boldtabular=\count472
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 14.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 14.
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
@@ -1427,35 +1816,29 @@ Package biblatex Info: ... file 'dutch.lbx' found.
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/dutch.lbx
 File: dutch.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 ))
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
-
-(c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
-)
 Package biblatex Info: ... and expl3
 (biblatex)             2021-02-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
 \openout4 = `report.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'report.bbl' not found.
+Package biblatex Info: ... file 'report.bbl' found.
 
-No file report.bbl.
-Package biblatex Info: Reference section=0 on input line 14.
-Package biblatex Info: Reference segment=0 on input line 14.
+(./report.bbl)
+Package biblatex Info: Reference section=0 on input line 15.
+Package biblatex Info: Reference segment=0 on input line 15.
 *geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1491,91 +1874,39 @@ Package biblatex Info: Reference segment=0 on input line 14.
 brarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-<tank.jpg, id=31, 484.209pt x 352.1958pt>
-File: tank.jpg Graphic file (type jpg)
-<use tank.jpg>
-Package pdftex.def Info: tank.jpg  used on input line 57.
-(pdftex.def)             Requested size: 597.50787pt x 434.6224pt.
-<cover/logo_black.pdf, id=32, 125.46875pt x 77.28876pt>
+File: img/cover.png Graphic file (type bmp)
+<img/cover.png>
 File: cover/logo_black.pdf Graphic file (type pdf)
 <use cover/logo_black.pdf>
-Package pdftex.def Info: cover/logo_black.pdf  used on input line 57.
-(pdftex.def)             Requested size: 125.46843pt x 77.28856pt.
-LaTeX Font Info:    Trying to load font information for T1+fla on input line 57
-.
-LaTeX Font Info:    No file T1fla.fd. on input line 57.
 
-
-LaTeX Font Warning: Font shape `T1/fla/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 57.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <58> not available
-(Font)              size <35.83> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `T1/fla/m/n' in size <52> not available
-(Font)              size <35.83> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `T1/fla/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 57.
-
-
-LaTeX Font Warning: Font shape `T1/fla/b/n' undefined
-(Font)              using `T1/fla/m/n' instead on input line 57.
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\TU/TUDelft-UltraLight(0)/m/n/36 Asteroids using Multi-
+ []
 
 [1
 
 
 
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./tank.jpg> <./
-cover/logo_black.pdf>] (./title.tex [2
+] (./title.tex [2
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+Roboto-LF on input l
-ine 10.
-
-(c:/texlive/2021/texmf-dist/tex/latex/roboto/T1Roboto-LF.fd
-File: T1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for T1/Roboto-LF.
-)
-
-LaTeX Font Warning: Font shape `T1/Roboto-LF/t/n' undefined
-(Font)              using `T1/Roboto-LF/m/n' instead on input line 10.
-
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 10.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 64.0pt on input line 10.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 22.0pt on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 35.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 26.0pt on input line 35.
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line
- 52.
-(c:/texlive/2021/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 52.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 52.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 52.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 52.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 7.30078pt on input line 52.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 52.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 52.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 7.29921pt on input line 52.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 52.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
-
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
@@ -1584,63 +1915,22 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 52.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 52.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 52.
 File: cover/logo_black.pdf Graphic file (type pdf)
 <use cover/logo_black.pdf>
-Package pdftex.def Info: cover/logo_black.pdf  used on input line 78.
-(pdftex.def)             Requested size: 125.46843pt x 77.28856pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.82 \end{titlepage}
-                     [1]) (./preface.texpdfTeX warning (ext4): destination with
- the same identifier (name{page.ii}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            *{Preface} [2
+ [1]) (./preface.tex
+[2
 
-]) [3] [4
+]) (./0-summary.tex [3] [4
 
 ]
-\tf@toc=\write6
-\openout6 = `report.toc'.
-
- [5] [6
-
-]
-(./1-introduction-and-background.tex
-Chapter 1.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 1.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 96.0pt on input line 1.
-
-LaTeX Warning: Citation 'DinosaurAsteroid' on page 1 undefined on input line 3.
-
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-LaTeX Warning: Citation 'Spaceguard' on page 1 undefined on input line 5.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
-
-
-LaTeX Warning: Citation 'SpaceguardHistory' on page 1 undefined on input line 7
-.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -1648,239 +1938,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
-LaTeX Warning: Citation '2003NEOSDT' on page 1 undefined on input line 9.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[1
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+) [6] (./report.toc)
+\tf@toc=\write6
+\openout6 = `report.toc'.
+
+ [7
+
+] [8
 
 ]
 
-LaTeX Warning: Citation 'AsteroidSizeFrequency' on page 2 undefined on input li
-ne 20.
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 62.
 
+(./1-introduction-and-background.tex
+Chapter 1.
 
-LaTeX Warning: Citation 'AsteroidSizeAlbedo' on page 2 undefined on input line 
-20.
-
-
-LaTeX Warning: Reference `sec:insec:introductionidentification' on page 2 undef
-ined on input line 25.
-
-
-LaTeX Warning: Citation 'GranvikPopulation' on page 2 undefined on input line 2
-5.
-
-
-LaTeX Warning: Reference `fig:population_histogram' on page 2 undefined on inpu
-t line 25.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
-
-<img/population_histogram.png, id=83, 682.34924pt x 164.41425pt>
-File: img/population_histogram.png Graphic file (type png)
-<use img/population_histogram.png>
-Package pdftex.def Info: img/population_histogram.png  used on input line 29.
-(pdftex.def)             Requested size: 448.1309pt x 107.97685pt.
-
-LaTeX Warning: Citation 'GranvikPopulation' on page 2 undefined on input line 3
-0.
-
-
-LaTeX Warning: Reference `eq:sizefreqlaw' on page 2 undefined on input line 34.
-
-
-
-LaTeX Warning: Citation 'GranvikPopulation' on page 2 undefined on input line 3
-4.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-LaTeX Warning: Citation 'ChelyabinskNASA' on page 2 undefined on input line 36.
-
-
-
-LaTeX Warning: Reference `fig:completeness_size' on page 2 undefined on input l
-ine 36.
-
-
-LaTeX Warning: Citation 'HarrisPopulation' on page 2 undefined on input line 36
-.
-
-
-LaTeX Warning: Citation '2017NEOSDT' on page 2 undefined on input line 36.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-<img/completeness_size.png, id=85, 606.46574pt x 269.20575pt>
-File: img/completeness_size.png Graphic file (type png)
-<use img/completeness_size.png>
-Package pdftex.def Info: img/completeness_size.png  used on input line 40.
-(pdftex.def)             Requested size: 336.09818pt x 149.19734pt.
-
-LaTeX Warning: Citation 'HarrisPopulation' on page 2 undefined on input line 41
-.
-
-[2 <./img/population_histogram.png>]
-
-LaTeX Warning: Reference `fig:population_estimates' on page 3 undefined on inpu
-t line 45.
-
-
-LaTeX Warning: Citation 'HarrisPopulation' on page 3 undefined on input line 45
-.
-
-<img/population_estimates.png, id=95, 829.29825pt x 274.02374pt>
-File: img/population_estimates.png Graphic file (type png)
-<use img/population_estimates.png>
-Package pdftex.def Info: img/population_estimates.png  used on input line 49.
-(pdftex.def)             Requested size: 448.1309pt x 148.07515pt.
-
-LaTeX Warning: Citation 'HarrisPopulation' on page 3 undefined on input line 50
-.
-
-
-LaTeX Warning: Reference `sec:introductionproposals' on page 3 undefined on inp
-ut line 58.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-[3 <./img/completeness_size.png> <./img/population_estimates.png>]
-
-LaTeX Warning: Reference `fig:identification_per_survey' on page 4 undefined on
- input line 60.
-
-<img/identification_per_survey.png, id=105, 823.27576pt x 239.09325pt>
-File: img/identification_per_survey.png Graphic file (type png)
-<use img/identification_per_survey.png>
-Package pdftex.def Info: img/identification_per_survey.png  used on input line 
-64.
-(pdftex.def)             Requested size: 448.1309pt x 130.14818pt.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 65.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 65.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 65.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 65.
-
-LaTeX Warning: Citation 'CatalinaSkySurvey' on page 4 undefined on input line 7
-1.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-LaTeX Warning: Citation 'PANSTARRS' on page 4 undefined on input line 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-LaTeX Warning: Citation 'ATLAS' on page 4 undefined on input line 75.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-[4 <./img/identification_per_survey.png>]
-
-LaTeX Warning: Citation 'LSST' on page 5 undefined on input line 77.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-LaTeX Warning: Citation 'NEOWISEResult' on page 5 undefined on input line 80.
-
-
-LaTeX Warning: Citation 'GranvikPopulation' on page 5 undefined on input line 8
-0.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-
-LaTeX Warning: Citation 'NEOCam' on page 5 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'DefendingEarth' on page 5 undefined on input line 86.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-LaTeX Warning: Citation '2003NEOSDT' on page 5 undefined on input line 88.
-
-
-LaTeX Warning: Citation '2017NEOSDT' on page 5 undefined on input line 88.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-<img/completeness_projection.png, id=115, 1104.37593pt x 296.60812pt>
-File: img/completeness_projection.png Graphic file (type png)
-<use img/completeness_projection.png>
-Package pdftex.def Info: img/completeness_projection.png  used on input line 92
-.
-(pdftex.def)             Requested size: 448.1309pt x 120.35645pt.
-
-LaTeX Warning: Citation '2017NEOSDT' on page 5 undefined on input line 93.
-
-[5]
-
-LaTeX Warning: Reference `fig:completeness_projection' on page 6 undefined on i
-nput line 97.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-
-LaTeX Warning: Citation 'ThesisOlga' on page 6 undefined on input line 99.
-
-
-LaTeX Warning: Citation 'ThesisOlga' on page 6 undefined on input line 99.
-
-
-LaTeX Warning: Citation 'DefendingEarth' on page 6 undefined on input line 99.
-
-) [6 <./img/completeness_projection.png>] (./2-research-outline.tex
-Chapter 2.
-
-LaTeX Warning: Reference `ch:introduction' on page 7 undefined on input line 2.
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -1888,103 +1973,157 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-LaTeX Warning: Reference `fig:research_blind_spots' on page 7 undefined on inpu
-t line 13.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<img/research_blind_spots.png, id=129, 1485.55pt x 710.655pt>
-File: img/research_blind_spots.png Graphic file (type png)
-<use img/research_blind_spots.png>
-Package pdftex.def Info: img/research_blind_spots.png  used on input line 17.
-(pdftex.def)             Requested size: 358.50609pt x 171.49324pt.
+) [1
 
-LaTeX Warning: Reference `fig:research_triangulation' on page 7 undefined on in
-put line 23.
+] [2] (./2-research-outline.tex
+Chapter 2.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<img/research_triangulation.png, id=130, 1485.55pt x 710.655pt>
-File: img/research_triangulation.png Graphic file (type png)
-<use img/research_triangulation.png>
-Package pdftex.def Info: img/research_triangulation.png  used on input line 27.
 
-(pdftex.def)             Requested size: 358.50609pt x 171.49324pt.
-[7
+LaTeX Warning: Reference `sec:insec:introductionidentification' on page 3 undef
+ined on input line 17.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+File: img/population_histogram.png Graphic file (type bmp)
+<img/population_histogram.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+File: img/completeness_size.png Graphic file (type bmp)
+<img/completeness_size.png>
+[3
 
 ]
+File: img/population_estimates.png Graphic file (type bmp)
+<img/population_estimates.png>
 
-LaTeX Warning: Reference `fig:research_search_strategy' on page 8 undefined on 
-input line 33.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<img/research_search_strategy.png, id=138, 1485.55pt x 710.655pt>
-File: img/research_search_strategy.png Graphic file (type png)
-<use img/research_search_strategy.png>
-Package pdftex.def Info: img/research_search_strategy.png  used on input line 3
-7.
-(pdftex.def)             Requested size: 358.50609pt x 171.49324pt.
-[8 <./img/research_blind_spots.png> <./img/research_triangulation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[4]
+File: img/identification_per_survey.png Graphic file (type bmp)
+<img/identification_per_survey.png>
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 8.00085pt on input line 57.
+LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 57.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 57.
+LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 57.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-[9 <./img/research_search_strategy.png>]
-
-LaTeX Warning: Reference `sec:introductionidentification' on page 10 undefined 
-on input line 56.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-LaTeX Warning: Reference `sec:introductionidentification' on page 10 undefined 
-on input line 58.
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
-
-LaTeX Warning: Reference `sec:introductionproposals' on page 10 undefined on in
-put line 58.
-
-
-Overfull \hbox (2.13846pt too wide) in paragraph at lines 62--63
-\T1/futs/m/n/10 pos-si-bil-i-ties for po-si-tion-ing and com-pos-ing a multi-sp
-acecraft sys-tem grow ex-po-nen-tially with the num-
  []
 
 
-LaTeX Warning: Reference `sec:introductionproposals' on page 10 undefined on in
-put line 64.
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+File: img/completeness_projection.png Graphic file (type bmp)
+<img/completeness_projection.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+File: img/research_blind_spots.png Graphic file (type bmp)
+<img/research_blind_spots.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+File: img/research_triangulation.png Graphic file (type bmp)
+<img/research_triangulation.png>
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+File: img/research_search_strategy.png Graphic file (type bmp)
+<img/research_search_strategy.png>
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
 
 [10]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
-LaTeX Warning: Citation '2017NEOSDT' on page 11 undefined on input line 72.
+ []
 
-
-LaTeX Warning: Citation 'ThesisOlga' on page 11 undefined on input line 72.
-
-) [11] (./3-survey-modelling.tex [12
+[11]) [12] [13] (./3-survey-modelling.tex [14
 
 ]
 Chapter 3.
@@ -1994,39 +2133,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-LaTeX Warning: Citation 'Flyeye' on page 13 undefined on input line 6.
-
-
-LaTeX Warning: Citation '2017NEOSDT' on page 13 undefined on input line 6.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
-
-
-LaTeX Warning: Reference `sec:modelling_population' on page 13 undefined on inp
-ut line 8.
-
-
-LaTeX Warning: Reference `sec:modelling_background' on page 13 undefined on inp
-ut line 8.
-
-
-LaTeX Warning: Reference `sec:modelling_target' on page 13 undefined on input l
-ine 8.
-
-
-LaTeX Warning: Reference `sec:modelling_hardware_SNR' on page 13 undefined on i
-nput line 8.
-
-
-LaTeX Warning: Reference `sec:modelling_cadence' on page 13 undefined on input 
-line 8.
-
-
-LaTeX Warning: Reference `sec:modelling_identification' on page 13 undefined on
- input line 8.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -2034,150 +2143,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 
-LaTeX Warning: Reference `sec:introduction_NEA' on page 13 undefined on input l
-ine 12.
-
-
-LaTeX Warning: Reference `sec:introduction_NEA' on page 13 undefined on input l
-ine 12.
-
-
-LaTeX Warning: Citation 'GranvikPopulation' on page 13 undefined on input line 
-12.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<img/population_identification_correction.png, id=179, 817.25325pt x 245.11575p
-t>
-File: img/population_identification_correction.png Graphic file (type png)
-<use img/population_identification_correction.png>
-Package pdftex.def Info: img/population_identification_correction.png  used on 
-input line 16.
-(pdftex.def)             Requested size: 448.1309pt x 134.40639pt.
-
-LaTeX Warning: Citation 'GranvikPopulation' on page 13 undefined on input line 
-17.
-
-
-LaTeX Warning: Citation 'HarrisPopulation' on page 13 undefined on input line 1
-7.
-
-
-LaTeX Warning: Citation 'HarrisPopulation' on page 13 undefined on input line 2
-2.
-
-
-LaTeX Warning: Citation 'GranvikPopulation' on page 13 undefined on input line 
-22.
-
-
-LaTeX Warning: Citation 'HarrisPopulation' on page 13 undefined on input line 2
-2.
-
-
-LaTeX Warning: Reference `fig:populationcorrection' on page 13 undefined on inp
-ut line 22.
-
-
-LaTeX Warning: Reference `fig:populationcorrection' on page 13 undefined on inp
-ut line 22.
-
-[13]
+File: img/population_identification_correction.png Graphic file (type bmp)
+<img/population_identification_correction.png>
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[14 <./img/population_identification_correction.png>]
-
-LaTeX Warning: Citation 'IRDust' on page 15 undefined on input line 50.
-
-
-LaTeX Warning: Citation 'IRDust' on page 15 undefined on input line 59.
-
-
-LaTeX Warning: Reference `fig:irdustcontributions' on page 15 undefined on inpu
-t line 59.
-
-
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
-<img/ir_dust_components.png, id=193, 865.73438pt x 209.28188pt>
-File: img/ir_dust_components.png Graphic file (type png)
-<use img/ir_dust_components.png>
-Package pdftex.def Info: img/ir_dust_components.png  used on input line 63.
-(pdftex.def)             Requested size: 448.1309pt x 108.33221pt.
-
-LaTeX Warning: Reference `fig:irdustcombined' on page 15 undefined on input lin
-e 68.
-
+File: img/ir_dust_components.png Graphic file (type bmp)
+<img/ir_dust_components.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-<img/ir_dust_combined.png, id=194, 1204.5pt x 509.65407pt>
-File: img/ir_dust_combined.png Graphic file (type png)
-<use img/ir_dust_combined.png>
-Package pdftex.def Info: img/ir_dust_combined.png  used on input line 72.
-(pdftex.def)             Requested size: 403.31508pt x 170.65157pt.
-
-LaTeX Warning: Reference `fig:solartirbackground' on page 15 undefined on input
- line 77.
-
-
+File: img/ir_dust_combined.png Graphic file (type bmp)
+<img/ir_dust_combined.png>
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<img/background_tir_zodiac.png, id=195, 867.24pt x 433.62pt>
-File: img/background_tir_zodiac.png Graphic file (type png)
-<use img/background_tir_zodiac.png>
-Package pdftex.def Info: img/background_tir_zodiac.png  used on input line 81.
-(pdftex.def)             Requested size: 448.1309pt x 224.06776pt.
-[15] [16 <./img/ir_dust_components.png> <./img/ir_dust_combined.png>]
-
-LaTeX Warning: Citation 'LightOfTheNightSky' on page 17 undefined on input line
- 86.
-
-
-LaTeX Warning: Reference `fig:solarvisbackground' on page 17 undefined on input
- line 86.
-
-
-LaTeX Warning: Citation 'LightOfTheNightSky' on page 17 undefined on input line
- 86.
-
-
-LaTeX Warning: Citation 'SkyBrightness' on page 17 undefined on input line 86.
-
+File: img/background_tir_zodiac.png Graphic file (type bmp)
+<img/background_tir_zodiac.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
-<img/background_vis_zodiac.png, id=220, 867.24pt x 433.62pt>
-File: img/background_vis_zodiac.png Graphic file (type png)
-<use img/background_vis_zodiac.png>
-Package pdftex.def Info: img/background_vis_zodiac.png  used on input line 95.
-(pdftex.def)             Requested size: 448.1309pt x 224.06776pt.
+File: img/background_vis_zodiac.png Graphic file (type bmp)
+<img/background_vis_zodiac.png>
+[18]
 
-LaTeX Warning: Citation 'IRDust' on page 17 undefined on input line 103.
-
-
-LaTeX Warning: Citation 'LightOfTheNightSky' on page 17 undefined on input line
- 103.
-
-
-LaTeX Warning: Reference `fig:starstirbackground' on page 17 undefined on input
- line 103.
-
-
-LaTeX Warning: Reference `starsvisbackground' on page 17 undefined on input lin
+LaTeX Warning: Reference `starsvisbackground' on page 19 undefined on input lin
 e 103.
 
 
@@ -2185,38 +2192,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-<img/background_tir_stars.png, id=221, 867.24pt x 433.62pt>
-File: img/background_tir_stars.png Graphic file (type png)
-<use img/background_tir_stars.png>
-Package pdftex.def Info: img/background_tir_stars.png  used on input line 107.
-(pdftex.def)             Requested size: 448.1309pt x 224.06776pt.
-
-LaTeX Warning: Citation 'StarRemoval' on page 17 undefined on input line 112.
-
-<img/background_vis_stars.png, id=222, 867.24pt x 433.62pt>
-File: img/background_vis_stars.png Graphic file (type png)
-<use img/background_vis_stars.png>
-Package pdftex.def Info: img/background_vis_stars.png  used on input line 116.
-(pdftex.def)             Requested size: 448.1309pt x 224.06776pt.
-[17 <./img/background_tir_zodiac.png>] [18 <./img/background_vis_zodiac.png> <.
-/img/background_tir_stars.png>]
-
-LaTeX Warning: Citation 'GranvikPopulation' on page 19 undefined on input line 
-127.
-
+File: img/background_tir_stars.png Graphic file (type bmp)
+<img/background_tir_stars.png>
+File: img/background_vis_stars.png Graphic file (type bmp)
+<img/background_vis_stars.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-
-LaTeX Warning: Citation 'AsteroidSTM' on page 19 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'AsteroidNEATM' on page 19 undefined on input line 129.
-
-
-
+[19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
@@ -2226,837 +2211,461 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
-[19 <./img/background_vis_stars.png>]
-
-LaTeX Warning: Reference `eq:asteroidsize' on page 20 undefined on input line 1
-41.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-
-LaTeX Warning: Citation '2003NEOSDT' on page 20 undefined on input line 143.
-
-
-Overfull \hbox (19.10837pt too wide) in paragraph at lines 143--144
-\T1/futs/m/n/10 sim-ple phase equa-tion is read-ily avail-able to ob-tain the a
-p-par-ent vi-sual mag-ni-tude $\FML/futmi/m/it/10 V$\T1/futs/m/n/10 , as de-tai
-led by []: 
- []
-
-
-LaTeX Warning: Citation '2003NEOSDT' on page 20 undefined on input line 149.
-
-
-LaTeX Warning: Citation '2003NEOSDT' on page 20 undefined on input line 161.
-
-
-LaTeX Warning: Citation '2017NEOSDT' on page 20 undefined on input line 166.
-
-
-LaTeX Warning: Reference `tab:hardwareproperties' on page 20 undefined on input
- line 166.
-
-
-Overfull \hbox (5.91162pt too wide) in paragraph at lines 166--167
-\T1/futs/m/n/10 gives a de-scrip-tion of rep-re-sen-ta-tive hard-ware for cur-r
-ent and up-com-ing space sur-vey tele-scopes. The overview
- []
-
-
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
-
-
-LaTeX Warning: Citation '2017NEOSDT' on page 20 undefined on input line 170.
-
-
-LaTeX Warning: Reference `tab:hardwareproperties' on page 20 undefined on input
- line 184.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-
-LaTeX Warning: Citation 'DetectionAndTracking' on page 20 undefined on input li
-ne 186.
-
-[20]
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
-197.
- (c:/texlive/2021/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-)
-
-LaTeX Warning: Citation 'StarRemoval' on page 21 undefined on input line 198.
-
-
-LaTeX Warning: Citation 'OpNav' on page 21 undefined on input line 199.
-
-
-LaTeX Warning: Citation 'Cadence' on page 21 undefined on input line 207.
-
-
-LaTeX Warning: Citation '2017NEOSDT' on page 21 undefined on input line 216.
-
-
-LaTeX Warning: Reference `fig:snrgraph' on page 21 undefined on input line 216.
-
-
-
+[22] [23]
 Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-<img/snr_graph.png, id=260, 424.58624pt x 245.718pt>
-File: img/snr_graph.png Graphic file (type png)
-<use img/snr_graph.png>
-Package pdftex.def Info: img/snr_graph.png  used on input line 220.
-(pdftex.def)             Requested size: 313.69026pt x 181.54726pt.
-[21]
-
-LaTeX Warning: Citation 'Curtis' on page 22 undefined on input line 225.
-
-
-LaTeX Warning: Citation 'OpNav' on page 22 undefined on input line 225.
-
-
-LaTeX Warning: Citation 'DetectionAndTracking' on page 22 undefined on input li
-ne 225.
-
-
-LaTeX Warning: Citation '2017NEOSDT' on page 22 undefined on input line 225.
-
-
-LaTeX Warning: Citation 'ShortArcs' on page 22 undefined on input line 225.
-
+File: img/snr_graph.png Graphic file (type bmp)
+<img/snr_graph.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-LaTeX Warning: Citation '2017NEOSDT' on page 22 undefined on input line 227.
-
-
-LaTeX Warning: Citation 'AIImage' on page 22 undefined on input line 227.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-) [22 <./img/snr_graph.png>] (./4-experimental-methodology.tex
-Chapter 4.
-
-LaTeX Warning: Reference `sec::methdologysimulation' on page 23 undefined on in
-put line 2.
-
-
-LaTeX Warning: Reference `sec:methdologyimplementation' on page 23 undefined on
- input line 2.
-
-
-LaTeX Warning: Reference `ch:surveymodelling' on page 23 undefined on input lin
-e 2.
-
-
-LaTeX Warning: Reference `sec:methodologyoptimization' on page 23 undefined on 
-input line 2.
-
-
-LaTeX Warning: Reference `sec:methodologyprocess' on page 23 undefined on input
- line 2.
-
-
-LaTeX Warning: Reference `sec:methdologyprocess' on page 23 undefined on input 
-line 6.
-
-<img/simulation_overview.png, id=279, 502.87875pt x 502.87875pt>
-File: img/simulation_overview.png Graphic file (type png)
-<use img/simulation_overview.png>
-Package pdftex.def Info: img/simulation_overview.png  used on input line 10.
-(pdftex.def)             Requested size: 313.69026pt x 313.68457pt.
-
-LaTeX Warning: Reference `fig:simulation_overview' on page 23 undefined on inpu
-t line 15.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Overfull \hbox (12.92499pt too wide) in paragraph at lines 23--24
-[][]\T1/futs/m/n/10 NumPy[][]. Par-al-leliza-tion was per-formed us-ing [][]Das
-k[][]. Crit-i-cal paths of these pack-ages are writ-ten in C/C++/Cython,
- []
-
-
-Overfull \hbox (3.83174pt too wide) in paragraph at lines 23--24
-\T1/futs/m/n/10 and [][]Scikit-learn[][]. Where nec-es-sary for the pur-pose of
- anal-y-sis, data vi-su-al-i-sa-tion was per-formed us-ing [][]Seaborn[][].
- []
-
-[23
+[24]) [25] (./4-experimental-methodology.tex [26
 
 ]
+Chapter 4.
 
-LaTeX Warning: Citation 'GranvikPopulation' on page 24 undefined on input line 
-26.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
+LaTeX Warning: Reference `sec::methdologysimulation' on page 27 undefined on in
+put line 3.
 
 
-LaTeX Warning: Citation 'KeplerEquation' on page 24 undefined on input line 28.
+LaTeX Warning: Reference `sec:methdologyimplementation' on page 27 undefined on
+ input line 3.
 
 
-
-LaTeX Warning: Reference `sec:modelling_background' on page 24 undefined on inp
-ut line 31.
-
-
-LaTeX Warning: Citation 'LightOfTheNightSky' on page 24 undefined on input line
- 31.
+LaTeX Warning: Reference `sec:methodologyoptimization' on page 27 undefined on 
+input line 3.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+LaTeX Warning: Reference `sec:methdologyprocess' on page 27 undefined on input 
+line 7.
+
+File: img/simulation_overview.png Graphic file (type bmp)
+<img/simulation_overview.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
-
-[24 <./img/simulation_overview.png>]
-
-LaTeX Warning: Citation 'IRDust' on page 25 undefined on input line 33.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-LaTeX Warning: Reference `eq:sunscale' on page 25 undefined on input line 35.
-
-
-LaTeX Warning: Reference `fig:combinedvisbackground' on page 25 undefined on in
-put line 35.
-
-
-LaTeX Warning: Reference `fig:combinedtirbackground' on page 25 undefined on in
-put line 35.
-
-<img/background_vis_combined.png, id=304, 867.24pt x 433.62pt>
-File: img/background_vis_combined.png Graphic file (type png)
-<use img/background_vis_combined.png>
-Package pdftex.def Info: img/background_vis_combined.png  used on input line 39
-.
-(pdftex.def)             Requested size: 448.1309pt x 224.06776pt.
-<img/background_tir_combined.png, id=305, 867.24pt x 433.62pt>
-File: img/background_tir_combined.png Graphic file (type png)
-<use img/background_tir_combined.png>
-Package pdftex.def Info: img/background_tir_combined.png  used on input line 46
-.
-(pdftex.def)             Requested size: 448.1309pt x 224.06776pt.
-
-LaTeX Warning: Reference `sec:modelling_target' on page 25 undefined on input l
-ine 52.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-[25 <./img/background_vis_combined.png>]
-
-LaTeX Warning: Reference `fig:visual_signal_implementation' on page 26 undefine
-d on input line 62.
-
-
-LaTeX Warning: Reference `fig:thermal_signal_implementation' on page 26 undefin
-ed on input line 62.
-
-<img/implementation_vis_signal.png, id=314, 548.0475pt x 240.9pt>
-File: img/implementation_vis_signal.png Graphic file (type png)
-<use img/implementation_vis_signal.png>
-Package pdftex.def Info: img/implementation_vis_signal.png  used on input line 
-66.
-(pdftex.def)             Requested size: 313.69026pt x 137.88785pt.
-<img/implementation_tir_signal.png, id=315, 549.252pt x 242.70676pt>
-File: img/implementation_tir_signal.png Graphic file (type png)
-<use img/implementation_tir_signal.png>
-Package pdftex.def Info: img/implementation_tir_signal.png  used on input line 
-74.
-(pdftex.def)             Requested size: 313.69026pt x 138.61462pt.
-
-LaTeX Warning: Reference `sec:modelling_cadence' on page 26 undefined on input 
-line 80.
-
-
-LaTeX Warning: Citation 'ThesisOlga' on page 26 undefined on input line 80.
-
-
-LaTeX Warning: Citation 'NEOCam' on page 26 undefined on input line 80.
-
-[26 <./img/background_tir_combined.png>] [27 <./img/implementation_vis_signal.p
-ng> <./img/implementation_tir_signal.png>]
-
-LaTeX Warning: Reference `sec:modelling_identification' on page 28 undefined on
- input line 90.
-
-
-LaTeX Warning: Reference `sec:modelling_hardware_SNR' on page 28 undefined on i
-nput line 96.
-
-
-LaTeX Warning: Citation 'GaussianTanh' on page 28 undefined on input line 96.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Overfull \hbox (10.81839pt too wide) in paragraph at lines 98--99
-[]\T1/futs/m/n/10 For iden-ti-fi-ca-tion, the num-ber and pe-riod of the de-tec
--tions are tracked in the as-ter-oid pa-ram-e-ters dataframe.
- []
-
-[28]
-
-LaTeX Warning: Citation '2017NEOSDT' on page 29 undefined on input line 104.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-LaTeX Warning: Citation 'Surrogate' on page 29 undefined on input line 118.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-<img/bayesian_opt.png, id=338, 3580.37625pt x 854.19125pt>
-File: img/bayesian_opt.png Graphic file (type png)
-<use img/bayesian_opt.png>
-Package pdftex.def Info: img/bayesian_opt.png  used on input line 124.
-(pdftex.def)             Requested size: 448.1309pt x 106.90398pt.
-
-LaTeX Warning: Reference `fig:bayesian_opt' on page 29 undefined on input line 
-129.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
- []
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-<img/validation_example.png, id=346, 823.27576pt x 239.09325pt>
-File: img/validation_example.png Graphic file (type png)
-<use img/validation_example.png>
-Package pdftex.def Info: img/validation_example.png  used on input line 135.
-(pdftex.def)             Requested size: 448.1309pt x 130.14818pt.
-
-LaTeX Warning: Reference `fig:validation_example' on page 30 undefined on input
- line 140.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-[30 <./img/bayesian_opt.png (PNG copy)> <./img/validation_example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-[31]
-
-LaTeX Warning: Reference `sec:researchquestions' on page 32 undefined on input 
-line 161.
-
-) [32] (./5-results.tex
-Chapter 5.
-
-LaTeX Warning: Reference `sec:results_number' on page 33 undefined on input lin
-e 2.
-
-
-LaTeX Warning: Reference `sec:results_payload' on page 33 undefined on input li
-ne 2.
-
-
-LaTeX Warning: Reference `sec:results_orbits_one' on page 33 undefined on input
- line 2.
-
-
-LaTeX Warning: Reference `sec:results_orbits_two' on page 33 undefined on input
- line 2.
-
-
-LaTeX Warning: Reference `sec:results_explanation' on page 33 undefined on inpu
-t line 2.
-
-
-LaTeX Warning: Reference `sec:results_performance' on page 33 undefined on inpu
-t line 2.
-
-<img/number_sc_vis.png, id=370, 835.32076pt x 233.07076pt>
-File: img/number_sc_vis.png Graphic file (type png)
-<use img/number_sc_vis.png>
-Package pdftex.def Info: img/number_sc_vis.png  used on input line 9.
-(pdftex.def)             Requested size: 448.1309pt x 125.0348pt.
-<img/number_sc_tir.png, id=371, 834.11626pt x 238.491pt>
-File: img/number_sc_tir.png Graphic file (type png)
-<use img/number_sc_tir.png>
-Package pdftex.def Info: img/number_sc_tir.png  used on input line 17.
-(pdftex.def)             Requested size: 448.1309pt x 128.13182pt.
-
-LaTeX Warning: Reference `fig:results_number_vis' on page 33 undefined on input
- line 22.
-
-
-LaTeX Warning: Reference `fig:results_number_tir' on page 33 undefined on input
- line 22.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-[33
-
- <./img/number_sc_vis.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-LaTeX Warning: Citation '2017NEOSDT' on page 34 undefined on input line 28.
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+File: img/background_vis_combined.png Graphic file (type bmp)
+<img/background_vis_combined.png>
+File: img/background_tir_combined.png Graphic file (type bmp)
+<img/background_tir_combined.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+[29]
+File: img/implementation_vis_signal.png Graphic file (type bmp)
+<img/implementation_vis_signal.png>
+File: img/implementation_tir_signal.png Graphic file (type bmp)
+<img/implementation_tir_signal.png>
+ [30] [31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
 
 
-LaTeX Warning: Citation 'ThesisOlga' on page 34 undefined on input line 28.
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
 
 
-LaTeX Warning: Reference `sec:results_payload' on page 34 undefined on input li
-ne 28.
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
+ []
+
+File: img/bayesian_opt.png Graphic file (type bmp)
+<img/bayesian_opt.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+File: img/validation_example.png Graphic file (type bmp)
+<img/validation_example.png>
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+[35]) [36] (./5-results.tex
+Chapter 5.
+File: img/number_sc_vis.png Graphic file (type bmp)
+<img/number_sc_vis.png>
+File: img/number_sc_tir.png Graphic file (type bmp)
+<img/number_sc_tir.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[37
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+File: img/tir_vs_vis_many.png Graphic file (type bmp)
+<img/tir_vs_vis_many.png>
+File: img/tir_vs_vis_1_5.png Graphic file (type bmp)
+<img/tir_vs_vis_1_5.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+[38] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+File: img/tir_vs_vis_2_hybrid.png Graphic file (type bmp)
+<img/tir_vs_vis_2_hybrid.png>
+File: img/tir_vs_vis_4_hybrid.png Graphic file (type bmp)
+<img/tir_vs_vis_4_hybrid.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+[40]
+File: img/vis_semi_maj.png Graphic file (type bmp)
+<img/vis_semi_maj.png>
+File: img/tir_semi_maj.png Graphic file (type bmp)
+<img/tir_semi_maj.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[41]
+File: img/semi_maj_function_of_n.png Graphic file (type bmp)
+<img/semi_maj_function_of_n.png>
+File: img/vis_ecc.png Graphic file (type bmp)
+<img/vis_ecc.png>
+File: img/tir_ecc.png Graphic file (type bmp)
+<img/tir_ecc.png>
+ [42] [43]
+File: img/eccentricity_optimal.png Graphic file (type bmp)
+<img/eccentricity_optimal.png>
+File: img/spread_illustration.png Graphic file (type bmp)
+<img/spread_illustration.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+
+ []
+
+File: img/vis_spread.png Graphic file (type bmp)
+<img/vis_spread.png>
+File: img/tir_spread.png Graphic file (type bmp)
+<img/tir_spread.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+File: img/performance_free.png Graphic file (type bmp)
+<img/performance_free.png>
+[44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+File: img/overfit_free.png Graphic file (type bmp)
+<img/overfit_free.png>
+File: img/overfit_free_cumulative_average.png Graphic file (type bmp)
+<img/overfit_free_cumulative_average.png>
+[46] [47]
+File: img/orbits_2.png Graphic file (type bmp)
+<img/orbits_2.png>
+File: img/val_orbits_2.png Graphic file (type bmp)
+<img/val_orbits_2.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+File: img/orbits_6.png Graphic file (type bmp)
+<img/orbits_6.png>
+[48]
+File: img/val_orbits_6.png Graphic file (type bmp)
+<img/val_orbits_6.png>
+
+
+LaTeX Warning: Reference `val_orbits_6' on page 49 undefined on input line 224.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+File: img/orbits_11.png Graphic file (type bmp)
+<img/orbits_11.png>
+File: img/val_orbits_11.png Graphic file (type bmp)
+<img/val_orbits_11.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+File: img/coverage_spread.png Graphic file (type bmp)
+<img/coverage_spread.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+File: img/coverage_tight.png Graphic file (type bmp)
+<img/coverage_tight.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+File: img/spread_coverage.png Graphic file (type bmp)
+<img/spread_coverage.png>
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
+
+ []
+
+File: img/coverage_completeness.png Graphic file (type bmp)
+<img/coverage_completeness.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+File: img/coverage_high_n.png Graphic file (type bmp)
+<img/coverage_high_n.png>
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+File: img/coverage_free.png Graphic file (type bmp)
+<img/coverage_free.png>
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+File: img/performance_prediction.png Graphic file (type bmp)
+<img/performance_prediction.png>
+File: img/performance_prediction_rel.png Graphic file (type bmp)
+<img/performance_prediction_rel.png>
+File: img/completeness_hypothetical.png Graphic file (type bmp)
+<img/completeness_hypothetical.png>
+[54] [55]) [56] (./6-sensitivity-analysis.tex
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+File: img/validation_tir_target_signal.png Graphic file (type bmp)
+<img/validation_tir_target_signal.png>
+File: img/validation_tir_background_signal.png Graphic file (type bmp)
+<img/validation_tir_background_signal.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-<img/tir_vs_vis_many.png, id=380, 504.08325pt x 234.8775pt>
-File: img/tir_vs_vis_many.png Graphic file (type png)
-<use img/tir_vs_vis_many.png>
-Package pdftex.def Info: img/tir_vs_vis_many.png  used on input line 36.
-(pdftex.def)             Requested size: 313.69026pt x 146.1673pt.
-<img/tir_vs_vis_1_5.png, id=381, 834.11626pt x 239.09325pt>
-File: img/tir_vs_vis_1_5.png Graphic file (type png)
-<use img/tir_vs_vis_1_5.png>
-Package pdftex.def Info: img/tir_vs_vis_1_5.png  used on input line 43.
-(pdftex.def)             Requested size: 448.1309pt x 128.45538pt.
+[57
 
-LaTeX Warning: Reference `fig:tir_vs_vis_many' on page 34 undefined on input li
-ne 49.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+] [58] [59]
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[34 <./img/number_sc_tir.png>] [35 <./img/tir_vs_vis_many.png> <./img/tir_vs_vi
-s_1_5.png>]
+File: img/validation_theta_solve.png Graphic file (type bmp)
+<img/validation_theta_solve.png>
 
-LaTeX Warning: Reference `fig:tir_vs_vis_nohybrid' on page 36 undefined on inpu
-t line 51.
-
-
-LaTeX Warning: Citation 'ThesisOlga' on page 36 undefined on input line 51.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<img/tir_vs_vis_2_hybrid.png, id=398, 555.2745pt x 236.68425pt>
-File: img/tir_vs_vis_2_hybrid.png Graphic file (type png)
-<use img/tir_vs_vis_2_hybrid.png>
-Package pdftex.def Info: img/tir_vs_vis_2_hybrid.png  used on input line 55.
-(pdftex.def)             Requested size: 358.50609pt x 152.81726pt.
-<img/tir_vs_vis_4_hybrid.png, id=399, 543.2295pt x 236.68425pt>
-File: img/tir_vs_vis_4_hybrid.png Graphic file (type png)
-<use img/tir_vs_vis_4_hybrid.png>
-Package pdftex.def Info: img/tir_vs_vis_4_hybrid.png  used on input line 62.
-(pdftex.def)             Requested size: 358.50609pt x 156.20125pt.
-
-LaTeX Warning: Reference `fig:payload_hybrid_one' on page 36 undefined on input
- line 67.
-
-
-LaTeX Warning: Reference `fig:payload_hybrid_two' on page 36 undefined on input
- line 67.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-[36 <./img/tir_vs_vis_2_hybrid.png>]
-<img/vis_semi_maj.png, id=407, 552.8655pt x 236.082pt>
-File: img/vis_semi_maj.png Graphic file (type png)
-<use img/vis_semi_maj.png>
-Package pdftex.def Info: img/vis_semi_maj.png  used on input line 77.
-(pdftex.def)             Requested size: 358.50609pt x 153.09123pt.
-<img/tir_semi_maj.png, id=408, 554.67226pt x 242.70676pt>
-File: img/tir_semi_maj.png Graphic file (type png)
-<use img/tir_semi_maj.png>
-Package pdftex.def Info: img/tir_semi_maj.png  used on input line 84.
-(pdftex.def)             Requested size: 358.50609pt x 156.87239pt.
-
-
-LaTeX Warning: Reference `fig:vis_semi_maj' on page 37 undefined on input line 
-89.
-
-
-LaTeX Warning: Reference `fig:tir_semi_maj' on page 37 undefined on input line 
-89.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
-LaTeX Warning: Reference `fig:semi_maj_function_of_n' on page 37 undefined on i
-nput line 91.
-
-
-LaTeX Warning: Reference `sec:results_explanation' on page 37 undefined on inpu
-t line 91.
-
-[37 <./img/tir_vs_vis_4_hybrid.png> <./img/vis_semi_maj.png>]
-<img/semi_maj_function_of_n.png, id=418, 508.90125pt x 248.72925pt>
-File: img/semi_maj_function_of_n.png Graphic file (type png)
-<use img/semi_maj_function_of_n.png>
-Package pdftex.def Info: img/semi_maj_function_of_n.png  used on input line 97.
-
-(pdftex.def)             Requested size: 358.50609pt x 175.2289pt.
-<img/vis_ecc.png, id=419, 552.26324pt x 239.09325pt>
-File: img/vis_ecc.png Graphic file (type png)
-<use img/vis_ecc.png>
-Package pdftex.def Info: img/vis_ecc.png  used on input line 107.
-(pdftex.def)             Requested size: 358.50609pt x 155.21175pt.
-<img/tir_ecc.png, id=420, 546.24075pt x 242.1045pt>
-File: img/tir_ecc.png Graphic file (type png)
-<use img/tir_ecc.png>
-Package pdftex.def Info: img/tir_ecc.png  used on input line 114.
-(pdftex.def)             Requested size: 358.50609pt x 158.90285pt.
-
-
-LaTeX Warning: Reference `fig:vis_ecc' on page 38 undefined on input line 119.
-
-
-LaTeX Warning: Reference `fig:tir_ecc' on page 38 undefined on input line 119.
-
-
-LaTeX Warning: Reference `fig:eccentricity_optimal' on page 38 undefined on inp
-ut line 123.
-
-<img/eccentricity_optimal.png, id=421, 828.09375pt x 241.50224pt>
-File: img/eccentricity_optimal.png Graphic file (type png)
-<use img/eccentricity_optimal.png>
-Package pdftex.def Info: img/eccentricity_optimal.png  used on input line 127.
-(pdftex.def)             Requested size: 448.1309pt x 130.693pt.
-<img/spread_illustration.png, id=422, 743.77875pt x 360.1455pt>
-File: img/spread_illustration.png Graphic file (type png)
-<use img/spread_illustration.png>
-Package pdftex.def Info: img/spread_illustration.png  used on input line 136.
-(pdftex.def)             Requested size: 448.1309pt x 216.9957pt.
-[38 <./img/tir_semi_maj.png> <./img/semi_maj_function_of_n.png>] [39 <./img/vis
-_ecc.png> <./img/tir_ecc.png> <./img/eccentricity_optimal.png>]
-
-LaTeX Warning: Reference `fig:spread_illustration' on page 40 undefined on inpu
-t line 145.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
-
- []
-
-<img/vis_spread.png, id=444, 548.64975pt x 235.47975pt>
-File: img/vis_spread.png Graphic file (type png)
-<use img/vis_spread.png>
-Package pdftex.def Info: img/vis_spread.png  used on input line 149.
-(pdftex.def)             Requested size: 358.50609pt x 153.87566pt.
-<img/tir_spread.png, id=445, 543.2295pt x 239.6955pt>
-File: img/tir_spread.png Graphic file (type png)
-<use img/tir_spread.png>
-Package pdftex.def Info: img/tir_spread.png  used on input line 156.
-(pdftex.def)             Requested size: 358.50609pt x 158.18854pt.
-
-LaTeX Warning: Reference `fig:vis_spread' on page 40 undefined on input line 16
-1.
-
-
-LaTeX Warning: Reference `fig:tir_spread' on page 40 undefined on input line 16
-1.
-
-[40 <./img/spread_illustration.png> <./img/vis_spread.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-
- []
-
-<img/performance_free.png, id=455, 471.56175pt x 202.95825pt>
-File: img/performance_free.png Graphic file (type png)
-<use img/performance_free.png>
-Package pdftex.def Info: img/performance_free.png  used on input line 169.
-(pdftex.def)             Requested size: 448.1309pt x 192.88356pt.
-
-LaTeX Warning: Reference `fig:performance_free' on page 41 undefined on input l
-ine 173.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-<img/overfit_free.png, id=456, 471.56175pt x 208.98074pt>
-File: img/overfit_free.png Graphic file (type png)
-<use img/overfit_free.png>
-Package pdftex.def Info: img/overfit_free.png  used on input line 177.
-(pdftex.def)             Requested size: 448.1309pt x 198.6071pt.
-<img/overfit_free_cumulative_average.png, id=457, 473.97075pt x 203.5605pt>
-File: img/overfit_free_cumulative_average.png Graphic file (type png)
-<use img/overfit_free_cumulative_average.png>
-Package pdftex.def Info: img/overfit_free_cumulative_average.png  used on input
- line 183.
-(pdftex.def)             Requested size: 448.1309pt x 192.46198pt.
-
-LaTeX Warning: Reference `fig:overfit_free' on page 41 undefined on input line 
-188.
-
-
-LaTeX Warning: Reference `fig:overfit_free' on page 41 undefined on input line 
-188.
-
-
-LaTeX Warning: Reference `fig:overfit_free_cumulative_average' on page 41 undef
-ined on input line 188.
-
-[41 <./img/tir_spread.png>] [42 <./img/performance_free.png> <./img/overfit_fre
-e.png> <./img/overfit_free_cumulative_average.png>]
-<img/orbits_2.png, id=477, 946.737pt x 310.761pt>
-File: img/orbits_2.png Graphic file (type png)
-<use img/orbits_2.png>
-Package pdftex.def Info: img/orbits_2.png  used on input line 197.
-(pdftex.def)             Requested size: 448.1309pt x 147.09615pt.
-<img/val_orbits_2.png, id=478, 808.2195pt x 233.07076pt>
-File: img/val_orbits_2.png Graphic file (type png)
-<use img/val_orbits_2.png>
-Package pdftex.def Info: img/val_orbits_2.png  used on input line 203.
-(pdftex.def)             Requested size: 448.1309pt x 129.23132pt.
-<img/orbits_6.png, id=479, 949.146pt x 313.17pt>
-File: img/orbits_6.png Graphic file (type png)
-<use img/orbits_6.png>
-Package pdftex.def Info: img/orbits_6.png  used on input line 212.
-(pdftex.def)             Requested size: 448.1309pt x 147.85892pt.
-<img/val_orbits_6.png, id=480, 811.833pt x 232.4685pt>
-File: img/val_orbits_6.png Graphic file (type png)
-<use img/val_orbits_6.png>
-Package pdftex.def Info: img/val_orbits_6.png  used on input line 218.
-(pdftex.def)             Requested size: 448.1309pt x 128.32274pt.
-<img/orbits_11.png, id=481, 943.72575pt x 311.36325pt>
-File: img/orbits_11.png Graphic file (type png)
-<use img/orbits_11.png>
-Package pdftex.def Info: img/orbits_11.png  used on input line 227.
-(pdftex.def)             Requested size: 448.1309pt x 147.85156pt.
-<img/val_orbits_11.png, id=482, 811.833pt x 234.27525pt>
-File: img/val_orbits_11.png Graphic file (type png)
-<use img/val_orbits_11.png>
-Package pdftex.def Info: img/val_orbits_11.png  used on input line 233.
-(pdftex.def)             Requested size: 448.1309pt x 129.32007pt.
-<img/coverage_spread.png, id=483, 1473.505pt x 436.63126pt>
-File: img/coverage_spread.png Graphic file (type png)
-<use img/coverage_spread.png>
-Package pdftex.def Info: img/coverage_spread.png  used on input line 244.
-(pdftex.def)             Requested size: 448.1309pt x 132.78925pt.
- [43 <./img/orbits_2.png> <./img/val_orbits_2.png>] [44 <./img/orbits_6.png> <.
-/img/val_orbits_6.png> <./img/orbits_11.png> <./img/val_orbits_11.png>]
-
-LaTeX Warning: File `img/coverage_right.png' not found on input line 251.
-
-
-! Package pdftex.def Error: File `img/coverage_right.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.251 ...th=1.0\textwidth]{img/coverage_right.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-51.
-(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-<img/spread_coverage.png, id=505, 813.0375pt x 245.11575pt>
-File: img/spread_coverage.png Graphic file (type png)
-<use img/spread_coverage.png>
-Package pdftex.def Info: img/spread_coverage.png  used on input line 258.
-(pdftex.def)             Requested size: 448.1309pt x 135.10207pt.
-<img/coverage_completeness.png, id=506, 554.67226pt x 240.9pt>
-File: img/coverage_completeness.png Graphic file (type png)
-<use img/coverage_completeness.png>
-Package pdftex.def Info: img/coverage_completeness.png  used on input line 265.
-
-(pdftex.def)             Requested size: 448.1309pt x 194.63168pt.
-<img/coverage_high_n.png, id=507, 1469.49pt x 427.5975pt>
-File: img/coverage_high_n.png Graphic file (type png)
-<use img/coverage_high_n.png>
-Package pdftex.def Info: img/coverage_high_n.png  used on input line 272.
-(pdftex.def)             Requested size: 448.1309pt x 130.39421pt.
-<img/coverage_free.png, id=508, 1469.49pt x 427.5975pt>
-File: img/coverage_free.png Graphic file (type png)
-<use img/coverage_free.png>
-Package pdftex.def Info: img/coverage_free.png  used on input line 279.
-(pdftex.def)             Requested size: 448.1309pt x 130.39421pt.
-<img/performance_prediction.png, id=509, 548.0475pt x 239.09325pt>
-File: img/performance_prediction.png Graphic file (type png)
-<use img/performance_prediction.png>
-Package pdftex.def Info: img/performance_prediction.png  used on input line 294
-.
-(pdftex.def)             Requested size: 403.31508pt x 175.95578pt.
-<img/performance_prediction_rel.png, id=510, 551.05875pt x 236.68425pt>
-File: img/performance_prediction_rel.png Graphic file (type png)
-<use img/performance_prediction_rel.png>
-Package pdftex.def Info: img/performance_prediction_rel.png  used on input line
- 301.
-(pdftex.def)             Requested size: 403.31508pt x 173.23311pt.
-<img/completeness_hypothetical.png, id=511, 413.74574pt x 243.91125pt>
-File: img/completeness_hypothetical.png Graphic file (type png)
-<use img/completeness_hypothetical.png>
-Package pdftex.def Info: img/completeness_hypothetical.png  used on input line 
-316.
-(pdftex.def)             Requested size: 313.69026pt x 184.93529pt.
-) [45 <./img/coverage_spread.png>] [46 <./img/spread_coverage.png>] [47 <./img/
-coverage_completeness.png> <./img/coverage_high_n.png> <./img/coverage_free.png
->] [48 <./img/performance_prediction.png> <./img/performance_prediction_rel.png
-> <./img/completeness_hypothetical.png>] (./6-sensitivity-analysis.tex
-Chapter 6.
-) [49
-
-] (./7-conclusion.tex [50
+File: img/validation_cadence_performance.png Graphic file (type bmp)
+<img/validation_cadence_performance.png>
+File: img/validation_cadence_error.png Graphic file (type bmp)
+<img/validation_cadence_error.png>
+File: img/validation_solar_angle.png Graphic file (type bmp)
+<img/validation_solar_angle.png>
+[60] [61]
+File: img/validation_starting_year.png Graphic file (type bmp)
+<img/validation_starting_year.png>
+File: img/validation_completeness_vis.png Graphic file (type bmp)
+<img/validation_completeness_vis.png>
+ [62]
+File: img/validation_completeness_tir.png Graphic file (type bmp)
+<img/validation_completeness_tir.png>
+) [63] (./7-conclusion.tex [64
 
 ]
 Chapter 7.
-) [51] (./a-verification-validation.tex [52
+[65] [66]) [67] [68
 
 ]
+Overfull \hbox (8.78275pt too wide) in paragraph at lines 83--83
+\TU/Arial(0)/m/n/10 servatory. Obtained 07/10/21 from [][]$[][][][] [] [] [] []
+[][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][] [] [
+][][][][][][][][][][][][][][][] []
+ []
+
+[69] (./a-verification-validation.tex [70]
 Appendix A.
+File: img/appendix_orbit_1.png Graphic file (type bmp)
+<img/appendix_orbit_1.png>
+File: img/appendix_loss_1.png Graphic file (type bmp)
+<img/appendix_loss_1.png>
+File: img/appendix_orbit_2.png Graphic file (type bmp)
+<img/appendix_orbit_2.png>
+File: img/appendix_loss_2.png Graphic file (type bmp)
+<img/appendix_loss_2.png>
+File: img/appendix_orbit_3.png Graphic file (type bmp)
+<img/appendix_orbit_3.png>
+File: img/appendix_loss_3.png Graphic file (type bmp)
+<img/appendix_loss_3.png>
+File: img/appendix_orbit_4.png Graphic file (type bmp)
+<img/appendix_orbit_4.png>
+File: img/appendix_loss_4.png Graphic file (type bmp)
+<img/appendix_loss_4.png>
+File: img/appendix_orbit_5.png Graphic file (type bmp)
+<img/appendix_orbit_5.png>
+File: img/appendix_loss_5.png Graphic file (type bmp)
+<img/appendix_loss_5.png>
 )
-
-LaTeX Warning: Empty bibliography on input line 90.
-
 \Changes@OutFile=\write7
 \openout7 = `report.soc'.
 
 \tf@loc=\write8
 \openout8 = `report.loc'.
 
-[53] (./report.aux)
+ [71
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 22.17pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] (./report.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  77D5E0F00CAC61A54110D756DF7EF43B;9338.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                report
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 217E7469D01ED83A5844204D3FD7E67A;6656.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34710 strings out of 478994
- 638543 string characters out of 5862207
- 1444504 words of memory out of 5000000
- 51228 multiletter control sequences out of 15000+600000
- 514385 words of font info for 137 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 102i,14n,107p,1592b,4952s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
-ive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fon
-ts/enc/dvips/roboto/rbto_b5rac7.enc}<c:/texlive/2021/texmf-dist/fonts/type1/goo
-gle/roboto/Roboto-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/fo
-urier/fourier-mex.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/fourier/fo
-urier-ml.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/fourier/fourier-mli
-t.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><c:
-/texlive/2021/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2021/t
-exmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2021/texmf-dist/fonts
-/type1/adobe/utopia/putri8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/
-cm-super/sfrm1728.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/s
-frm3583.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pf
-b>
-Output written on report.pdf (61 pages, 4974661 bytes).
-PDF statistics:
- 667 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 216 named destinations out of 1000 (max. 500000)
- 394 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 39755 strings out of 476919
+ 770825 string characters out of 5825424
+ 1782844 words of memory out of 5000000
+ 58974 multiletter control sequences out of 15000+600000
+ 408609 words of font info for 110 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 102i,14n,130p,1903b,4954s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on report.pdf (91 pages).
