@@ -16,7 +16,7 @@
 \DeclareOption{nativefonts}{\@nativefontstrue}
 \DeclareOption{print}{\@printtrue}
 %\DeclareOption{whitetitle}{\@whitetitletrue}
-% \DeclareOption{whitelogo}{\@whitelogotrue}
+%\DeclareOption{whitelogo}{\@whitelogotrue}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ExecuteOptions{english}
 \ProcessOptions\relax
@@ -382,14 +382,14 @@
         \else
           \ifKV@cover@back
               \node at (current page.south west)[anchor=south west,inner sep=20pt]{
-                  \includegraphics{cover/logo_black}
+                  \includegraphics{cover/logo_white}
               };
               \node at (current page.south east)[anchor=south east,inner sep=20pt]{
-                  \includegraphics{cover/logo_black}
+                  \includegraphics{cover/logo_white}
               };
           \else
               \node at (current page.south west)[anchor=south west,inner sep=20pt]{
-                  \includegraphics{cover/logo_black}
+                  \includegraphics{cover/logo_white}
               };
           \fi
         \fi

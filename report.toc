@@ -61,7 +61,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Optimization Methods}{33}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Experimental Process}{35}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Research Process}{35}{section.4.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Results and Discussion}{37}{chapter.5}%
 \defcounter {refsection}{0}\relax 
@@ -73,29 +73,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.1}Semi-major axis}{41}{subsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Eccentricity}{44}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.2}Eccentricity}{43}{subsection.5.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Mean Anomaly at Epoch}{44}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.3}Mean Anomaly at Epoch}{45}{subsection.5.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Orbital Elements II: Non Co-orbital Spacecraft}{46}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Orbital Elements II: Non Co-orbital Spacecraft}{47}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Explanation of Observed Phenomena}{51}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Explanation of Observed Phenomena}{52}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Predicted Performance and Implications for Missions Design}{54}{section.5.6}%
+\contentsline {section}{\numberline {5.6}Predicted Performance and Implications for Missions Design}{55}{section.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Verification and Validation}{57}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Verification and Validation}{59}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Infrared Signal}{57}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Infrared Signal}{59}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Survey Implementation}{60}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Survey Implementation}{62}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Expected Performance}{63}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Expected Performance}{65}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion and Recommendations}{65}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Conclusion and Recommendations}{67}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Conclusions}{65}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Conclusions}{67}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Recommendations for Further Research}{67}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Recommendations for Further Research}{69}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Optimization Results}{71}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Optimization Results}{73}{appendix.A}%
 \contentsfinish 

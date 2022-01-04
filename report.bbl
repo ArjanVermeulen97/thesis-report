@@ -225,23 +225,24 @@
     \endentry
     \entry{SpaceguardHistory}{article}{}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=6dd4ae23896c632da2c8ef5f33e49160}{%
+        {{un=0,uniquepart=base,hash=cb954233132963ab78d508848ee05010}{%
            family={Harris},
            familyi={H\bibinitperiod},
-           given={A.},
+           given={{A. W.}},
            giveni={A\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
-      \strng{namehash}{6dd4ae23896c632da2c8ef5f33e49160}
-      \strng{fullhash}{6dd4ae23896c632da2c8ef5f33e49160}
-      \strng{bibnamehash}{6dd4ae23896c632da2c8ef5f33e49160}
-      \strng{authorbibnamehash}{6dd4ae23896c632da2c8ef5f33e49160}
-      \strng{authornamehash}{6dd4ae23896c632da2c8ef5f33e49160}
-      \strng{authorfullhash}{6dd4ae23896c632da2c8ef5f33e49160}
+      \strng{namehash}{cb954233132963ab78d508848ee05010}
+      \strng{fullhash}{cb954233132963ab78d508848ee05010}
+      \strng{bibnamehash}{cb954233132963ab78d508848ee05010}
+      \strng{authorbibnamehash}{cb954233132963ab78d508848ee05010}
+      \strng{authornamehash}{cb954233132963ab78d508848ee05010}
+      \strng{authorfullhash}{cb954233132963ab78d508848ee05010}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -251,12 +252,12 @@
     \endentry
     \entry{HarrisPopulation}{article}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=cb954233132963ab78d508848ee05010}{%
+        {{un=0,uniquepart=base,hash=cb954233132963ab78d508848ee05010}{%
            family={Harris},
            familyi={H\bibinitperiod},
            given={{A. W.}},
            giveni={A\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=355b59e5a89f5169b65470fab7241c5b}{%
            family={D'Abramo},
            familyi={D\bibinitperiod},
@@ -274,6 +275,7 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Icarus}
@@ -283,17 +285,17 @@
     \endentry
     \entry{AsteroidNEATM}{article}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=cb954233132963ab78d508848ee05010}{%
+        {{un=0,uniquepart=base,hash=cb954233132963ab78d508848ee05010}{%
            family={Harris},
            familyi={H\bibinitperiod},
-           given={A.\bibnamedelimi W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=1}}%
+           given={{A. W.}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=4e220dcd4610b8b08403d8beca555d6a}{%
            family={Lagerros},
            familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi S.\bibnamedelimi V.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={{J. S. V.}},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
@@ -309,6 +311,7 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Asteroids III}
@@ -751,7 +754,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Monthly notives of royal astronomy society}
+      \field{journaltitle}{Monthly notices of the royal astronomy society}
       \field{title}{Effective image differencing with convolutional neural networks for real-time transient hunting}
       \field{volume}{476}
       \field{year}{2018}
@@ -815,7 +818,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Study to Determine the Feasbility of Extending the Search for Near-Earth Objects to Smaller Limiting Diameters}
+      \field{title}{Study to Determine the Feasibility of Extending the Search for Near-Earth Objects to Smaller Limiting Diameters}
       \field{type}{techreport}
       \field{year}{2003}
     \endentry
