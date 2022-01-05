@@ -1,0 +1,171 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequency of orbital elements for modelled NEA population according to \cite {GranvikPopulation}\relax }}{4}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Expected survey completeness as a function of near-Earth asteroid diameter. \cite {HarrisPopulation}\relax }}{4}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces State of asteroid identification progress as of August 2014, compared to the expected number of asteroids per diameter. Note that the y-axis is logarithmic. \cite {HarrisPopulation}\relax }}{5}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Yearly and cumulative identifications made per NEA survey from 1995 up to and including 2021. Data obtained from \url {https://cneos.jpl.nasa.gov/stats}\relax }}{5}{figure.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Projected improvement in survey completeness for a 5, 10 and 15 year survey from deep space. Data from \cite {2017NEOSDT}.\relax }}{7}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Consider a spacecraft (represented by the cyan hexagon) attempting to observe several asteroids (blue circles). Because of Solar glare and thermal limits (red-shaded area), the spacecraft is unable to observe the top and bottom NEA. However, addition of a second spacecraft greatly reduces the ``blind area'': now the system can observe all four NEA's.\relax }}{9}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Normally, in order to perform orbit determination, the spacecraft (cyan hexagon) would have to image a target (blue cicle) three times. For targets that are hard to observe, such as a highly eccentric NEA which can only be detected close to perihelion, this leads to problems: the third detection will be hard to obtain, as the NEA moves behind the Sun into the blind area, or out of the detector's range altogether. Addition of a second spacecraft allows triangulation, thus halving the time required to identify the asteroid, performing the necessary measurements before the asteroid moves far away again.\relax }}{9}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces In a more advanced system, some of the spacecraft could be dedicated to follow-up observations. As soon as one spacecraft detects a target, the second spacecraft is instructed to point in the direction of the new observation. In that way, even if a target is only observable for a short period, the spacecraft will have a much larger chance of pointing towards it.\relax }}{10}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Distribution of the full population of asteroids per \cite {GranvikPopulation}, and an estimation of how many asteroids have already been identified, per \cite {HarrisPopulation}. The left graph is shown logarithmically, the right graph uses a linear scaling.\relax }}{16}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Isodensity contours of the interplanetary dust model, shown at a plane perpendicular to the ecliptic. F.l.t.r.: the dust cloud, dust bands, and the circumsolar ring. Units of the contours are $10^{-7} ~\mathrm {AU}^{-1}$ for the dust cloud, and $0.125\cdot 10^{-7} ~\mathrm {AU}^{-1}$ for the bands and ring (\cite {IRDust}).\relax }}{18}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Combined isodensity contour of the interplanetary dust in a plane perpendicular to the ecliptic (\cite {IRDust}).\relax }}{18}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Contribution of light from the Sun to the background signal in thermal infrared, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are Megajansky per steradian, $1 \mathrm {MJy}{sr}^{-1} = 10^{-21} \mathrm {W}\mathrm {m}^{-2}\mathrm {Hz}^{-1}\mathrm {sr}^{-1}$, and the scale is clipped at $35 ~\mathrm {MJy}{sr}^{-1}$ for clarity.\relax }}{19}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Contribution of light form the Sun to the background signal in the visual spectrum, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are $S10_\odot $ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm {W}\mathrm {m}^{-2}\mathrm {sr}^{-1}$. The scale is clipped at $1000 S10_\odot $ for clarity.\relax }}{20}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Contribution of light from the Milky Way and diffuse starlight to the background signal in thermal infrared, in ecliptic coordinates. Units are Megajansky per steradian, $1 \mathrm {MJy}{sr}^{-1} = 10^{-21} \mathrm {W}\mathrm {m}^{-2}\mathrm {Hz}^{-1}\mathrm {sr}^{-1}$, and the scale is clipped at $35 \mathrm {MJy}{sr}^{-1}$ for clarity.\relax }}{20}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Contribution of light form the Milky Way and diffuse starlight to the background signal in the visual spectrum, in ecliptic coordinates. Units are $S10_\odot $ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm {W}\mathrm {m}^{-2}\mathrm {sr}^{-1}$. The scale is clipped at $1000 S10_\odot $ for clarity.\relax }}{21}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Detection probability as a function of signal-to-noise ratio according to an integrated Gaussian. The function is truncated to 0 at SNR < 1, and to 1 at SNR > 5\relax }}{24}{figure.caption.26}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of the simulation architecture and main loops.\relax }}{28}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Background signal in the visual spectrum, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are $S10_\odot $ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm {W}\mathrm {m}^{-2}\mathrm {sr}^{-1}$. The scale is clipped at $1000 S10_\odot $ for clarity.\relax }}{29}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Background signal in thermal infrared, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are Megajansky per steradian, $1 \mathrm {MJy}{sr}^{-1} = 10^{-21} \mathrm {W}\mathrm {m}^{-2}\mathrm {Hz}^{-1}\mathrm {sr}^{-1}$, and the scale is clipped at $35 \mathrm {MJy}{sr}^{-1}$ for clarity.\relax }}{30}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Signal in the visual light spectrum of a $H=15, 20, 25; p_v=0.14$ asteroid in a 1 AU circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly.\relax }}{31}{figure.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Signal in the thermal infrared spectrum of a $H=15, 20, 25; p_v=0.14$ asteroid in a 1 AU circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly.\relax }}{31}{figure.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic illustration of Bayesian optimization. The to-be-optimized function is shown in black, the Gaussian uncertainty in the purple bands, and the surrogate model is the blue function below. CC BY-SA 4.0 AnotherSamWilson on Wikimedia Commons.\relax }}{34}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Example of a system which learns well, and a system which learns poorly, overfitting instead.\relax }}{35}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Improvement in survey completeness gained by increasing the number of spacecraft in a purely visual light wavelength system. The left graph shows the improvement of an $n$-spacecraft system with respect to a system of a single spacecraft, the right graph shows the improvement of an $n$-spacecraft system with respect to an $n-1$-spacecraft system.\relax }}{37}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Improvement in survey completeness gained by increasing the number of spacecraft in a purely thermal infrared wavelength system. The left graph shows the improvement of an $n$-spacecraft system with respect to a system of a single spacecraft, the right graph shows the improvement of an $n$-spacecraft system with respect to an $n-1$-spacecraft system.\relax }}{38}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Comparison of relative increase in performance gained relative to a single spacecraft system for visual and thermal infrared systems.\relax }}{39}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Progress of survey completeness over a five year survey for a 1-spacecraft and 5-spacecraft system, comparing visual light and thermal infrared.\relax }}{39}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Progress of survey completeness over a five year survey for all possible payload combinations in a 2-spacecraft system.\relax }}{40}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Progress of survey completeness over a five year survey for all possible payload combinations in a 4-spacecraft system.\relax }}{41}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Visual light survey performance as a function of semi-major axis for 1 to 5 spacecraft.\relax }}{42}{figure.caption.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Thermal infrared survey performance as a function of semi-major axis for 1 to 5 spacecraft.\relax }}{42}{figure.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Optimal semi-major axis as a function of the number of spacecraft in the system.\relax }}{43}{figure.caption.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Visual light survey performance as a function of eccentricity for 1 to 5 spacecraft.\relax }}{43}{figure.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Thermal infrared survey performance as a function of eccentricity for 1 to 5 spacecraft.\relax }}{44}{figure.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Relationship between optimal semi-major axis, eccentricity, and the resulting perihelion for 1-5 spacecraft. It can be seen that the system attempts to maintain the same perihelion for low eccentricities.\relax }}{44}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Illustration of a high ($2\mitpi /5~\mathrm {rad}$) and a low ($0.3~\mathrm {rad}$) inter-spacecraft distance.\relax }}{45}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Visual light survey performance as a function of angular separation between spacecraft for 1 to 5 spacecraft.\relax }}{46}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Thermal infrared survey performance as a function of angular separation between spacecraft for 1 to 5 spacecraft.\relax }}{46}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Performances for systems optimized for either a single semi-major axis, distinct semi-major axes and anomalies per spacecraft, or distinct semi-major axes, anomalies and eccentricities per spacecraft.\relax }}{47}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Overfit of the optimizer per number of spacecraft.\relax }}{48}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Cumulative average of the overfit of the optimizer per number of spacecraft.\relax }}{48}{figure.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Optimization results for systems with two spacecraft.\relax }}{49}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Learning/validation results for systems with two spacecraft.\relax }}{49}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Optimization results for systems with six spacecraft.\relax }}{50}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Learning/validation results for systems with six spacecraft.\relax }}{50}{figure.caption.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Optimization results for systems with eleven spacecraft.\relax }}{51}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Learning/validation results for systems with eleven spacecraft.\relax }}{51}{figure.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Illustration of the observable area for a system of 1, 3 and 5 spacecraft, spread out over the orbit.\relax }}{52}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Illustration of the observable area for a system of 1, 3 and 5 spacecraft, spread apart by 0.2 rad.\relax }}{52}{figure.caption.59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Relationship between coverage and asteroid absolute magnitude for spacecraft spread maximally apart, or spread only 0.2 rad\relax }}{53}{figure.caption.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Relationship between coverage and completeness for 2-5 spacecraft.\relax }}{54}{figure.caption.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Illustration of the observable area for a system of 15 spacecraft, at a=1.0 AU and a=1.5AU, spread out over the orbit. The 5 spacecraft case is shown for comparison.\relax }}{54}{figure.caption.62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Illustration of the observable area for a system of 5 spacecraft, spread out over the orbit. The left case has the spacecraft co-orbital. In the middle case, the spacecraft are in different orbits, but spread out. On the right, they have lined up in their orbital motion.\relax }}{55}{figure.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.31}{\ignorespaces Prediction of performance\relax }}{56}{figure.caption.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.32}{\ignorespaces Relative prediction of performance\relax }}{56}{figure.caption.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.33}{\ignorespaces Expected performance as a function of number of spacecraft.\relax }}{57}{figure.caption.66}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of infrared signal calculation. Reference data is shown on the left, obtained from \cite {AsteroidNEATM}. The other two curves in the plot were results of other, older, asteroid thermal models.\relax }}{60}{figure.caption.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of the calculated densities of the various interplanetary dust components. Top: reference images from \cite {IRDust}, bottom: calculated densities.\relax }}{61}{figure.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Relationship between mean anomaly and true anomaly for various eccentricities.\relax }}{62}{figure.caption.71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of survey completeness with and without assumptions on survey cadence.\relax }}{63}{figure.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Error in survey result introduced by the assumptions on survey cadence.\relax }}{64}{figure.caption.74}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Expected survey performance as a function of maximum solar elongation.\relax }}{64}{figure.caption.75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Expected survey performance as a function of the offset in start date.\relax }}{65}{figure.caption.76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Comparison of completeness as a function of diameter for visual light system, validation data from \cite {2017NEOSDT}.\relax }}{65}{figure.caption.77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Comparison of completeness as a function of diameter for thermal infrared system, validation data from \cite {2017NEOSDT}.\relax }}{66}{figure.caption.78}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Optimization solutions for 1-4 spacecraft. Left: circular co-orbital, middle: individual semi-major axis and anomaly, right: individual semi-major axis, anomaly and eccentricity.\relax }}{74}{figure.caption.80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Learning and loss curves for optimization of 1-4 spacecraft. Blue line: learning, orange line: validation, green dotted line: average of validation for a given solution.\relax }}{75}{figure.caption.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Optimization solutions for 5-8 spacecraft. Left: circular co-orbital, middle: individual semi-major axis and anomaly, right: individual semi-major axis, anomaly and eccentricity.\relax }}{76}{figure.caption.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Learning and loss curves for optimization of 5-8 spacecraft. Blue line: learning, orange line: validation, green dotted line: average of validation for a given solution.\relax }}{77}{figure.caption.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Optimization solutions for 9-12 spacecraft. Left: circular co-orbital, middle: individual semi-major axis and anomaly, right: individual semi-major axis, anomaly and eccentricity.\relax }}{78}{figure.caption.84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Learning and loss curves for optimization of 9-12 spacecraft. Blue line: learning, orange line: validation, green dotted line: average of validation for a given solution.\relax }}{79}{figure.caption.85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Optimization solutions for 13-16 spacecraft. Left: circular co-orbital, middle: individual semi-major axis and anomaly, right: individual semi-major axis, anomaly and eccentricity.\relax }}{80}{figure.caption.86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Learning and loss curves for optimization of 13-16 spacecraft. Blue line: learning, orange line: validation, green dotted line: average of validation for a given solution.\relax }}{81}{figure.caption.87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Optimization solutions for 17-20 spacecraft. Left: circular co-orbital, middle: individual semi-major axis and anomaly, right: individual semi-major axis, anomaly and eccentricity.\relax }}{82}{figure.caption.88}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Learning and loss curves for optimization of 17-20 spacecraft. Blue line: learning, orange line: validation, green dotted line: average of validation for a given solution.\relax }}{83}{figure.caption.89}%
+\contentsfinish 

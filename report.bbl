@@ -659,6 +659,34 @@
       \field{type}{techreport}
       \field{year}{2013}
     \endentry
+    \entry{Flyeye}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98e37311bec731bca843be4e028d0b35}{%
+           family={{Ramirez Torralba}},
+           familyi={R\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c69d66fc49f05c3bf60faab74fe6e136}
+      \strng{fullhash}{c69d66fc49f05c3bf60faab74fe6e136}
+      \strng{bibnamehash}{c69d66fc49f05c3bf60faab74fe6e136}
+      \strng{authorbibnamehash}{c69d66fc49f05c3bf60faab74fe6e136}
+      \strng{authornamehash}{c69d66fc49f05c3bf60faab74fe6e136}
+      \strng{authorfullhash}{c69d66fc49f05c3bf60faab74fe6e136}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{1st NEO and Debris Detection Conference}
+      \field{title}{Simulation of Sky Surveys with the Flyeye Telescope}
+      \field{year}{2019}
+    \endentry
     \entry{ThesisOlga}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=98e37311bec731bca843be4e028d0b35}{%
@@ -907,34 +935,6 @@
       \field{title}{An Early Warning System for Asteroid Impact}
       \field{volume}{123}
       \field{year}{2010}
-    \endentry
-    \entry{Flyeye}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7833094e0da1c83cb10a3973dea5cc9c}{%
-           family={Torralba},
-           familyi={T\bibinitperiod},
-           given={O.\bibnamedelimi Ramirez},
-           giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{da24f6a0473aeb045acd4f52ada48378}
-      \strng{fullhash}{da24f6a0473aeb045acd4f52ada48378}
-      \strng{bibnamehash}{da24f6a0473aeb045acd4f52ada48378}
-      \strng{authorbibnamehash}{da24f6a0473aeb045acd4f52ada48378}
-      \strng{authornamehash}{da24f6a0473aeb045acd4f52ada48378}
-      \strng{authorfullhash}{da24f6a0473aeb045acd4f52ada48378}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{1st NEO and Debris Detection Conference}
-      \field{title}{Simulation of Sky Surveys with the Flyeye Telescope}
-      \field{year}{2019}
     \endentry
     \entry{LiteratureReview}{unpublished}{}
       \name{author}{1}{}{%

@@ -26,7 +26,7 @@ Firstly, significant diminishing returns present themselves for both spectra; th
 
 This fact compounds the second finding: even the most efficient addition - adding a second spacecraft to a single spacecraft survey system - does not come close to increasing the system performance by 100\%. In other words: increasing the number of spacecraft will \textit{decrease} the number of asteroids detected \textit{per spacecraft}. While this finding might seem irrelevant from a mission design point-of-view - the overall performance still increases - it is nevertheless important to consider in the context of other mission constraints, such as budget. \\
 
-The third result is that thermal infrared systems feature a larger relative improvement to survey performance as the number of spacecraft increases, i.e. thermal infrared systems benefit more from additional spacecraft. This trend continues for higher numbers of spacecraft, with thermal infrared systems reaching a 100\% improvement around 7-8 spacecraft, compared to visual light systems requiring 15-16 spacecraft to achieve a similar performance gain. This, combined with the fact that thermal infrared systems have been shown to be the best choice for future NEA missions (see e.g. \cite{2017NEOSDT}, \cite{ThesisOlga}), suggests a multi-spacecraft system should also comprise thermal infrared telescopes. This will be investigated in more detail in \autoref{sec:results_payload}.\\
+The third result is that thermal infrared systems feature a larger relative improvement to survey performance as the number of spacecraft increases, i.e. thermal infrared systems benefit more from additional spacecraft. This trend continues for higher numbers of spacecraft, with thermal infrared systems reaching a 100\% improvement around 7-8 spacecraft, compared to visual light systems requiring 15-16 spacecraft to achieve a similar performance gain. This, combined with the fact that thermal infrared systems have been shown to be the best choice for future NEA missions using a single spacecraft (see e.g. \cite{2017NEOSDT}, \cite{ThesisOlga}), suggests a multi-spacecraft system should also comprise thermal infrared telescopes. This will be investigated in more detail in \autoref{sec:results_payload}.\\
 
 Finally, it is evident that a variance of around 1-2\% is present in the survey performance results, relative to a smooth exponentially decreasing curve. It was found that this variance is also present when repeatedly sampling the simulation using the same input parameters. Therfore, in these and subsequent results, it will be assumed that this is simply a result of the stochasticity in the model. Possible other explanations will be ruled out further in \autoref{ch:vandv}.
 
@@ -34,7 +34,7 @@ Finally, it is evident that a variance of around 1-2\% is present in the survey 
 \label{sec:results_payload}
 \begin{figure}[htbp]
  \centering
- \includegraphics[width=0.7\textwidth]{img/tir_vs_vis_many.pdf}
+ \includegraphics[width=0.8\textwidth]{img/tir_vs_vis_many.pdf}
  \caption{Comparison of relative increase in performance gained relative to a single spacecraft system for visual and thermal infrared systems.}
  \label{fig:tir_vs_vis_many}
 \end{figure}
@@ -133,7 +133,7 @@ This is further illustrated in \autoref{fig:eccentricity_optimal}. This result i
 \begin{figure}
  \centering
  \includegraphics[width=1.0\textwidth]{img/spread_illustration.png}
- \caption{Illustration of a high ($2\pi/5~\mathrm{rad}$ and a low ($0.3~\mathrm{rad}$) inter-spacecraft distance.}
+ \caption{Illustration of a high ($2\pi/5~\mathrm{rad}$) and a low ($0.3~\mathrm{rad}$) inter-spacecraft distance.}
  \label{fig:spread_illustration}
 \end{figure}
 
@@ -161,7 +161,7 @@ Results for visual light and thermal infrared are shown in \autoref{fig:vis_spre
 
 \section{Orbital Elements II: Non Co-orbital Spacecraft}
 \label{sec:results_orbits_two}
-A logical continuation of the above analysis would be to investigate systems in which all spacecraft are allowed to have different orbital elements per spacecraft. This complicates the analysis significantly, as the dimensionality of the problem rapidly increases. Therefore, additional special attention has to be paid to the performance of the optimizer, and to run validation tests on its results. In addition, to aid in comparison, three sets of optimization parameters were analysed. Firstly, a system which has all spacecraft spread out as much as possible, in a single circular orbit. From the results in the previous section, it follows that this is the optimal solution. Secondly, a system in which each spacecraft can have a distinct semi-major axis and anomaly at epoch. Because spacecraft with different semi-major axes have different orbital periods, the spacecraft can not be spread out evenly a priori. Therefore, the optimizer has to take care of this task as well, and not just the semi-major axes. Lastly, a similar set of parameters is analysed, but with orbits that are allowed to be non-circular. In that case, the parameter space comprises a semi-major axis, true anomaly at epoch, and eccentricity for each spacecraft.\\
+A logical continuation of the above analysis would be to investigate systems in which all spacecraft are allowed to have different orbital elements per spacecraft. This complicates the analysis significantly, as the dimensionality of the problem rapidly increases. Therefore, special attention has to be paid to the performance of the optimizer, and validation tests should be run on its results. In addition, to aid in comparison, three sets of optimization parameters were analysed. Firstly, a system which has all spacecraft spread out as much as possible, in a single circular orbit. From the results in the previous section, it follows that this is the optimal co-orbital solution. Secondly, a system in which each spacecraft can have a distinct semi-major axis and anomaly at epoch. Because spacecraft with different semi-major axes have different orbital periods, the spacecraft can not be spread out evenly a priori. Therefore, the optimizer has to take care of this task as well, and not just the semi-major axes. Lastly, a similar set of parameters is analysed, but with orbits that are allowed to be non-circular. In that case, the parameter space comprises a semi-major axis, true anomaly at epoch, and eccentricity for each spacecraft.\\
 
 \begin{figure}[htbp]
  \centering
@@ -330,7 +330,7 @@ Furthermore, a mission designer might be interested in what number of spacecraft
 
 \begin{figure}[htbp]
  \centering
- \includegraphics[width=0.7\textwidth]{img/completeness_hypothetical.pdf}
+ \includegraphics[width=0.8\textwidth]{img/completeness_hypothetical.pdf}
  \caption{Expected performance as a function of number of spacecraft.}
  \label{fig:completeness_hypothetical}
 \end{figure}

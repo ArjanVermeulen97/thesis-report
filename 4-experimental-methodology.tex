@@ -1,10 +1,10 @@
-\chapter{Methodology and Implementation}
+\chapter{Implementation and Methodology}
 \label{ch:experimental}
 After review of the background of near-Earth asteroid surveys and the existing body of literature for modelling surveys, this chapter will discuss the developed simulation in more detail. Firstly, in \autoref{sec:methodologysimulation}, the architecture of the simulation is discussed on a top-level. Then, in \autoref{sec:methodologyimplementation}, the implementation of the components of the simulation based on the literature in \autoref{ch:surveymodelling} is explained. Then, discourse will be given to the methods of optimization utilized in the research in \autoref{sec:methodologyoptimization}. Lastly, in \autoref{sec:methodologyprocess}, the process of using the simulation and optimization methods to obtain the results and conclusions presented in the next chapter is explained as well as the reasoning to support the optimization results. For reference, the interested reader can find the complete code as-is \href{https://github.com/ArjanVermeulen97/thesis-code.git}{on Github.}
 
 \section{Simulation Overview}
 \label{sec:methodologysimulation}
-First, before discussing the specifics of implementation, a general overview of the simulation is given. The objective of the simulation is to accurately predict the performance of a NEA survey by a given system of spacecraft, on a given population. Obtaining results, performing optimization, as well as performing verification and validation are not considered a part of the simulation, but rather a system utilizing it. The process of performing those steps will be further explained in \autoref{sec:methodologyprocess}.
+First, before discussing the specifics of implementation, a general overview of the simulation is given. The objective of the simulation is to accurately predict the performance of a NEA survey by a given system of spacecraft, on a given population. Obtaining results, performing optimization, as well as performing verification and validation are not considered a part of the simulation, but rather a system utilizing it. The process of performing those steps will be further explained in \autoref{sec:methodologyprocess}.\\
 
 \begin{figure}[htbp]
  \centering
@@ -38,14 +38,14 @@ After tabulation, the background signal data can be held in memory during operat
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_vis_combined.png}
- \caption{Background signal in the visual spectrum, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm{W}\mathrm{m}^{-2}\mathrm{Sr}^{-1}$. The scale is clipped at $1000 S10_\odot$ for clarity.}
+ \caption{Background signal in the visual spectrum, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm{W}\mathrm{m}^{-2}\mathrm{sr}^{-1}$. The scale is clipped at $1000 S10_\odot$ for clarity.}
  \label{fig:combinedvisbackground}
 \end{figure}
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_tir_combined.png}
- \caption{Background signal in thermal infrared, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are Megajansky per steradian, $1 \mathrm{MJy}{sr}^{-1} = 10^{-21} \mathrm{W}\mathrm{m}^{-2}\mathrm{Hz}^{-1}\mathrm{Sr}^{-1}$, and the scale is clipped at $35 \mathrm{MJy}{sr}^{-1}$ for clarity.}
+ \caption{Background signal in thermal infrared, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are Megajansky per steradian, $1 \mathrm{MJy}{sr}^{-1} = 10^{-21} \mathrm{W}\mathrm{m}^{-2}\mathrm{Hz}^{-1}\mathrm{sr}^{-1}$, and the scale is clipped at $35 \mathrm{MJy}{sr}^{-1}$ for clarity.}
  \label{fig:combinedtirbackground}
 \end{figure}
 
@@ -64,7 +64,7 @@ This integration was implemented through a Riemann sum as well, using the midpoi
 
 \begin{figure}[htbp]
  \centering
- \includegraphics[width=0.7\textwidth]{img/implementation_vis_signal.pdf}
+ \includegraphics[width=0.8\textwidth]{img/implementation_vis_signal.pdf}
  \caption{Signal in the visual light spectrum of a $H=15, 20, 25; p_v=0.14$ asteroid in a 1 AU circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly.}
  \label{fig:visual_signal_implementation}
 \end{figure}
@@ -72,13 +72,13 @@ This integration was implemented through a Riemann sum as well, using the midpoi
 
 \begin{figure}[htbp]
  \centering
- \includegraphics[width=0.7\textwidth]{img/implementation_tir_signal.pdf}
+ \includegraphics[width=0.8\textwidth]{img/implementation_tir_signal.pdf}
  \caption{Signal in the thermal infrared spectrum of a $H=15, 20, 25; p_v=0.14$ asteroid in a 1 AU circular orbit as seen from a spacecraft at (0.7, 0, 0), as a function of the asteroid's true anomaly.}
  \label{fig:thermal_signal_implementation}
 \end{figure}
 
 \subsection{Search Strategy and Cadence}
-Implementation of the search strategy and cadence proved to be the most problematic aspect in the implementation process. As mentioned in \autoref{sec:modelling_cadence}, very little literature exists on the topic, and no methods have been developed to obtain an optimal search strategy utilizing multiple spacecraft. Several options were considered to model the strategy and resulting cadence. Firstly, a method omitting implementation, instead performing a correction ex post, such as utlized by \cite{ThesisOlga}. This method was expected to underrepresent the effect of a distinct survey cadence, and introduces a look-ahead bias which would both be very problematic for the acccuracy of the results of this simulation. Secondly, explicitly modelling a north-to-south, west-to-east gridsearch-like strategy such as described by \cite{NEOCam}. Although this model would arguably be the most accurate, it is very impactful with respect to the computational load, for three reasons:
+Implementation of the search strategy and cadence proved to be the most problematic aspect in the implementation process. As mentioned in \autoref{sec:modelling_cadence}, very little literature exists on the topic, and no methods have been developed to obtain an optimal search strategy utilizing multiple spacecraft. Several options were considered to model the strategy and resulting cadence. Firstly, a method omitting implementation, instead performing a correction ex post, such as utlized by \cite{ThesisOlga}. This method was expected to underrepresent the effect of a distinct survey cadence, and introduces a look-ahead bias which would both be very problematic for the accuracy of the results of this simulation. Secondly, explicitly modelling a north-to-south, west-to-east gridsearch-like strategy such as described by \cite{NEOCam}. Although this model would arguably be the most accurate, it is very impactful with respect to the computational load, for three reasons:
 \begin{itemize}
  \item Firstly, the positions of the asteroids and spacecraft have to be calculated for each imaging step. This results in calculating the positions $41,253 / (7.13*1.7) \approx 3400$ times for thermal infrared, or 734 times for the visual spectrum, for each complete scan of the sky.
  \item Secondly, to check whether or not an asteroid is inside the field-of-view of the telescope, trigonometric calculations are necessary, which are computationally inefficient.

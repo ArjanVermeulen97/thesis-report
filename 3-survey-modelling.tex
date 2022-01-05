@@ -19,13 +19,13 @@ The first component of the simulation is the asteroid population model. This pop
 \end{figure}
 
 
-Of course, this results in a full population of NEA's; whereas a population of \textit{unidentified} NEA's is required for this work. Therefore, a correction to the population was made based on the work of \cite{HarrisPopulation}. To do this, the population as given by \cite{GranvikPopulation} was separated, based on absolute magnitude, into bins of width 0.5. Then, it was assumed that the detection of NEAs is roughly uniform over the orbital parameters. The completeness statistics of \cite{HarrisPopulation} can then be used to discard a part of the population as \textit{identified}. This is shown in \autoref{fig:populationcorrection}. Of course, the assumption of uniformity in the detection of NEA's is false: highly eccentric NEA's, NEA's that are very dark, or NEA's with a long semi-major axis are more likely to be undetected. However, no data is available on this matter, and therefore no better alternative was deemed to be available. As all simulations will be affected equally, and in addition, as can be seen in the second diagram in \autoref{fig:populationcorrection}, only a small part of asteroids is discarded - the largest population groups by size have very low completeness numbers - the error is judged to be sufficiently small for practical purposes.
+Of course, this results in a full population of NEA's; whereas a population of \textit{unidentified} NEA's is required for this work. Therefore, a correction to the population was made based on the work of \cite{HarrisPopulation}. To do this, the population as given by \cite{GranvikPopulation} was separated, based on absolute magnitude, into bins of width 0.5. Then, it was assumed that the detection of NEA's is roughly uniform over the orbital parameters. The completeness statistics of \cite{HarrisPopulation} can then be used to discard a part of the population as \textit{identified}. This is shown in \autoref{fig:populationcorrection}. Of course, the assumption of uniformity in the detection of NEA's is false: highly eccentric NEA's, NEA's that are very dark, or NEA's with a long semi-major axis are more likely to be undetected. However, no data is available on this matter, and therefore no better alternative was deemed to be available. As all simulations will be affected equally, and in addition, as can be seen in the second diagram in \autoref{fig:populationcorrection}, only a small part of asteroids is discarded - the largest population groups by size have very low completeness numbers - the error is judged to be sufficiently small for practical purposes.
 
 \section{Background Signal}
 \label{sec:modelling_background}
 Before considering the existing knowledge on modelling asteroid signals, first the background in which these targets has to be observed is discussed. In this section, the current relevant body of knowledge on modelling this background signal will be given. The background signal will be split into two components. Firstly, the background light originating from the Sun. This manifests most dramatically in the form of direct sunlight. However, also reflections off of interplantary dust are important. This reflection manifests in the phenomena of zodiacal light and gegenschein. The second component of the background signal, is the light from outside the Solar system. This light originates from other stars and manifests mainly as a diffuse background of starlight. Particularly, a very large concentration of this starlight is found around the galactic plane. \\
 
-The reason for separating the background signal into these two components is straightforward: in a reference frame fixed among the stars, the background signal from outside the Solar system is practically unchanging as the spacecraft moves around the Sun; the parallax of moving several AU is negligible on galactic scales. In constrast, the contribution of light from our Sun is directly dependent on the position of the spacecraft with regards to the Sun. In the following sections, two primary reference frames are used: a heliocentric ecliptic reference frame (A right-handed reference frame whose principal plane is the ecliptic plane, origin at the center of the Sun, and the positive X-direction towards the vernal equinox), and a galactic reference frame (A right-handed reference frame whose principal plane is the plane of the Milky Way, origin at the center of the Sun, and positive X-direction towards the galactic core). The transformations between eclpitic longitude and latitude $(l_e, b_e)$ and galactic longitude and latitude $(l_g, b_g)$ are as follows:
+The reason for separating the background signal into these two components is straightforward: in a reference frame fixed among the stars, the background signal from outside the Solar system is practically unchanging as the spacecraft moves around the Sun; the parallax of moving several AU is negligible on galactic scales. In constrast, the contribution of light from our Sun is directly dependent on the position of the spacecraft with regards to the Sun. In the following sections, two primary reference frames are used: a heliocentric ecliptic reference frame (a right-handed reference frame whose principal plane is the ecliptic plane, origin at the center of the Sun, and the positive X-direction towards the vernal equinox), and a galactic reference frame (a right-handed reference frame whose principal plane is the plane of the Milky Way, origin at the center of the Sun, and positive X-direction towards the galactic core). The transformations between eclpitic longitude and latitude $(l_e, b_e)$ and galactic longitude and latitude $(l_g, b_g)$ are as follows:
 
 \begin{align}
  b_g &= \sin ^{-1} (\sin b_e * \sin B_{NGP}) - \cos b_e \sin b_{NGP} \sin (l_e - l_{NGP} \\
@@ -79,7 +79,7 @@ Combining all these components and performing the integration leads to the full 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_tir_zodiac.png}
- \caption{Contribution of light from the Sun to the background signal in thermal infrared, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are Megajansky per steradian, $1 \mathrm{MJy}~{sr}^{-1} = 10^{-21} \mathrm{W}\mathrm{m}^{-2}\mathrm{Hz}^{-1}\mathrm{Sr}^{-1}$, and the scale is clipped at $35 ~\mathrm{MJy}{sr}^{-1}$ for clarity.}
+ \caption{Contribution of light from the Sun to the background signal in thermal infrared, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are Megajansky per steradian, $1 \mathrm{MJy}{sr}^{-1} = 10^{-21} \mathrm{W}\mathrm{m}^{-2}\mathrm{Hz}^{-1}\mathrm{sr}^{-1}$, and the scale is clipped at $35 ~\mathrm{MJy}{sr}^{-1}$ for clarity.}
  \label{fig:solartirbackground}
 \end{figure}
 
@@ -93,7 +93,7 @@ This correction factor accounts for both the approximate decrease in interplanet
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_vis_zodiac.png}
- \caption{Contribution of light form the Sun to the background signal in the visual spectrum, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm{W}\mathrm{m}^{-2}\mathrm{Sr}^{-1}$. The scale is clipped at $1000 S10_\odot$ for clarity.}
+ \caption{Contribution of light form the Sun to the background signal in the visual spectrum, in ecliptic coordinates, as seen from a spacecraft located at (-1, 0, 0) AU. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm{W}\mathrm{m}^{-2}\mathrm{sr}^{-1}$. The scale is clipped at $1000 S10_\odot$ for clarity.}
  \label{fig:solarvisbackground}
 \end{figure}
 
@@ -105,7 +105,7 @@ For the background signal originating from the Milky Way and other diffuse starl
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_tir_stars.png}
- \caption{Contribution of light from the Milky Way and diffuse starlight to the background signal in thermal infrared, in ecliptic coordinates. Units are Megajansky per steradian, $1 \mathrm{MJy}{sr}^{-1} = 10^{-21} \mathrm{W}\mathrm{m}^{-2}\mathrm{Hz}^{-1}\mathrm{Sr}^{-1}$, and the scale is clipped at $35 \mathrm{MJy}{sr}^{-1}$ for clarity.}
+ \caption{Contribution of light from the Milky Way and diffuse starlight to the background signal in thermal infrared, in ecliptic coordinates. Units are Megajansky per steradian, $1 \mathrm{MJy}{sr}^{-1} = 10^{-21} \mathrm{W}\mathrm{m}^{-2}\mathrm{Hz}^{-1}\mathrm{sr}^{-1}$, and the scale is clipped at $35 \mathrm{MJy}{sr}^{-1}$ for clarity.}
  \label{fig:starstirbackground}
 \end{figure}
 
@@ -114,7 +114,7 @@ A final note is to be made about individual stars: readers who occassionally gla
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/background_vis_stars.png}
- \caption{Contribution of light form the Milky Way and diffuse starlight to the background signal in the visual spectrum, in ecliptic coordinates. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm{W}\mathrm{m}^{-2}\mathrm{Sr}^{-1}$. The scale is clipped at $1000 S10_\odot$ for clarity.}
+ \caption{Contribution of light form the Milky Way and diffuse starlight to the background signal in the visual spectrum, in ecliptic coordinates. Units are $S10_\odot$ or solar-type stars of 10th magnitude per square degree. $1S10_\odot = 9.00\mathrm{W}\mathrm{m}^{-2}\mathrm{sr}^{-1}$. The scale is clipped at $1000 S10_\odot$ for clarity.}
  \label{fig:starsvisbackground}
 \end{figure}
 

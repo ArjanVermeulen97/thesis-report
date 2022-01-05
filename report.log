@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  4 JAN 2022 21:52
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  5 JAN 2022 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1943,18 +1943,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [6] (./report.toc)
-\tf@toc=\write6
-\openout6 = `report.toc'.
+) (./lists.tex [6] (./report.lof
+Overfull \hbox (7.69614pt too wide) in paragraph at lines 14--14
+ \TU/Arial(0)/m/n/10 number of asteroids per diameter. Note that the y-axis is 
+logarithmic. Harris and D’Abramo, 
+ []
 
- [7
+[7
 
-] [8
+]
+Overfull \hbox (33.36308pt too wide) in paragraph at lines 50--50
+ \TU/Arial(0)/m/n/10 located at (-1, 0, 0) AU. Units are Megajansky per steradi
+an, $[][][][] [] [][][][][][][][][][]$, 
+ []
+
+[8]
+Overfull \hbox (3.55647pt too wide) in paragraph at lines 118--118
+ [][] [][][]\TU/Arial(0)/m/n/10 Illustration of the observable area for a syste
+m of 15 spacecraft, at a=1.0 AU and a=1.5AU, 
+ []
+
+[9])
+\tf@lof=\write6
+\openout6 = `report.lof'.
+
+ [10] (./report.lot)
+\tf@lot=\write7
+\openout7 = `report.lot'.
+
+ [11
+
+] [12
+
+] [13] [14
+
+]) [15] [16
+
+] (./report.toc)
+\tf@toc=\write8
+\openout8 = `report.toc'.
+
+ [17]
+[18
 
 ]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 62.
+(hyperref)                setting the option has no effect on input line 64.
 
 (./1-introduction-and-background.tex
 Chapter 1.
@@ -2243,6 +2278,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
 ]
 Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
 File: img/simulation_overview.pdf Graphic file (type pdf)
 <use img/simulation_overview.pdf>
 
@@ -2573,22 +2613,21 @@ File: img/validation_cadence_error.pdf Graphic file (type pdf)
 <use img/validation_cadence_error.pdf>
 File: img/validation_solar_angle.pdf Graphic file (type pdf)
 <use img/validation_solar_angle.pdf>
- [63]
 File: img/validation_starting_year.pdf Graphic file (type pdf)
 <use img/validation_starting_year.pdf>
+ [63] [64]
 File: img/validation_completeness_vis.pdf Graphic file (type pdf)
 <use img/validation_completeness_vis.pdf>
- [64]
 File: img/validation_completeness_tir.pdf Graphic file (type pdf)
 <use img/validation_completeness_tir.pdf>
-) [65] (./7-conclusion.tex [66
-
-]
+) [65] [66] (./7-conclusion.tex
 Chapter 7.
-[67] [68]) [69] [70
+[67
+
+] [68]) [69] [70
 
 ]
-Overfull \hbox (8.78275pt too wide) in paragraph at lines 83--83
+Overfull \hbox (8.78275pt too wide) in paragraph at lines 85--85
 \TU/Arial(0)/m/n/10 servatory. Obtained 07/10/21 from [][]$[][][][] [] [] [] []
 [][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][] [] [
 ][][][][][][][][][][][][][][][] []
@@ -2617,28 +2656,28 @@ File: img/appendix_orbit_5.png Graphic file (type bmp)
 File: img/appendix_loss_5.png Graphic file (type bmp)
 <img/appendix_loss_5.png>
 )
-\Changes@OutFile=\write7
-\openout7 = `report.soc'.
+\Changes@OutFile=\write9
+\openout9 = `report.soc'.
 
-\tf@loc=\write8
-\openout8 = `report.loc'.
+\tf@loc=\write10
+\openout10 = `report.loc'.
 
  [73
 
 ] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: EF98EF76FE90E24F8CE367CEC0176F7B;6849.
+(rerunfilecheck)             Checksum: 3A6918E106D8D23ACBB465414C9C0F9F;6844.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39755 strings out of 476919
- 771493 string characters out of 5825424
- 1783175 words of memory out of 5000000
- 58973 multiletter control sequences out of 15000+600000
+ 39769 strings out of 476919
+ 771628 string characters out of 5825424
+ 1783220 words of memory out of 5000000
+ 58978 multiletter control sequences out of 15000+600000
  408609 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,14n,130p,1908b,4954s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,14n,130p,1906b,6577s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (93 pages).
+Output written on report.pdf (103 pages).

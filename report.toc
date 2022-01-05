@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Research Questions and Expected Outcomes}{10}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Resport Structure}{13}{section.2.7}%
+\contentsline {section}{\numberline {2.7}Report Structure}{13}{section.2.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Theoretical Background of Survey Modelling}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -43,7 +43,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Detection and Identification}{24}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Methodology and Implementation}{27}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Implementation and Methodology}{27}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Simulation Overview}{27}{section.4.1}%
 \defcounter {refsection}{0}\relax 
