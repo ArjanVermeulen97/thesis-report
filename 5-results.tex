@@ -42,14 +42,14 @@ Finally, it is evident that a variance of around 1-2\% is present in the survey 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/tir_vs_vis_1_5.pdf}
- \caption{Progress of survey completeness over a five year survey for a 1-spacecraft and 5-spacecraft system, comparing visual light and thermal infrared.}
+ \caption{Progress of survey completeness over a five year survey for a 1-spacecraft and 5-spacecraft system, in systems where either all spacecraft are equipped with visual light telescopes, or all spacecraft are equipped with thermal infrared telescopes.}
  \label{fig:tir_vs_vis_nohybrid}
 \end{figure}
 
 
-As mentioned in the previous section, initial result suggest thermal infrared systems to be the optimal choice for multi-spacecraft systems because of their predicted higher performance in single-spacecraft systems, and higher benefit from increasing the number of spacecraft. The latter effect is shown in \autoref{fig:tir_vs_vis_many}. In this section, the payload composition will be investigated in more detail. Particular interest is placed in the performance as a function of time - visual light systems feature a faster cadence - and in possible synergistic effects in systems featuring both visual light and thermal infrared telescopes. When interpreting the results of this chapter, it is important to keep in mind the fact that these simulations were carried out assuming contemporary hardware. Advances in either type of telescope or sensor might warrant a future reassessment.\\
+As mentioned in the previous section, initial result suggest thermal infrared systems to be the optimal choice for multi-spacecraft systems because of their predicted higher performance in single-spacecraft systems, and higher benefit from increasing the number of spacecraft. The latter effect is shown in \autoref{fig:tir_vs_vis_many}. In this section, the payload composition will be investigated in more detail. Particular interest is placed in the performance as a function of time - visual light systems feature a faster cadence - and in possible synergistic effects in systems featuring both visual light and thermal infrared telescopes. When interpreting the results of this chapter, it is important to keep in mind the fact that these simulations were carried out assuming contemporary hardware (as listed in \autoref{tab:hardwareproperties}). Advances in either type of telescope or sensor might warrant a future reassessment.\\
 
-Firstly, the performances for systems featuring only one payload type were modelled. For comparison, this analysis was carried out for a 1-spacecraft and a 5-spacecraft system. Because, as shown in the previous section, the payload types exhibit similar behavior when the number of spacecraft is altered, this was assumed to be representative of other numbers of spacecraft as well. The resulting survey performance as a function of time can be seen in \autoref{fig:tir_vs_vis_nohybrid}. Note that, contrary to previous figures, these graphs show the \textit{absolute} survey completeness, not the completeness relative to a benchmark. In the results, it can be observed that initially, the visual light system features a higher completeness due to its faster cadence. However, the thermal infrared system quickly surpasses it as time progresses. This means that the faster cadence granted by the lower integration times and larger sensor sizes of the visual light system does not weight up to the increased sensitivity of the thermal infrared system on the timescales of survey missions; not only is the final survey completeness more than 10\% higher for a thermal infrared system, it also manages to achieve the same performance as a 5-year visual light survey in only a single year in both examined cases. This agrees with the findings of \cite{ThesisOlga} that for systems where quick detections are important, such as impact last-warning, thermal infrared is also a superior option. \\
+Firstly, the performances for systems featuring only one payload type were modelled. For comparison, this analysis was carried out for a 1-spacecraft and a 5-spacecraft system. Because, as shown in the previous section, the payload types exhibit similar behavior when the number of spacecraft is altered, this was assumed to be representative of other numbers of spacecraft as well. The resulting survey performance as a function of time can be seen in \autoref{fig:tir_vs_vis_nohybrid}. Note that, contrary to previous figures, these graphs show the \textit{absolute} survey completeness, not the completeness relative to a benchmark. In the results, it can be observed that initially, the visual light system features a higher completeness due to its faster cadence. However, the thermal infrared system quickly surpasses it as time progresses. This means that the faster cadence granted by the lower integration times and larger sensor sizes of the visual light system does not weigh up to the increased sensitivity of the thermal infrared system on the timescales of survey missions; not only is the final survey completeness more than 10\% higher for a thermal infrared system, it also manages to achieve the same performance as a 5-year visual light survey in only a single year in both examined cases. This agrees with the findings of \cite{ThesisOlga} that for systems where quick detections are important, such as impact last-warning, thermal infrared is also a superior option. \\
 
 \begin{figure}[htbp]
  \centering
@@ -65,25 +65,25 @@ Firstly, the performances for systems featuring only one payload type were model
  \label{fig:payload_hybrid_two}
 \end{figure}
 
-In continuation of the payload analysis, systems utilizing a combination of visual light and thermal infrared telescopes were examined. The reasoning is that the higher sensitivity of thermal infrared systems combined with the higher cadence of visual light systems might result in a synergistic effect where fast, hard to detect NEA's can still be identified successfully. However, as can be seen from the results for 2- and 4-spacecraft systems in \autoref{fig:payload_hybrid_one} and \autoref{fig:payload_hybrid_two}, respectively, this is not the case. A system comprising purely infrared telescopes yields the best results, and performance increases progressively as the number of thermal infrared telescopes in the system increases. This means that in general thermal infrared is the preferred payload type for deep space multi-spacecraft systems. Note however that this assertion is made under the assumption of a simplistic search strategy, where the system repeatedly images the entire sky. Possible applications of fast visual light telescopes as follow-up telescopes - as demonstrated by the Catalina Sky Survey - might still be a feasible option, although this would first require research into such advanced search strategies.
+In continuation of the payload analysis, systems utilizing a combination of visual light and thermal infrared telescopes were examined. The reasoning is that the higher sensitivity of thermal infrared systems combined with the higher cadence of visual light systems might result in a synergistic effect where the system performs better than the performance of the individual components would suggest. However, as can be seen from the results for 2- and 4-spacecraft systems in \autoref{fig:payload_hybrid_one} and \autoref{fig:payload_hybrid_two}, respectively, this is not the case. A system comprising purely infrared telescopes yields the best results, and performance increases progressively as the number of thermal infrared telescopes in the system increases. This means that in general thermal infrared is the preferred payload type for deep space multi-spacecraft systems aimed at increasing the survey completeness. Note however that this assertion is made under the assumption of a simplistic search strategy, where the system repeatedly images the entire sky. Possible applications of fast visual light telescopes as follow-up telescopes - as demonstrated by the Catalina Sky Survey - might still be a feasible option, although this would first require research into such advanced search strategies.
 
 \section{Orbital Elements I: Co-orbital Spacecraft}
 \label{sec:results_orbits_one}
-Next, the orbital elements of the system are inspected. This is done both to find what the effect is of the orbital elements on the performance, but also how the payload and number of spacecraft affect the optimal orbital elements of the system. To facilitate analysis, and to later judge the results of the optimizer more accurately, the orbits are first analysed for a system of co-orbital spacecraft. That is, all orbital elements, except for the anomaly at epoch, are the same for all spacecraft. In addition, the separation in anomalies of the spacecraft is the same for all spacecraft. This was done to vastly reduce the parameter space, and to reduce accidental overfitting to the population model. The latter follows from the fact that, logically, only the angular distance between the spacecraft should influence the result, not the absolute starting position, as the NEA's are distributed in a radially symmetrical fashion. I.e., a system with two spacecraft at mean anomaly at epoch $0$ and $\pi$ should give the same result as starting at $\pi/2$ and $3\pi/2$, only the inter-spacecraft distance is relevant.\\
+Next, the orbital elements of the system are inspected. This is done both to find what the effect is of the orbital elements on the performance, but also how the payload and number of spacecraft affect the optimal orbital elements of the system. To facilitate analysis, and to later judge the results of the optimizer more accurately, the orbits are first analysed for a system of co-orbital spacecraft. That is, all orbital elements, except for the anomaly at epoch, are the same for all spacecraft. In addition, all spacecraft are spread out by an equal amount in terms of anomaly. This was done to vastly reduce the parameter space, and to reduce accidental overfitting to the population model. The latter follows from the fact that, logically, only the angular distance between the spacecraft should influence the result, not the absolute starting position, as the NEA's are distributed in a radially symmetrical fashion. I.e., a system with two spacecraft at mean anomaly at epoch $0$ and $\pi$ should give the same result as starting at $\pi/2$ and $3\pi/2$, only the inter-spacecraft distance is relevant.\\
 
 \subsection{Semi-major axis}
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.8\textwidth]{img/vis_semi_maj.pdf}
- \caption{Visual light survey performance as a function of semi-major axis for 1 to 5 spacecraft.}
+ \caption{Visual light survey performance as a function of semi-major axis for 1 to 5 spacecraft. Corresponding eccentricity and angular separation of spacecraft are optimized using a grid search for each point.}
  \label{fig:vis_semi_maj}
 \end{figure}
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.8\textwidth]{img/tir_semi_maj.pdf}
- \caption{Thermal infrared survey performance as a function of semi-major axis for 1 to 5 spacecraft.}
+ \caption{Thermal infrared survey performance as a function of semi-major axis for 1 to 5 spacecraft. Corresponding eccentricity and angular separation of spacecraft are optimized using a grid search for each point.}
  \label{fig:tir_semi_maj}
 \end{figure}
 
@@ -94,7 +94,7 @@ The second factor of note is the change in the optimal semi-major axis as the nu
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.8\textwidth]{img/semi_maj_function_of_n.pdf}
- \caption{Optimal semi-major axis as a function of the number of spacecraft in the system.}
+ \caption{Optimal semi-major axis as a function of the number of spacecraft in the system. The eccentricity is zero, and the spacecraft are spread out equally. All values were optained using surrogate optimization.}
  \label{fig:semi_maj_function_of_n}
 \end{figure}
 
@@ -104,14 +104,14 @@ The second factor of note is the change in the optimal semi-major axis as the nu
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.8\textwidth]{img/vis_ecc.pdf}
- \caption{Visual light survey performance as a function of eccentricity for 1 to 5 spacecraft.}
+ \caption{Visual light survey performance as a function of eccentricity for 1 to 5 spacecraft. Corresponding semi-major axis and angular separation of spacecraft are optimized using a grid search for each point.}
  \label{fig:vis_ecc}
 \end{figure}
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.8\textwidth]{img/tir_ecc.pdf}
- \caption{Thermal infrared survey performance as a function of eccentricity for 1 to 5 spacecraft.}
+ \caption{Thermal infrared survey performance as a function of eccentricity for 1 to 5 spacecraft. Corresponding semi-major axis and angular separation of spacecraft are optimized using a grid search for each point.}
  \label{fig:tir_ecc}
 \end{figure}
 
@@ -124,7 +124,7 @@ This is further illustrated in \autoref{fig:eccentricity_optimal}. This result i
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=1.0\textwidth]{img/eccentricity_optimal.pdf}
- \caption{Relationship between optimal semi-major axis, eccentricity, and the resulting perihelion for 1-5 spacecraft. It can be seen that the system attempts to maintain the same perihelion for low eccentricities.}
+ \caption{Relationship between optimal semi-major axis, eccentricity, and the resulting apohelion for 1-5 spacecraft. It can be seen that the system attempts to maintain the same apohelion for low eccentricities. Corresponding semi-major axis and angular separation of spacecraft are optimized using a grid search for each point.}
  \label{fig:eccentricity_optimal}
 \end{figure}
 
@@ -141,19 +141,19 @@ The last parameter to be considered for the co-orbital solutions is the mean ano
 \begin{equation}
  \theta_n = (n-1) \cdot \Delta \theta - \frac{N-1}{2}\Delta \theta
 \end{equation}
-This equation and the resulting formation is shown in \autoref{fig:spread_illustration}. A lower boundary of 0.3 rad was chosen to ensure triangulation would remain possible. In addition, to maintain the separation between all spacecraft, the full formation can not span more than $2\pi$ rad. This results in the boundaries $0.3 \leq \Delta \theta \leq 2\pi/N$. The hypothesized effect of changing the spread is composed of two effects: On the one hand, spreading out the spacecraft more allows for viewing a larger portion of the sky simultaneously, and reduces blind spots, as explained in \autoref{sec:researchmultispacecraft}. On the other hand, as spacecraft are closer together, the chances of obtaining a simultaneous detection of the same asteroid - and thereby achieving triangulation - is increased, thereby leading to a faster detection.\\
+This equation and the resulting formation is shown in \autoref{fig:spread_illustration}. A lower boundary of 0.3 rad ($\approx 17.2^\circ$) was chosen to ensure triangulation would remain possible. In addition, to maintain the separation between all spacecraft, the full formation can not span more than $2\pi$ rad. This results in the boundaries $0.3 \leq \Delta \theta \leq 2\pi/N$. The hypothesized effect of changing the spread is composed of two effects: On the one hand, spreading out the spacecraft more allows for viewing a larger portion of the sky simultaneously, and reduces blind spots, as explained in \autoref{sec:researchmultispacecraft}. On the other hand, as spacecraft are closer together, the chances of obtaining a simultaneous detection of the same asteroid - and thereby achieving triangulation - is increased, thereby leading to a faster detection.\\
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.8\textwidth]{img/vis_spread.pdf}
- \caption{Visual light survey performance as a function of angular separation between spacecraft for 1 to 5 spacecraft.}
+ \caption{Visual light survey performance as a function of angular separation between spacecraft for 1 to 5 spacecraft. Corresponding semi-major axis and eccentricity are optimized using a grid search for each point.}
  \label{fig:vis_spread}
 \end{figure}
 
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=0.8\textwidth]{img/tir_spread.pdf}
- \caption{Thermal infrared survey performance as a function of angular separation between spacecraft for 1 to 5 spacecraft.}
+ \caption{Thermal infrared survey performance as a function of angular separation between spacecraft for 1 to 5 spacecraft. Corresponding semi-major axis and eccentricity are optimized using a grid search for each point.}
  \label{fig:tir_spread}
 \end{figure}
 
@@ -161,7 +161,19 @@ Results for visual light and thermal infrared are shown in \autoref{fig:vis_spre
 
 \section{Orbital Elements II: Non Co-orbital Spacecraft}
 \label{sec:results_orbits_two}
-A logical continuation of the above analysis would be to investigate systems in which all spacecraft are allowed to have different orbital elements per spacecraft. This complicates the analysis significantly, as the dimensionality of the problem rapidly increases. Therefore, special attention has to be paid to the performance of the optimizer, and validation tests should be run on its results. In addition, to aid in comparison, three sets of optimization parameters were analysed. Firstly, a system which has all spacecraft spread out as much as possible, in a single circular orbit. From the results in the previous section, it follows that this is the optimal co-orbital solution. Secondly, a system in which each spacecraft can have a distinct semi-major axis and anomaly at epoch. Because spacecraft with different semi-major axes have different orbital periods, the spacecraft can not be spread out evenly a priori. Therefore, the optimizer has to take care of this task as well, and not just the semi-major axes. Lastly, a similar set of parameters is analysed, but with orbits that are allowed to be non-circular. In that case, the parameter space comprises a semi-major axis, true anomaly at epoch, and eccentricity for each spacecraft.\\
+
+\begin{table}[htbp]
+\caption{Overview of optimization parameters for the three investigated optimization cases.}
+\label{tab:optimizationcases}
+\begin{tabular}{l|l|l|l|l}
+\textbf{Case}                & \textbf{Semi-major axis}             & \textbf{Eccentricity}            & \textbf{Anomaly at epoch}        & \textbf{Number of parameters} \\ \hline
+Circular, co-orbital         & 1 optimization parameter for all S/C & 0                                & Spread evenly over the orbit     & 1                             \\
+Circular, non-co-orbital     & 1 optimization parameter per S/C     & 0                                & 1 optimization parameter per S/C & 2n                            \\
+Non-circular, non-co-orbital & 1 optimization parameter per S/C     & 1 optimization parameter per S/C & 1 optimization parameter per S/C & 3n
+\end{tabular}
+\end{table}
+
+A logical continuation of the above analysis would be to investigate systems in which all spacecraft are allowed to have different orbital elements per spacecraft. This complicates the analysis significantly, as the dimensionality of the problem rapidly increases. Therefore, special attention has to be paid to the performance of the optimizer, and validation tests should be run on its results. In addition, to aid in comparison, three sets of optimization parameters were analysed. Firstly, a circular, co-orbital case: a system which has all spacecraft spread out as much as possible, in a single circular orbit. From the results in the previous section, it follows that this is the optimal co-orbital solution. Secondly, a circular, non-co-orbital case: a system in which each spacecraft can have a distinct semi-major axis and anomaly at epoch. Because spacecraft with different semi-major axes have different orbital periods, the spacecraft can not be spread out evenly a priori. Therefore, the optimizer has to take care of this task as well, and not just the semi-major axes. Lastly, a non-circular, non-co-orbital case: a similar set of parameters is analysed, but with orbits that are allowed to be non-circular. In that case, the parameter space comprises a semi-major axis, true anomaly at epoch, and eccentricity for each spacecraft. An overview of the different optimization cases is given in \autoref{tab:optimizationcases}.\\
 
 \begin{figure}[htbp]
  \centering
@@ -186,9 +198,9 @@ The results of the optimization processes can be seen in \autoref{fig:performanc
 
 First, the problem of overfit will be adressed. To illustrate the occurence of overfit at higher dimensionalities, \autoref{fig:overfit_free} gives the overfit for each optimization problem, per spacecraft. Overfit is defined simply as the difference between the learning performance (i.e. the performance predicted by the optimizer for its solution) and the validation performance (the actual performance which can be expected at the solution). As \autoref{fig:overfit_free} is hard to interpret directly, \autoref{fig:overfit_free_cumulative_average} provides the cumulative average up to and including a certain number of spacecraft. Several observations are made here:
 \begin{itemize}
- \item As the number of spacecraft increases, the average overfit of the single semi-major axis system decreases. In other words, for a higher number of spacecraft, the optimizer performs better. This occurs because, in this system, the dimensionality does not increase, and therefore the task of the optimizer is equally hard. However, as the distribution of spacecraft becomes more uniform, the system will overfit less to the population as the importance of the starting position of each spacecraft becomes smaller. In other words, a higher number of spacecraft incurs a regularizing effect on the optimizer.
- \item Secondly, the average overfit for the system with distinct semi-major axis and anomaly, but no eccentricity, per spacecraft, exhibits no statistically significant slope. The degree over overfit levels out around 1-1.5\%. At this degree of overfitting, the optimizer is capable of finding a solution to the problem. 
- \item Lastly, the system optimized for semi-major axis, anomaly and eccentricity, shows an \textit{increase} in overfitting. I.e., the optimizer is not capable of keeping up with the increasing dimensionality of the problem, and the quality of the result continually decreases.
+ \item As the number of spacecraft increases, the average overfit of the circular, co-orbital system decreases. In other words, for a higher number of spacecraft, the optimizer performs better. This occurs because, in this system, the dimensionality does not increase (as can be seen in \autoref{tab:optimizationcases}, the total number of optimization parameters in this case is always 1), and therefore the task of the optimizer is equally hard. However, as the distribution of spacecraft becomes more uniform, the system will overfit less to the population as the importance of the starting position of each spacecraft becomes smaller: As the population is not exactly radially symmetric, a difference in performance can be expected based on the start position. However, for higher numbers of spacecraft, the variation which is possible with regards to the system becomes smaller, as the angular distance between the spacecraft (and therefore the possible radial asymmetry) is smaller. Therefore, a higher number of spacecraft incurs a regularizing effect on the optimizer.
+ \item Secondly, the average overfit of the circular, non-co-orbital system, exhibits no statistically significant slope. The degree of overfit levels out around 1-1.5\%. At this degree of overfitting, the optimizer is capable of finding a solution to the problem.
+ \item Lastly, the non-circular, non-co-orbital system shows an \textit{increase} in overfitting. I.e., the optimizer is not capable of keeping up with the increasing dimensionality of the problem, and the quality of the result continually decreases.
 \end{itemize}
 Before investigating the second point, first some of the solutions of the optimizer will be examined, along with their training progress. The solutions to be investigated are two, six and eleven spacecraft. The one spacecraft case is omitted as the optimal solution is already known from previous analysis to be the optimal solution to the single semi-major axis system. The six and eleven spacecraft cases were chosen as they represent the first solution after the performance breakpoints discussed earlier. Optimization solutions for all numbers of spacecraft investigated, along with the learning/validation curves, can be found in \autoref{ch:appendix}.
 \begin{figure}[htbp]
