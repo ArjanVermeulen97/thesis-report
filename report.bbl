@@ -50,6 +50,35 @@
       \field{type}{techreport}
       \field{year}{2018}
     \endentry
+    \entry{triangulation}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=61b06923d22f3848eefd206d7bc9e9f3}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19a3e50c8cbbcebea10742182a508f77}
+      \strng{fullhash}{19a3e50c8cbbcebea10742182a508f77}
+      \strng{bibnamehash}{19a3e50c8cbbcebea10742182a508f77}
+      \strng{authorbibnamehash}{19a3e50c8cbbcebea10742182a508f77}
+      \strng{authornamehash}{19a3e50c8cbbcebea10742182a508f77}
+      \strng{authorfullhash}{19a3e50c8cbbcebea10742182a508f77}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AAS/AIAA Astrodynamics Specialist Conference}
+      \field{title}{Using Triangulation in Optical Orbit Determination}
+      \field{volume}{18}
+      \field{year}{2018}
+    \endentry
     \entry{AsteroidSizeAlbedo}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -165,6 +194,113 @@
       \field{labeltitlesource}{title}
       \field{title}{Orbital mechanics for engineerings students}
       \field{year}{2005}
+    \endentry
+    \entry{HOML}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b028709b49f1bc0f4671c1d7c04a9cc}{%
+           family={Geron},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {O'reilly}%
+      }
+      \strng{namehash}{6b028709b49f1bc0f4671c1d7c04a9cc}
+      \strng{fullhash}{6b028709b49f1bc0f4671c1d7c04a9cc}
+      \strng{bibnamehash}{6b028709b49f1bc0f4671c1d7c04a9cc}
+      \strng{authorbibnamehash}{6b028709b49f1bc0f4671c1d7c04a9cc}
+      \strng{authornamehash}{6b028709b49f1bc0f4671c1d7c04a9cc}
+      \strng{authorfullhash}{6b028709b49f1bc0f4671c1d7c04a9cc}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hands-on machine learning with scikit-learn, keras and tensorflow}
+      \field{year}{2019}
+    \endentry
+    \entry{DeepLearning}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=97448a3cf6f5cb771679d00efeb7782c}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=419350ebbeb4eba5351469f378dee007}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0162d284c680646fe3354338106399ce}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{cbdf0636afcc58dfa09b4e1be9870f56}
+      \strng{fullhash}{046a68a306553a04a7fa3dbd33c044bb}
+      \strng{bibnamehash}{046a68a306553a04a7fa3dbd33c044bb}
+      \strng{authorbibnamehash}{046a68a306553a04a7fa3dbd33c044bb}
+      \strng{authornamehash}{cbdf0636afcc58dfa09b4e1be9870f56}
+      \strng{authorfullhash}{046a68a306553a04a7fa3dbd33c044bb}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Learning}
+      \field{year}{2016}
+    \endentry
+    \entry{LagrangeNEA}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a465ca312362f68cb8b16956d3c66b86}{%
+           family={Grandl},
+           familyi={G\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=304e0191ffb061132315eab4b5da9ffb}{%
+           family={Bazso},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e689be6a49375c7498fc6ed64b5df2a}{%
+           family={Eggl},
+           familyi={E\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d63e10aa502600bb89070ba2b676d4f1}
+      \strng{fullhash}{89456d956991dc501c057e31befd49de}
+      \strng{bibnamehash}{89456d956991dc501c057e31befd49de}
+      \strng{authorbibnamehash}{89456d956991dc501c057e31befd49de}
+      \strng{authornamehash}{d63e10aa502600bb89070ba2b676d4f1}
+      \strng{authorfullhash}{89456d956991dc501c057e31befd49de}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IAA Planetary Defense Conference}
+      \field{title}{STERNEO: Simultaneous Near-Earth object observations by Lagrange point satellites}
+      \field{volume}{70}
+      \field{year}{2021}
     \endentry
     \entry{GranvikPopulation}{article}{}
       \true{moreauthor}
@@ -432,6 +568,40 @@
       \field{volume}{508}
       \field{year}{1998}
     \endentry
+    \entry{OptimizationAlgorithms}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5bfe331d34f6c45505f275ba5a7ee61}{%
+           family={Kochenderfer},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53d757bb117d5b4d0458e03f118c0864}{%
+           family={Wheeler},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT University Press}%
+      }
+      \strng{namehash}{5d62ed0ee39652fbfdf503dbf7f4aef4}
+      \strng{fullhash}{5d62ed0ee39652fbfdf503dbf7f4aef4}
+      \strng{bibnamehash}{5d62ed0ee39652fbfdf503dbf7f4aef4}
+      \strng{authorbibnamehash}{5d62ed0ee39652fbfdf503dbf7f4aef4}
+      \strng{authornamehash}{5d62ed0ee39652fbfdf503dbf7f4aef4}
+      \strng{authorfullhash}{5d62ed0ee39652fbfdf503dbf7f4aef4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Algorithms for Optimization}
+      \field{year}{2019}
+    \endentry
     \entry{AsteroidSTM}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -574,6 +744,34 @@
       \field{title}{Orbit Determination using Very Short Arcs: I. Admissible Regions}
       \field{volume}{90}
       \field{year}{2004}
+    \endentry
+    \entry{Bayesian}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=60425f44f6c5b7fd2993272cad382137}{%
+           family={Mockus},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{60425f44f6c5b7fd2993272cad382137}
+      \strng{fullhash}{60425f44f6c5b7fd2993272cad382137}
+      \strng{bibnamehash}{60425f44f6c5b7fd2993272cad382137}
+      \strng{authorbibnamehash}{60425f44f6c5b7fd2993272cad382137}
+      \strng{authornamehash}{60425f44f6c5b7fd2993272cad382137}
+      \strng{authorfullhash}{60425f44f6c5b7fd2993272cad382137}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Approach to Global Optimization: Theory and Applications}
+      \field{year}{2012}
     \endentry
     \entry{Spaceguard}{report}{}
       \name{author}{1}{}{%
@@ -818,6 +1016,35 @@
       \field{type}{techreport}
       \field{year}{2010}
     \endentry
+    \entry{LevyShoemaker}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b9225802b1fd50deb9d258eaf870786}{%
+           family={Shoemaker},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20867fc7e6311535343353a10862710a}
+      \strng{fullhash}{20867fc7e6311535343353a10862710a}
+      \strng{bibnamehash}{20867fc7e6311535343353a10862710a}
+      \strng{authorbibnamehash}{20867fc7e6311535343353a10862710a}
+      \strng{authornamehash}{20867fc7e6311535343353a10862710a}
+      \strng{authorfullhash}{20867fc7e6311535343353a10862710a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Planetary Defense Workshop}
+      \field{note}{Retrieved 12/02/2022 from archive: \url{https://web.archive.org/web/20150909023233/https://e-reports-ext.llnl.gov/pdf/232015.pdf}}
+      \field{title}{Planetary Defense Workshop}
+      \field{year}{1995}
+    \endentry
     \entry{2003NEOSDT}{report}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -938,12 +1165,12 @@
     \endentry
     \entry{LiteratureReview}{unpublished}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=552930ad824104cfda0ea005f9a3916f}{%
+        {{un=1,uniquepart=given,hash=552930ad824104cfda0ea005f9a3916f}{%
            family={Vermeulen},
            familyi={V\bibinitperiod},
            given={{J. G. P.}},
            giveni={J\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{552930ad824104cfda0ea005f9a3916f}
       \strng{fullhash}{552930ad824104cfda0ea005f9a3916f}
@@ -960,6 +1187,61 @@
       \field{labeltitlesource}{title}
       \field{title}{Identification of Potentially Hazardous Asteroids: Literature Review}
       \field{year}{2021}
+    \endentry
+    \entry{GitHub}{misc}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=552930ad824104cfda0ea005f9a3916f}{%
+           family={Vermeulen},
+           familyi={V\bibinitperiod},
+           given={J.\bibnamedelimi G.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{552930ad824104cfda0ea005f9a3916f}
+      \strng{fullhash}{552930ad824104cfda0ea005f9a3916f}
+      \strng{bibnamehash}{552930ad824104cfda0ea005f9a3916f}
+      \strng{authorbibnamehash}{552930ad824104cfda0ea005f9a3916f}
+      \strng{authornamehash}{552930ad824104cfda0ea005f9a3916f}
+      \strng{authorfullhash}{552930ad824104cfda0ea005f9a3916f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{code can be found as-is on GitHub: \url{https://github.com/ArjanVermeulen97/thesis-code.git}}
+      \field{title}{Thesis code}
+      \field{year}{2022}
+    \endentry
+    \entry{newasteroidpaper}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bbe869383a7d3458b82c516a21e4482c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{acd9e82ae33177dd4a8978b3c1ffba56}
+      \strng{fullhash}{acd9e82ae33177dd4a8978b3c1ffba56}
+      \strng{bibnamehash}{acd9e82ae33177dd4a8978b3c1ffba56}
+      \strng{authorbibnamehash}{acd9e82ae33177dd4a8978b3c1ffba56}
+      \strng{authornamehash}{acd9e82ae33177dd4a8978b3c1ffba56}
+      \strng{authorfullhash}{acd9e82ae33177dd4a8978b3c1ffba56}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{note}{Article in pre-print}
+      \field{title}{Warning of asteroids approaching Earth from the Sunward direction using Two Earth-Leading heliocentric orbiting telescopes}
+      \field{year}{2022}
     \endentry
     \entry{ChelyabinskNASA}{misc}{}
       \name{author}{2}{}{%

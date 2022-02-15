@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  5 JAN 2022 17:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  14 FEB 2022 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1933,32 +1933,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 ) (./lists.tex [6] (./report.lof
-Overfull \hbox (7.69614pt too wide) in paragraph at lines 14--14
- \TU/Arial(0)/m/n/10 number of asteroids per diameter. Note that the y-axis is 
-logarithmic. Harris and D’Abramo, 
+Overfull \hbox (13.0078pt too wide) in paragraph at lines 36--36
+ \TU/Arial(0)/m/n/10 liocentric frame $[]$. Units are Megajansky per steradian,
+ $[][][][] [] [][][][][][][][][][]$, 
  []
 
 [7
 
-]
-Overfull \hbox (33.36308pt too wide) in paragraph at lines 50--50
- \TU/Arial(0)/m/n/10 located at (-1, 0, 0) AU. Units are Megajansky per steradi
-an, $[][][][] [] [][][][][][][][][][]$, 
- []
-
-[8]
-Overfull \hbox (3.55647pt too wide) in paragraph at lines 118--118
+] [8]
+Overfull \hbox (3.55647pt too wide) in paragraph at lines 104--104
  [][] [][][]\TU/Arial(0)/m/n/10 Illustration of the observable area for a syste
 m of 15 spacecraft, at a=1.0 AU and a=1.5AU, 
  []
@@ -2144,22 +2138,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
-[11]
+[11] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-[12]) [13] (./3-survey-modelling.tex [14
+) [13] (./3-survey-modelling.tex [14
 
 ]
 Chapter 3.
@@ -2190,36 +2184,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+File: img/referenceframes.png Graphic file (type bmp)
+<img/referenceframes.png>
+[16] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
 File: img/ir_dust_components.png Graphic file (type bmp)
 <img/ir_dust_components.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 File: img/ir_dust_combined.png Graphic file (type bmp)
 <img/ir_dust_combined.png>
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 File: img/background_tir_zodiac.png Graphic file (type bmp)
 <img/background_tir_zodiac.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
 
 File: img/background_vis_zodiac.png Graphic file (type bmp)
 <img/background_vis_zodiac.png>
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -2227,54 +2223,54 @@ File: img/background_tir_stars.png Graphic file (type bmp)
 <img/background_tir_stars.png>
 File: img/background_vis_stars.png Graphic file (type bmp)
 <img/background_vis_stars.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
 [21]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-[22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+[24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
 File: img/snr_graph.pdf Graphic file (type pdf)
 <use img/snr_graph.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-[24]) [25] (./4-experimental-methodology.tex [26
+) [27] (./4-experimental-methodology.tex [28
 
 ]
 Chapter 4.
@@ -2295,20 +2291,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[27]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
+
+
+LaTeX Warning: Reference `fig:background_tir_combined' on page 31 undefined on 
+input line 36.
 
 File: img/background_vis_combined.png Graphic file (type bmp)
 <img/background_vis_combined.png>
@@ -2319,108 +2319,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[29]
+[31] [32]
 File: img/implementation_vis_signal.pdf Graphic file (type pdf)
 <use img/implementation_vis_signal.pdf>
 File: img/implementation_tir_signal.pdf Graphic file (type pdf)
 <use img/implementation_tir_signal.pdf>
- [30] [31] [32]
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+ [33] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 File: img/bayesian_opt.png Graphic file (type bmp)
 <img/bayesian_opt.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
 File: img/validation_example.pdf Graphic file (type pdf)
 <use img/validation_example.pdf>
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-[35]) [36] (./5-results.tex
-Chapter 5.
-File: img/number_sc_vis.pdf Graphic file (type pdf)
-<use img/number_sc_vis.pdf>
-File: img/number_sc_tir.pdf Graphic file (type pdf)
-<use img/number_sc_tir.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-[37
+[38]) [39] (./5-results.tex [40
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Chapter 5.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-File: img/tir_vs_vis_many.pdf Graphic file (type pdf)
-<use img/tir_vs_vis_many.pdf>
-File: img/tir_vs_vis_1_5.pdf Graphic file (type pdf)
-<use img/tir_vs_vis_1_5.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-[38] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-File: img/tir_vs_vis_2_hybrid.pdf Graphic file (type pdf)
-<use img/tir_vs_vis_2_hybrid.pdf>
-File: img/tir_vs_vis_4_hybrid.pdf Graphic file (type pdf)
-<use img/tir_vs_vis_4_hybrid.pdf>
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
@@ -2429,7 +2382,7 @@ File: img/vis_semi_maj.pdf Graphic file (type pdf)
 File: img/tir_semi_maj.pdf Graphic file (type pdf)
 <use img/tir_semi_maj.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
@@ -2442,10 +2395,11 @@ File: img/tir_ecc.pdf Graphic file (type pdf)
 <use img/tir_ecc.pdf>
 File: img/eccentricity_optimal.pdf Graphic file (type pdf)
 <use img/eccentricity_optimal.pdf>
+ [43]
 File: img/spread_illustration.png Graphic file (type bmp)
 <img/spread_illustration.png>
- [43] [44]
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
@@ -2453,110 +2407,162 @@ File: img/vis_spread.pdf Graphic file (type pdf)
 <use img/vis_spread.pdf>
 File: img/tir_spread.pdf Graphic file (type pdf)
 <use img/tir_spread.pdf>
+[44] [45]
+File: img/number_sc_vis.pdf Graphic file (type pdf)
+<use img/number_sc_vis.pdf>
+File: img/number_sc_tir.pdf Graphic file (type pdf)
+<use img/number_sc_tir.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-File: img/performance_free.pdf Graphic file (type pdf)
-<use img/performance_free.pdf>
-[45] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
-
-File: img/overfit_free.pdf Graphic file (type pdf)
-<use img/overfit_free.pdf>
-File: img/overfit_free_cumulative_average.pdf Graphic file (type pdf)
-<use img/overfit_free_cumulative_average.pdf>
-[47] [48]
-File: img/orbits_2.png Graphic file (type bmp)
-<img/orbits_2.png>
-File: img/val_orbits_2.pdf Graphic file (type pdf)
-<use img/val_orbits_2.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-
- []
-
-File: img/orbits_6.png Graphic file (type bmp)
-<img/orbits_6.png>
-[49]
-File: img/val_orbits_6.pdf Graphic file (type pdf)
-<use img/val_orbits_6.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-
- []
-
-File: img/orbits_11.png Graphic file (type bmp)
-<img/orbits_11.png>
-File: img/val_orbits_11.pdf Graphic file (type pdf)
-<use img/val_orbits_11.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-
- []
-
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+File: img/tir_vs_vis_many.pdf Graphic file (type pdf)
+<use img/tir_vs_vis_many.pdf>
+File: img/tir_vs_vis_1_5.pdf Graphic file (type pdf)
+<use img/tir_vs_vis_1_5.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+File: img/tir_vs_vis_2_hybrid.pdf Graphic file (type pdf)
+<use img/tir_vs_vis_2_hybrid.pdf>
+File: img/tir_vs_vis_4_hybrid.pdf Graphic file (type pdf)
+<use img/tir_vs_vis_4_hybrid.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+[48] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+File: img/coverage_explanation_text.png Graphic file (type bmp)
+<img/coverage_explanation_text.png>
 File: img/coverage_spread.png Graphic file (type bmp)
 <img/coverage_spread.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 File: img/coverage_tight.png Graphic file (type bmp)
 <img/coverage_tight.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 File: img/spread_coverage.pdf Graphic file (type pdf)
 <use img/spread_coverage.pdf>
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
 File: img/coverage_completeness.pdf Graphic file (type pdf)
 <use img/coverage_completeness.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
 File: img/coverage_high_n.png Graphic file (type bmp)
 <img/coverage_high_n.png>
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 File: img/coverage_free.png Graphic file (type bmp)
 <img/coverage_free.png>
+[52]
+Overfull \hbox (288.81741pt too wide) in paragraph at lines 244--250
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+File: img/performance_free.pdf Graphic file (type pdf)
+<use img/performance_free.pdf>
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+File: img/overfit_free.pdf Graphic file (type pdf)
+<use img/overfit_free.pdf>
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+File: img/overfit_free_cumulative_average.pdf Graphic file (type pdf)
+<use img/overfit_free_cumulative_average.pdf>
+ [55]
+File: img/orbits_2.png Graphic file (type bmp)
+<img/orbits_2.png>
+File: img/val_orbits_2.pdf Graphic file (type pdf)
+<use img/val_orbits_2.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+File: img/orbits_6.png Graphic file (type bmp)
+<img/orbits_6.png>
+[56]
+File: img/val_orbits_6.pdf Graphic file (type pdf)
+<use img/val_orbits_6.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+File: img/orbits_11.png Graphic file (type bmp)
+<img/orbits_11.png>
+[57]
+File: img/val_orbits_11.pdf Graphic file (type pdf)
+<use img/val_orbits_11.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
@@ -2566,7 +2572,7 @@ File: img/performance_prediction_rel.pdf Graphic file (type pdf)
 <use img/performance_prediction_rel.pdf>
 File: img/completeness_hypothetical.pdf Graphic file (type pdf)
 <use img/completeness_hypothetical.pdf>
-[55] [56]) [57] (./6-sensitivity-analysis.tex [58
+[59] [60]) [61] (./6-sensitivity-analysis.tex [62
 
 ]
 Chapter 6.
@@ -2594,7 +2600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[59] [60] [61]
+[63] [64] [65]
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
@@ -2608,32 +2614,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
 File: img/validation_cadence_performance.pdf Graphic file (type pdf)
 <use img/validation_cadence_performance.pdf>
-[62]
+[66]
 File: img/validation_cadence_error.pdf Graphic file (type pdf)
 <use img/validation_cadence_error.pdf>
 File: img/validation_solar_angle.pdf Graphic file (type pdf)
 <use img/validation_solar_angle.pdf>
+ [67]
 File: img/validation_starting_year.pdf Graphic file (type pdf)
 <use img/validation_starting_year.pdf>
- [63] [64]
 File: img/validation_completeness_vis.pdf Graphic file (type pdf)
 <use img/validation_completeness_vis.pdf>
+ [68]
 File: img/validation_completeness_tir.pdf Graphic file (type pdf)
 <use img/validation_completeness_tir.pdf>
-) [65] [66] (./7-conclusion.tex
+) [69] [70] (./7-conclusion.tex
 Chapter 7.
-[67
+[71
 
-] [68]) [69] [70
-
-]
+] [72] [73]) [74]
 Overfull \hbox (8.78275pt too wide) in paragraph at lines 85--85
 \TU/Arial(0)/m/n/10 servatory. Obtained 07/10/21 from [][]$[][][][] [] [] [] []
 [][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][] [] [
 ][][][][][][][][][][][][][][][] []
  []
 
-[71] (./a-verification-validation.tex [72]
+[75
+
+] (./a-verification-validation.tex [76]
 Appendix A.
 File: img/appendix_orbit_1.png Graphic file (type bmp)
 <img/appendix_orbit_1.png>
@@ -2662,22 +2669,25 @@ File: img/appendix_loss_5.png Graphic file (type bmp)
 \tf@loc=\write10
 \openout10 = `report.loc'.
 
- [73
+ [77
 
-] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] (./report.aux)
+] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] (./report.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 3A6918E106D8D23ACBB465414C9C0F9F;6844.
+(rerunfilecheck)             Checksum: AFA672A8415D3BE297602AEED1AAE54E;6844.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39769 strings out of 476919
- 771628 string characters out of 5825424
- 1783220 words of memory out of 5000000
- 58978 multiletter control sequences out of 15000+600000
+ 39839 strings out of 476919
+ 773311 string characters out of 5825424
+ 1786825 words of memory out of 5000000
+ 59046 multiletter control sequences out of 15000+600000
  408609 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,14n,130p,1906b,6577s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,14n,130p,2047b,6577s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (103 pages).
+Output written on report.pdf (107 pages).

@@ -3,44 +3,108 @@
 
 \chapter*{List of Symbols}
 
-\begin{table}[h]
+\begin{table}[h!]
 \centering
 \begin{tabular}{l|l|l}
-\textbf{Symbol} & \textbf{Meaning}                       & \textbf{Unit} \\ \hline
-a               & semi-major axis                        & AU            \\
-b               & latitude                               & deg           \\
-C               & completeness                           & \%            \\
-D               & diameter                               & m             \\
-e               & eccentricity                           & -             \\
-F               & flux                                   & Wm$^{-2}$          \\
-H               & absolute magnitude                     & -             \\
-i               & inclination                            & deg           \\
-l               & longitude                              & deg           \\
-n               & number                                 & -             \\
-pv              & albedo                                 & -             \\
-R               & heliocentric distance                  & AU            \\
-S               & signal                                 & e$^-$            \\
-T               & temperature                            & K             \\
-V               & apparent magnitude                     & -             \\
-$\alpha$           & phase angle                            & deg           \\
-$\lambda$          & wavelength                             & m             \\
-$\Omega$           & Right ascenscion of the ascending node & deg           \\
-$\omega$           & Argument of periapsis                  & deg           \\
-$\theta$           & true anomaly                           & deg          
+\textbf{Symbol} & \textbf{Meaning}                         & \textbf{Unit} \\ \hline
+a               & semi-major axis                          & AU            \\
+A               & bond albedo                              & -             \\
+A               & aperture                                 & m$^2$            \\
+AH              & area covered at magnitude H              & AU$^2$           \\
+Atotal          & total area                               & AU$^2$           \\
+be              & heliocentric ecliptic latitude           & deg           \\
+bg              & galactic latitude                        & deg           \\
+C               & completeness                             & \%            \\
+D               & diameter                                 & m             \\
+D               & dark current                             & e$^-$s$^{-1}$          \\
+e               & eccentricity                             & -             \\
+Ec              & emissivity of component c                & -             \\
+F               & flux                                     & Wm$^{-2}$          \\
+H               & absolute magnitude                       & -             \\
+i               & inclination                              & deg           \\
+kf              & straddle factor                          & -             \\
+le              & heliocentric ecliptic longitude          & deg           \\
+lg              & galactic longitude                       & deg           \\
+n               & number                                   & -             \\
+n\_c            & density of component c                   & 1/AU  \\
+P               & probability                              & \%            \\
+pv              & assumed albedo                           & -             \\
+Qe              & quantum efficiency                       & \%            \\
+R               & heliocentric distance                    & AU            \\
+r               & heliocentric distance of target          & AU            \\
+R               & readout noise                            & e$^-$            \\
+Sb              & Background signal                        & e$^-$            \\
+St              & target signal                            & e$^-$            \\
+T               & temperature                              & K             \\
+T               & period                                   & s$^{-1}$           \\
+t               & time                                     & s             \\
+T0              & reference temperature                    & K             \\
+V               & apparent magnitude                       & -             \\
+Z               & zodiacal flux                            & Wm$^{-2}$          \\
+$\alpha$           & solar phase angle                        & deg           \\
+$\Delta$           & distance from target to observer         & AU            \\
+$\eta$             & beaming parameter                        & -             \\
+$\phi$             & angular distance from the subsolar point & deg           \\
+$\phi_{max}$         & maximum solar elongation                 & deg           \\
+$\lambda$          & wavelength                               & m             \\
+$\tau$             & integration time                         & s             \\
+$\Theta$           & field of view                            & deg$^2$          \\
+$\theta$           & angular size                             & deg           \\
+$\theta$           & mean anomaly at epoch                    & deg           \\
+$\Delta \theta$     & inter-spacecraft spread                  & deg           \\
+$\omega$           & argument of periapsis                    & deg           \\
+$\Omega$           & right ascension of the ascending node    & deg          
 \end{tabular}
 \end{table}
 
 \chapter*{List of Abbreviations}
 
-\begin{table}[h]
+\begin{table}[h!]
 \centering
 \begin{tabular}{l|l}
-\textbf{Abbrevations} & \textbf{Meaning}                  \\ \hline
-NEA                   & Near-Earth asteroid               \\
-NEATM                 & Near-Earth asteroid thermal model \\
-S/C                   & Spacecraft                        \\
-SNR                   & Signal-to-noise ratio             \\
-TIR                   & Thermal Infrared                  \\
-VIS                   & Visual Light                     
+\textbf{Abbrevations} & \textbf{Meaning}                                                \\ \hline
+ANN                   & Artificial Neural Network                                       \\
+ATLAS                 & Asteroid Terrestrial-Impact Last Alert System                   \\
+$b$                     & body-centered, ecliptic reference frame                         \\
+CCD                   & Charge-coupled device                                           \\
+COBE                  & Cosmic Background Explorer                                      \\
+CSS                   & Catalina Sky Survey                                             \\
+CURR                  & current                                                         \\
+$e$                     & heliocentric, ecliptic reference frame                          \\
+$g$                     & galactic reference frame                                        \\
+$h$                     & body-centered, ecliptic reference frame oriented w.r.t. the Sun \\
+JPL                   & Jet Propulsion Laboratory                                       \\
+$L_1$, $L_2$, $L_3$            & Lagrange Points                                                 \\
+LSST                  & Large Synoptic Survey Telescope                                 \\
+NASA                  & National Aeronautics and Space Administration                   \\
+NEA                   & Near-Earth asteroid                                             \\
+NEATM                 & Near-Earth asteroid thermal model                               \\
+NEOCam                & Near-Earth Object Camera                                        \\
+NEOWISE               & Near-Earth Object WISE                                          \\
+PROJ                  & projection                                                      \\
+S/C                   & spacecraft                                                      \\
+SNR                   & Signal-to-noise ratio                                           \\
+TIR                   & Thermal Infrared                                                \\
+VIS                   & Visual Light                                                    \\
+WISE                  & Widefield Infrared Survey Explorer                              \\
+$\odot$                  & the Sun                                                         \\
+$\oplus$                 & the Earth                                                      
+\end{tabular}
+\end{table}
+
+\chapter*{List of Constants}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{l|l|l|l}
+\textbf{Constant} & \textbf{Meaning}                    & \textbf{Value} & \textbf{Unit} \\ \hline
+h                 & planck constant                     & 6.62607015     & JHz$^{-1}$         \\
+c                 & speed of light                      & 299,792,458      & ms$^{-1}$           \\
+$\sigma$             & Stefan-Boltzmann constant           & 5.67E-08       & Wm$^{-2}$K$^{-4}$       \\
+k                 & Palomar-Leiden exponent             & 2.95 to 3.5    & -             \\
+$b_{NGP}$              & laittude of the North Galactic Pole & 29.81          & deg           \\
+$l_{NGP}$              & ascending node of the Milky Way     & 270.02         & deg           \\
+$l_{GC}$               & longitude of the Galactic Core      & 6.38           & deg           \\
+$F_{\odot}$            & Solar flux at 1 AU                  & 1351           & W/m$^2$         
 \end{tabular}
 \end{table}
