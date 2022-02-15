@@ -35,9 +35,11 @@ Before considering the existing knowledge on modelling asteroid signals, first t
 
 The reason for separating the background signal into these two components is straightforward: in a reference frame fixed among the stars, the background signal from outside the Solar system is practically unchanging as the spacecraft moves around the Sun; the parallax of moving several AU is negligible on galactic scales. In constrast, the contribution of light from our Sun is directly dependent on the position of the spacecraft with regards to the Sun. For the mathematical treatment of these signals, four reference frames are defined, which can be seen in \autoref{fig:referenceillustration}:
 
+\newpage
+
 \begin{itemize}
- \item \textbf{A heliocentric ecliptic reference frame} $e$: A right-handed reference frame whose principal plane is the eclpitic plane, origin at the center of the Sun, and the positive $X_e$-direction towards the vernal equinox.
- \item \textbf{A body-centered ecliptic reference frame} $b$: A right-handed reference frame whose principal plane is the orbital plane of the spacecraft, origin at the center of the spacecraft, and the positive $X_b$ direction towards the vernal equinox. Note that all orbits considered for the spacecraft lie in the ecliptic plane, and therefore this reference frame also has the ecliptic plane as its principal plane.
+ \item \textbf{A heliocentric ecliptic reference frame} $e$: A right-handed reference frame whose principal plane is the ecliptic plane, origin at the center of the Sun, and the positive $X_e$-direction towards the vernal equinox.
+ \item \textbf{A body-centered ecliptic reference frame} $b$: A right-handed reference frame whose principal plane is the orbital plane of the spacecraft, origin at the center of the spacecraft, and the positive $X_b$-direction towards the vernal equinox. Note that all orbits considered for the spacecraft lie in the ecliptic plane, and therefore this reference frame also has the ecliptic plane as its principal plane.
  \item \textbf{A body-centered ecliptic reference frame, oriented relative to the Sun} $h$: A right-handed reference frame defined similar to $b$, but with the positive $X_h$-direction towards the center of the Sun.
  \item \textbf{A galactic reference frame} $g$: A right-handed reference frame whose principal plane is the plane of the Milky Way, origin at the center of the Sun, and positive $X_g$-direction towards the galactic core.
 \end{itemize}
@@ -46,7 +48,7 @@ The reason for separating the background signal into these two components is str
 The transformations between heliocentric ecliptic longitude and latitude $(l_e, b_e)$ and galactic longitude and latitude $(l_g, b_g)$ involve a series of rotations, and therefore require some reference values. With $b_{NGP}$ the latitude of the North Galactic Pole, approximately equal to $29.81^\circ$ or $0.5203 \mathrm{rad}$; ascending node of the Galaxy $l_{NGP}$, approximately $270.02^\circ$, $4.712 \mathrm{rad}$; and longitude of the galactic core $l_{GC}$, approximately $6.38^\circ$, or $0.1114 \mathrm{rad}$ (\cite{SkyBrightness}), the transformations are given by \cite{SkyBrightness} as follows:
 
 \begin{align}
- b_g &= \sin ^{-1} (\sin b_e * \sin b_{NGP}) - \cos b_e \sin b_{NGP} \sin (l_e - l_{NGP} \\
+ b_g &= \sin ^{-1} (\sin b_e * \sin b_{NGP}) - \cos b_e \sin b_{NGP} \sin (l_e - l_{NGP}) \\
  \sin l_g' &= \frac{\sin b_e \cos b_{NGP} + \cos b_e \sin b_{NGP} \sin (l_e - l_{NGP})}{\cos b_g} \\
  \cos l_g' &= \frac{\cos (l_e - l_{NGP}) \cos b_e}{\cos b_g} \\
  l_g &= \begin{cases}
@@ -63,7 +65,7 @@ The transformation from the $e$ to the $b$ frame is simply a translation by the 
  z_b &= z_e - z_e^{S/C}
 \end{align}
 
-Where $z_e^{S/C}$ will generally be zero as the spacecraft is located in the ecliptic plane. As the values of $[x_e^{S/C}, y_e^{S/C}, z_e^{S/C}]$ are negligible on galactic scales, the transformations from the spacecraft-fixed frame $b$ to the galactic frame $g$ are the same as the transformation from the heliocentric frame $h$ to the galactic frame. Lastly, the transformation from the body-centered frame $b$, to the body-centered frame oriented relative to the Sun $h$, involves a rotation around the $Z_b$-axis. As the latitude of the Sun in the $b$-frame is zero, the transformation is simply a subtraction of the longitude of the Sun in the $b$-frame, $b_b^{\odot}$ from the longitude in the $b$-frame:
+Where $z_e^{S/C}$ will generally be zero as the spacecraft is located in the ecliptic plane. As the values of $[x_e^{S/C}, y_e^{S/C}, z_e^{S/C}]$ are negligible on galactic scales, the transformations from the spacecraft-fixed frame $b$ to the galactic frame $g$ are the same as the transformation from the heliocentric frame $h$ to the galactic frame. Lastly, the transformation from the body-centered frame $b$, to the body-centered frame oriented relative to the Sun $h$, involves a rotation around the $Z_b$-axis. As the latitude of the Sun in the $b$-frame is zero, the transformation is simply a subtraction of the longitude of the Sun in the $b$-frame, $b_b^{\odot}$, from the longitude in the $b$-frame:
 \begin{align}
  l_h &= l_b \\
  b_h &= b_b - b_b^{\odot}
@@ -214,7 +216,7 @@ The target signal $S_t$ and background signal $S_b$ can be calculated from the f
  S_t &= \frac{1}{hc}A \tau k_f Q_e F_t \\
  S_b &= \frac{1}{hc}A \tau Q_e F_b
 \end{align}
-Here, $A$ is the telescope aperture, $\tau$ the integration time of the image, $k_f$ is the \textit{straddle factor}, a correction factor for the diffraction of a point source ($k_f \approx 0.9$), $Q_e$ the quantum efficiency, and $h$ and $c$ the Planck constant and speed of light, respectively. The background flux is obtained by summation of the components described in \autoref{sec:modelling_background}; the implementation of calculation of the target flux is described in the next chapter. in the direction of the target. The noise terms in the SNR equation are:
+Here, $A$ is the telescope aperture, $\tau$ the integration time of the image, $k_f$ is the \textit{straddle factor}, a correction factor for the diffraction of a point source ($k_f \approx 0.9$), $Q_e$ the quantum efficiency, and $h$ and $c$ the Planck constant and speed of light, respectively. The background flux is obtained by summation of the components described in \autoref{sec:modelling_background} in the direction of the target; the implementation of calculation of the target flux is described in the next chapter. The noise terms in the SNR equation are:
 \begin{itemize}
  \item $\sqrt{S_t}$: the Poisson noise of the target signal.
  \item $\sqrt{S_b}$: the Poisson noise of the background signal. Note that the background signal itself can be subtracted fairly easy, and thus only the Poisson term has to be considered (see \cite{StarRemoval}).
