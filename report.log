@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  14 FEB 2022 22:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.29)  15 FEB 2022 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,12 +1678,31 @@ Package: truncate 2001/08/20  ver 3.6
 \Changes@truncate@width=\skip105
 \Changes@summary@width=\skip106
 )
+(c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+
+(c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen306
+\ar@mcellbox=\box72
+\extrarowheight=\dimen307
+\NC@list=\toks42
+\extratabsurround=\skip107
+\backup@length=\skip108
+\ar@cellbox=\box73
+)
+\TY@count=\count481
+\TY@linewidth=\dimen308
+\tymin=\dimen309
+\tymax=\dimen310
+\TY@tablewidth=\dimen311
+)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count481
-\@quotereset=\count482
+\@quotelevel=\count482
+\@quotereset=\count483
 
 LaTeX Warning: Unused global option(s):
     [whitelogo].
@@ -1691,26 +1710,26 @@ LaTeX Warning: Unused global option(s):
 (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1748,7 +1767,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 16.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1758,11 +1777,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count483
+\c@section@level=\count484
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./report.out) (./report.out)
 \@outlinefile=\write5
@@ -1831,8 +1850,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
 
 (./report.bbl)
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
+Package biblatex Info: Reference section=0 on input line 16.
+Package biblatex Info: Reference segment=0 on input line 16.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1875,7 +1894,7 @@ File: img/cover.png Graphic file (type bmp)
 File: cover/logo_white.pdf Graphic file (type pdf)
 <use cover/logo_white.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 \TU/TUDelft-UltraLight(0)/m/n/36 Asteroids using Multi-
  []
 
@@ -1971,19 +1990,20 @@ m of 15 spacecraft, at a=1.0 AU and a=1.5AU,
 
 ] [13] [14
 
-]) [15] [16
+] [15] [16
+
+]) [17] [18
 
 ] (./report.toc)
 \tf@toc=\write8
 \openout8 = `report.toc'.
 
- [17]
-[18
+ [19] [20
 
 ]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 64.
+(hyperref)                setting the option has no effect on input line 65.
 
 (./1-introduction-and-background.tex
 Chapter 1.
@@ -2133,12 +2153,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
 File: img/research_search_strategy.png Graphic file (type bmp)
 <img/research_search_strategy.png>
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-[10]
+[9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
@@ -2148,8 +2163,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
 [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
@@ -2306,10 +2326,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-
-LaTeX Warning: Reference `fig:background_tir_combined' on page 31 undefined on 
-input line 36.
-
 File: img/background_vis_combined.png Graphic file (type bmp)
 <img/background_vis_combined.png>
 File: img/background_tir_combined.png Graphic file (type bmp)
@@ -2395,10 +2411,9 @@ File: img/tir_ecc.pdf Graphic file (type pdf)
 <use img/tir_ecc.pdf>
 File: img/eccentricity_optimal.pdf Graphic file (type pdf)
 <use img/eccentricity_optimal.pdf>
- [43]
 File: img/spread_illustration.png Graphic file (type bmp)
 <img/spread_illustration.png>
-
+ [43] [44]
 Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
@@ -2407,7 +2422,6 @@ File: img/vis_spread.pdf Graphic file (type pdf)
 <use img/vis_spread.pdf>
 File: img/tir_spread.pdf Graphic file (type pdf)
 <use img/tir_spread.pdf>
-[44] [45]
 File: img/number_sc_vis.pdf Graphic file (type pdf)
 <use img/number_sc_vis.pdf>
 File: img/number_sc_tir.pdf Graphic file (type pdf)
@@ -2417,12 +2431,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-
+[45] [46]
 Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-[46]
+
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
@@ -2432,6 +2446,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
+[47]
 File: img/tir_vs_vis_many.pdf Graphic file (type pdf)
 <use img/tir_vs_vis_many.pdf>
 File: img/tir_vs_vis_1_5.pdf Graphic file (type pdf)
@@ -2441,21 +2456,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-[47]
+
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 File: img/tir_vs_vis_2_hybrid.pdf Graphic file (type pdf)
 <use img/tir_vs_vis_2_hybrid.pdf>
+[48]
 File: img/tir_vs_vis_4_hybrid.pdf Graphic file (type pdf)
 <use img/tir_vs_vis_4_hybrid.pdf>
-
+ [49]
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-[48] [49]
+
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
@@ -2492,87 +2508,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
 File: img/coverage_high_n.png Graphic file (type bmp)
 <img/coverage_high_n.png>
-
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 File: img/coverage_free.png Graphic file (type bmp)
 <img/coverage_free.png>
-[52]
-Overfull \hbox (288.81741pt too wide) in paragraph at lines 244--250
-[][] 
- []
-
-
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
 File: img/performance_free.pdf Graphic file (type pdf)
 <use img/performance_free.pdf>
-[53]
+
 Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
 File: img/overfit_free.pdf Graphic file (type pdf)
 <use img/overfit_free.pdf>
-[54]
 File: img/overfit_free_cumulative_average.pdf Graphic file (type pdf)
 <use img/overfit_free_cumulative_average.pdf>
- [55]
+[54] [55]
 File: img/orbits_2.png Graphic file (type bmp)
 <img/orbits_2.png>
 File: img/val_orbits_2.pdf Graphic file (type pdf)
 <use img/val_orbits_2.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
 File: img/orbits_6.png Graphic file (type bmp)
 <img/orbits_6.png>
-[56]
+[56] [57]
 File: img/val_orbits_6.pdf Graphic file (type pdf)
 <use img/val_orbits_6.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-
- []
-
-File: img/orbits_11.png Graphic file (type bmp)
-<img/orbits_11.png>
-[57]
-File: img/val_orbits_11.pdf Graphic file (type pdf)
-<use img/val_orbits_11.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-
- []
-
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
+File: img/orbits_11.png Graphic file (type bmp)
+<img/orbits_11.png>
+[58]
+File: img/val_orbits_11.pdf Graphic file (type pdf)
+<use img/val_orbits_11.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
 File: img/performance_prediction.pdf Graphic file (type pdf)
 <use img/performance_prediction.pdf>
+[60]
 File: img/performance_prediction_rel.pdf Graphic file (type pdf)
 <use img/performance_prediction_rel.pdf>
 File: img/completeness_hypothetical.pdf Graphic file (type pdf)
 <use img/completeness_hypothetical.pdf>
-[59] [60]) [61] (./6-sensitivity-analysis.tex [62
+) [61] [62] [63] (./6-sensitivity-analysis.tex [64
 
 ]
 Chapter 6.
@@ -2600,7 +2611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[63] [64] [65]
+[65] [66] [67]
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
@@ -2614,33 +2625,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
 File: img/validation_cadence_performance.pdf Graphic file (type pdf)
 <use img/validation_cadence_performance.pdf>
-[66]
+[68]
 File: img/validation_cadence_error.pdf Graphic file (type pdf)
 <use img/validation_cadence_error.pdf>
 File: img/validation_solar_angle.pdf Graphic file (type pdf)
 <use img/validation_solar_angle.pdf>
- [67]
+ [69]
 File: img/validation_starting_year.pdf Graphic file (type pdf)
 <use img/validation_starting_year.pdf>
 File: img/validation_completeness_vis.pdf Graphic file (type pdf)
 <use img/validation_completeness_vis.pdf>
- [68]
+ [70]
 File: img/validation_completeness_tir.pdf Graphic file (type pdf)
 <use img/validation_completeness_tir.pdf>
-) [69] [70] (./7-conclusion.tex
+) [71] [72] (./7-conclusion.tex
 Chapter 7.
-[71
+[73
 
-] [72] [73]) [74]
-Overfull \hbox (8.78275pt too wide) in paragraph at lines 85--85
+] [74] [75]) [76]
+Overfull \hbox (8.78275pt too wide) in paragraph at lines 86--86
 \TU/Arial(0)/m/n/10 servatory. Obtained 07/10/21 from [][]$[][][][] [] [] [] []
 [][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][] [] [
 ][][][][][][][][][][][][][][][] []
  []
 
-[75
+[77
 
-] (./a-verification-validation.tex [76]
+] (./a-verification-validation.tex [78]
 Appendix A.
 File: img/appendix_orbit_1.png Graphic file (type bmp)
 <img/appendix_orbit_1.png>
@@ -2669,25 +2680,27 @@ File: img/appendix_loss_5.png Graphic file (type bmp)
 \tf@loc=\write10
 \openout10 = `report.loc'.
 
- [77
+ [79
 
-] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] (./report.aux)
-
-LaTeX Warning: There were undefined references.
-
+] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: AFA672A8415D3BE297602AEED1AAE54E;6844.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39839 strings out of 476919
- 773311 string characters out of 5825424
- 1786825 words of memory out of 5000000
- 59046 multiletter control sequences out of 15000+600000
+ 39972 strings out of 476919
+ 774744 string characters out of 5825424
+ 1789981 words of memory out of 5000000
+ 59173 multiletter control sequences out of 15000+600000
  408609 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,14n,130p,2047b,6577s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (107 pages).
+Output written on report.pdf (111 pages).
