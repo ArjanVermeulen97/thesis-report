@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage[margin=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{Identification of Near-Earth Asteroids using Multi-Spacecraft Systems}
+\author{J. G. P. Vermeulen, J. Guo, and M. J. Heiligers}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\noindent Through numerous survey efforts over the past decades, humanity has achieved a substantial level of knowledge about the near-Earth asteroid (NEA) population. Nevertheless, survey completeness of the NEA population at very small sizes is still limited, and impacts such as the 2013 Chelyabinsk meteor are common enough to warrant further identification efforts. Because of the limitations of Earth-based surveys, several authors (e.g. Stokes et al. (2017)\footnote{Stokes, G. H. et al. (2017). \textit{Update to determine the feasbility of extending the search for near-Earth objects to smaller limiting diameters} (tech. rep.). NASA Science Mission Directorate}) have already proposed performing an NEA cataloguing survey from deep space. An extension to this idea is proposed, where a distributed spacecraft system is utilized to perform such a survey. Using multiple spacecraft to survey for NEAs offers several distinct advantages over a single spacecraft system, such as a decrease in blind spots due to Solar interference, faster orbit determination through triangulation, and the possibility for more advanced search strategies.\\
+
+\noindent The work presented provides a foundation for this largely unexplored topic by establishing a guideline for the optimal position and composition of such a system, as well as a baseline indication for the performance. Investigated parameters are the number of spacecraft; their payload, either visual light or thermal infrared telescopes; and the semi-major axis, eccentricity and mean anomaly of their orbits. A survey simulation tool was developed which was used to evaluate the various configurations. In the first stage of the research, co-orbital configurations of spacecraft were studied. It was found that a circular orbit with the spacecraft distributed evenly over the orbit provides the best results. Thermal infrared telescopes were determined to outperform visual light telescopes in all conditions. The optimal semi-major axis was found to increase with increasing number of spacecraft, starting at $0.9\mathrm{AU}$ for a single spacecraft, increasing by $0.03\mathrm{AU}$ per additional spacecraft. In addition, a range of approximately $\pm0.1\mathrm{AU}$ will provide performance near the optimum. The findings are supported by a novel hypothesis relating the survey performance to the volume of space in which NEAs at varying limiting magnitudes can be effectively detected. Exploration of non-co-orbital arrangements yielded no results which significantly outperformed the initial co-orbital configuration, although it is noted that considerable problems were encountered in the numerical optimization which preclude concluding that no better solution exists. Performance predictions indicate that a multi-spacecraft system of 2-3 spacecraft will increase performance by 40-60\% relative to a single spacecraft, with strong diminishing returns occurring for higher numbers of spacecraft.
+
+\end{document}
